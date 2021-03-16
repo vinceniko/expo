@@ -105,11 +105,7 @@ templates/**/Pods/**
 /android/logcat.txt
 
 # Shell apps
-android-shell-app
-shellAppBase-*
-shellAppIntermediates
-shellAppWorkspaces
-/artifacts/*
+
 
 # Expo Client builds
 /client-builds

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-shell-app.iml" filepath="$PROJECT_DIR$/.idea/modules/android-shell-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ReactAndroid/android-shell-app.ReactAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/ReactAndroid/android-shell-app.ReactAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android-shell-app.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android-shell-app.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-550621963/android-shell-app.expo-ads-admob.iml" filepath="$PROJECT_DIR$/.idea/modules/-550621963/android-shell-app.expo-ads-admob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-964116850/android-shell-app.expo-ads-facebook.iml" filepath="$PROJECT_DIR$/.idea/modules/-964116850/android-shell-app.expo-ads-facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1175928559/android-shell-app.expo-analytics-amplitude.iml" filepath="$PROJECT_DIR$/.idea/modules/-1175928559/android-shell-app.expo-analytics-amplitude.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/634210113/android-shell-app.expo-analytics-segment.iml" filepath="$PROJECT_DIR$/.idea/modules/634210113/android-shell-app.expo-analytics-segment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/231215519/android-shell-app.expo-app-auth.iml" filepath="$PROJECT_DIR$/.idea/modules/231215519/android-shell-app.expo-app-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-285815707/android-shell-app.expo-application.iml" filepath="$PROJECT_DIR$/.idea/modules/-285815707/android-shell-app.expo-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/228648768/android-shell-app.expo-av.iml" filepath="$PROJECT_DIR$/.idea/modules/228648768/android-shell-app.expo-av.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1735548122/android-shell-app.expo-background-fetch.iml" filepath="$PROJECT_DIR$/.idea/modules/-1735548122/android-shell-app.expo-background-fetch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/672871750/android-shell-app.expo-barcode-scanner.iml" filepath="$PROJECT_DIR$/.idea/modules/672871750/android-shell-app.expo-barcode-scanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1717209762/android-shell-app.expo-battery.iml" filepath="$PROJECT_DIR$/.idea/modules/1717209762/android-shell-app.expo-battery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-157419987/android-shell-app.expo-branch.iml" filepath="$PROJECT_DIR$/.idea/modules/-157419987/android-shell-app.expo-branch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1104588708/android-shell-app.expo-brightness.iml" filepath="$PROJECT_DIR$/.idea/modules/-1104588708/android-shell-app.expo-brightness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1548833033/android-shell-app.expo-calendar.iml" filepath="$PROJECT_DIR$/.idea/modules/1548833033/android-shell-app.expo-calendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1686134960/android-shell-app.expo-camera.iml" filepath="$PROJECT_DIR$/.idea/modules/1686134960/android-shell-app.expo-camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/643121973/android-shell-app.expo-cellular.iml" filepath="$PROJECT_DIR$/.idea/modules/643121973/android-shell-app.expo-cellular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/44454564/android-shell-app.expo-constants.iml" filepath="$PROJECT_DIR$/.idea/modules/44454564/android-shell-app.expo-constants.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1064840930/android-shell-app.expo-contacts.iml" filepath="$PROJECT_DIR$/.idea/modules/-1064840930/android-shell-app.expo-contacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/28062284/android-shell-app.expo-crypto.iml" filepath="$PROJECT_DIR$/.idea/modules/28062284/android-shell-app.expo-crypto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1711277343/android-shell-app.expo-device.iml" filepath="$PROJECT_DIR$/.idea/modules/-1711277343/android-shell-app.expo-device.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2045768213/android-shell-app.expo-document-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/2045768213/android-shell-app.expo-document-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1970132805/android-shell-app.expo-error-recovery.iml" filepath="$PROJECT_DIR$/.idea/modules/1970132805/android-shell-app.expo-error-recovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1675560203/android-shell-app.expo-face-detector.iml" filepath="$PROJECT_DIR$/.idea/modules/1675560203/android-shell-app.expo-face-detector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1742727313/android-shell-app.expo-facebook.iml" filepath="$PROJECT_DIR$/.idea/modules/1742727313/android-shell-app.expo-facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-815760715/android-shell-app.expo-file-system.iml" filepath="$PROJECT_DIR$/.idea/modules/-815760715/android-shell-app.expo-file-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1797276341/android-shell-app.expo-firebase-analytics.iml" filepath="$PROJECT_DIR$/.idea/modules/-1797276341/android-shell-app.expo-firebase-analytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1432251270/android-shell-app.expo-firebase-core.iml" filepath="$PROJECT_DIR$/.idea/modules/-1432251270/android-shell-app.expo-firebase-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/635154074/android-shell-app.expo-font.iml" filepath="$PROJECT_DIR$/.idea/modules/635154074/android-shell-app.expo-font.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-55756816/android-shell-app.expo-gl.iml" filepath="$PROJECT_DIR$/.idea/modules/-55756816/android-shell-app.expo-gl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-589975482/android-shell-app.expo-gl-cpp.iml" filepath="$PROJECT_DIR$/.idea/modules/-589975482/android-shell-app.expo-gl-cpp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/502321136/android-shell-app.expo-gl-cpp-legacy.iml" filepath="$PROJECT_DIR$/.idea/modules/502321136/android-shell-app.expo-gl-cpp-legacy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1910678060/android-shell-app.expo-google-sign-in.iml" filepath="$PROJECT_DIR$/.idea/modules/1910678060/android-shell-app.expo-google-sign-in.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1360887377/android-shell-app.expo-haptics.iml" filepath="$PROJECT_DIR$/.idea/modules/1360887377/android-shell-app.expo-haptics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-401508848/android-shell-app.expo-image-loader.iml" filepath="$PROJECT_DIR$/.idea/modules/-401508848/android-shell-app.expo-image-loader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1257049489/android-shell-app.expo-image-manipulator.iml" filepath="$PROJECT_DIR$/.idea/modules/1257049489/android-shell-app.expo-image-manipulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-98917493/android-shell-app.expo-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-98917493/android-shell-app.expo-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-704620791/android-shell-app.expo-in-app-purchases.iml" filepath="$PROJECT_DIR$/.idea/modules/-704620791/android-shell-app.expo-in-app-purchases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/549125958/android-shell-app.expo-intent-launcher.iml" filepath="$PROJECT_DIR$/.idea/modules/549125958/android-shell-app.expo-intent-launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1562068664/android-shell-app.expo-keep-awake.iml" filepath="$PROJECT_DIR$/.idea/modules/-1562068664/android-shell-app.expo-keep-awake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-533528211/android-shell-app.expo-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-533528211/android-shell-app.expo-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-476709275/android-shell-app.expo-local-authentication.iml" filepath="$PROJECT_DIR$/.idea/modules/-476709275/android-shell-app.expo-local-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/491283428/android-shell-app.expo-localization.iml" filepath="$PROJECT_DIR$/.idea/modules/491283428/android-shell-app.expo-localization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1423077760/android-shell-app.expo-location.iml" filepath="$PROJECT_DIR$/.idea/modules/-1423077760/android-shell-app.expo-location.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-567614389/android-shell-app.expo-mail-composer.iml" filepath="$PROJECT_DIR$/.idea/modules/-567614389/android-shell-app.expo-mail-composer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1825267623/android-shell-app.expo-media-library.iml" filepath="$PROJECT_DIR$/.idea/modules/1825267623/android-shell-app.expo-media-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1634046896/android-shell-app.expo-module-template.iml" filepath="$PROJECT_DIR$/.idea/modules/-1634046896/android-shell-app.expo-module-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-262109757/android-shell-app.expo-network.iml" filepath="$PROJECT_DIR$/.idea/modules/-262109757/android-shell-app.expo-network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-202233155/android-shell-app.expo-notifications.iml" filepath="$PROJECT_DIR$/.idea/modules/-202233155/android-shell-app.expo-notifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/158156697/android-shell-app.expo-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/158156697/android-shell-app.expo-permissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1756362882/android-shell-app.expo-print.iml" filepath="$PROJECT_DIR$/.idea/modules/1756362882/android-shell-app.expo-print.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-551042704/android-shell-app.expo-screen-capture.iml" filepath="$PROJECT_DIR$/.idea/modules/-551042704/android-shell-app.expo-screen-capture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-521580294/android-shell-app.expo-screen-orientation.iml" filepath="$PROJECT_DIR$/.idea/modules/-521580294/android-shell-app.expo-screen-orientation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1834893738/android-shell-app.expo-secure-store.iml" filepath="$PROJECT_DIR$/.idea/modules/-1834893738/android-shell-app.expo-secure-store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1644931954/android-shell-app.expo-sensors.iml" filepath="$PROJECT_DIR$/.idea/modules/-1644931954/android-shell-app.expo-sensors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-578974095/android-shell-app.expo-sharing.iml" filepath="$PROJECT_DIR$/.idea/modules/-578974095/android-shell-app.expo-sharing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/13234286/android-shell-app.expo-sms.iml" filepath="$PROJECT_DIR$/.idea/modules/13234286/android-shell-app.expo-sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-66152083/android-shell-app.expo-speech.iml" filepath="$PROJECT_DIR$/.idea/modules/-66152083/android-shell-app.expo-speech.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-826402201/android-shell-app.expo-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/-826402201/android-shell-app.expo-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-267180393/android-shell-app.expo-sqlite.iml" filepath="$PROJECT_DIR$/.idea/modules/-267180393/android-shell-app.expo-sqlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/885529615/android-shell-app.expo-store-review.iml" filepath="$PROJECT_DIR$/.idea/modules/885529615/android-shell-app.expo-store-review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2021137232/android-shell-app.expo-task-manager.iml" filepath="$PROJECT_DIR$/.idea/modules/-2021137232/android-shell-app.expo-task-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1420578721/android-shell-app.expo-updates.iml" filepath="$PROJECT_DIR$/.idea/modules/-1420578721/android-shell-app.expo-updates.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1562855780/android-shell-app.expo-video-thumbnails.iml" filepath="$PROJECT_DIR$/.idea/modules/1562855780/android-shell-app.expo-video-thumbnails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1115210300/android-shell-app.expo-web-browser.iml" filepath="$PROJECT_DIR$/.idea/modules/-1115210300/android-shell-app.expo-web-browser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/expoview/android-shell-app.expoview.iml" filepath="$PROJECT_DIR$/.idea/modules/expoview/android-shell-app.expoview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1151827077/android-shell-app.unimodules-app-loader.iml" filepath="$PROJECT_DIR$/.idea/modules/1151827077/android-shell-app.unimodules-app-loader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1935505111/android-shell-app.unimodules-barcode-scanner-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1935505111/android-shell-app.unimodules-barcode-scanner-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/749946199/android-shell-app.unimodules-camera-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/749946199/android-shell-app.unimodules-camera-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1649878645/android-shell-app.unimodules-constants-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1649878645/android-shell-app.unimodules-constants-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1851449785/android-shell-app.unimodules-core.iml" filepath="$PROJECT_DIR$/.idea/modules/-1851449785/android-shell-app.unimodules-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-708564580/android-shell-app.unimodules-face-detector-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-708564580/android-shell-app.unimodules-face-detector-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-839485434/android-shell-app.unimodules-file-system-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-839485434/android-shell-app.unimodules-file-system-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1046955647/android-shell-app.unimodules-font-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1046955647/android-shell-app.unimodules-font-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1533920649/android-shell-app.unimodules-image-loader-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1533920649/android-shell-app.unimodules-image-loader-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1021085718/android-shell-app.unimodules-permissions-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-1021085718/android-shell-app.unimodules-permissions-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/214690895/android-shell-app.unimodules-react-native-adapter.iml" filepath="$PROJECT_DIR$/.idea/modules/214690895/android-shell-app.unimodules-react-native-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/919097631/android-shell-app.unimodules-sensors-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/919097631/android-shell-app.unimodules-sensors-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1011278103/android-shell-app.unimodules-task-manager-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1011278103/android-shell-app.unimodules-task-manager-interface.iml" />
+    </modules>
+  </component>
+</project>

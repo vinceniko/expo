@@ -1,0 +1,354 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="abi39_0_0.host.exp.expoview"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+13-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:7:5-78
+13-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:7:22-75
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:8:5-68
+14-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="host.exp.exponent.permission.C2D_MESSAGE" />
+15-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:9:5-80
+15-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+16-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:10:5-80
+16-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:11:5-79
+17-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+18-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:12:5-75
+18-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:12:22-72
+19    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+19-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:13:5-74
+19-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:13:22-71
+20    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+20-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:14:5-80
+20-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:14:22-77
+21
+22    <!-- Used by react-native-netinfo module -->
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:17:5-76
+23-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:17:22-73
+24
+25    <!-- These require runtime permissions on M -->
+26    <!-- All of these must be in the blacklist in xdl/src/detach/AndroidShellApp.js as well -->
+27    <uses-permission android:name="android.permission.READ_CONTACTS" />
+27-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:21:5-72
+27-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:21:22-69
+28    <uses-permission android:name="android.permission.READ_CALENDAR" />
+28-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:22:5-72
+28-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:22:22-69
+29    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+29-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:23:5-73
+29-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:23:22-70
+30    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+30-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:24:5-80
+30-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:24:22-77
+31    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+31-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:25:5-81
+31-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:25:22-78
+32    <uses-permission android:name="android.permission.CAMERA" />
+32-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:26:5-65
+32-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:26:22-62
+33    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+33-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:27:5-81
+33-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:27:22-78
+34    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+34-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:28:5-79
+34-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:28:22-76
+35
+36    <uses-feature
+36-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:30:5-32:36
+37        android:name="android.hardware.camera"
+37-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:31:9-47
+38        android:required="false" />
+38-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:32:9-33
+39    <uses-feature
+39-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:33:5-35:36
+40        android:name="android.hardware.camera.autofocus"
+40-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:34:9-57
+41        android:required="false" />
+41-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:35:9-33
+42    <uses-feature
+42-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:36:5-38:36
+43        android:name="android.hardware.location"
+43-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:37:9-49
+44        android:required="false" />
+44-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:38:9-33
+45    <uses-feature
+45-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:39:5-41:36
+46        android:name="android.hardware.location.gps"
+46-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:40:9-53
+47        android:required="false" />
+47-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:41:9-33
+48    <uses-feature
+48-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:42:5-44:36
+49        android:name="android.hardware.location.network"
+49-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:43:9-57
+50        android:required="false" />
+50-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:44:9-33
+51    <uses-feature
+51-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:45:5-47:36
+52        android:name="android.hardware.wifi"
+52-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:46:9-45
+53        android:required="false" />
+53-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:47:9-33
+54    <uses-feature
+54-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:48:5-50:36
+55        android:name="android.hardware.microphone"
+55-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:49:9-51
+56        android:required="false" />
+56-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:50:9-33
+57    <uses-feature
+57-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:51:5-53:36
+58        android:name="android.hardware.telephony"
+58-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:52:9-50
+59        android:required="false" />
+59-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:53:9-33
+60    <uses-feature
+60-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:54:5-56:36
+61        android:name="android.hardware.bluetooth"
+61-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:55:9-50
+62        android:required="false" />
+62-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:56:9-33
+63
+64    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+64-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:58:5-81
+64-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:58:22-78
+65
+66    <uses-feature
+66-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:60:5-62:36
+67        android:glEsVersion="0x00020000"
+67-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:61:9-41
+68        android:required="false" />
+68-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:62:9-33
+69
+70    <uses-permission android:name="android.permission.VIBRATE" />
+70-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:64:5-66
+70-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:64:22-63
+71    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+71-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:65:5-72
+71-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:65:22-69
+72    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+72-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:66:5-85
+72-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:66:22-82
+73    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+73-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:67:5-77
+73-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:67:22-74
+74
+75    <application>
+75-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:69:5-177:19
+76        <provider
+76-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:70:9-78:20
+77            android:name="androidx.core.content.FileProvider"
+77-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:71:13-62
+78            android:authorities="${applicationId}.provider"
+78-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:72:13-60
+79            android:exported="false"
+79-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:73:13-37
+80            android:grantUriPermissions="true" >
+80-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:74:13-47
+81            <meta-data
+81-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:75:13-77:58
+82                android:name="android.support.FILE_PROVIDER_PATHS"
+82-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:76:17-67
+83                android:resource="@xml/provider_paths" />
+83-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:77:17-55
+84        </provider>
+85        <provider
+85-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:79:9-87:20
+86            android:name="abi39_0_0.host.exp.exponent.modules.api.components.webview.RNCWebViewFileProvider"
+86-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:80:13-109
+87            android:authorities="${applicationId}.fileprovider"
+87-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:81:13-64
+88            android:exported="false"
+88-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:82:13-37
+89            android:grantUriPermissions="true" >
+89-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:83:13-47
+90            <meta-data
+90-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:75:13-77:58
+91                android:name="android.support.FILE_PROVIDER_PATHS"
+91-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:76:17-67
+92                android:resource="@xml/provider_paths" />
+92-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:77:17-55
+93        </provider>
+94
+95        <meta-data
+95-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:89:9-92:45
+96            android:name="org.unimodules.core.AppLoader#react-native-headless"
+96-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:90:13-79
+97            android:value="host.exp.exponent.taskManager.ExpoHeadlessAppLoader"
+97-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:91:13-80
+98            tools:replace="android:value" />
+98-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:92:13-42
+99        <meta-data
+99-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:93:9-95:101
+100            android:name="abi39_0_0.org.unimodules.core.AppLoader#react-native-headless"
+100-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:94:13-89
+101            android:value="abi39_0_0.org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+101-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:95:13-98
+102
+103        <activity
+103-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:97:9-101:75
+104            android:name="abi39_0_0.expo.modules.appauth.AppAuthBrowserActivity"
+104-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:98:13-81
+105            android:exported="false"
+105-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:99:13-37
+106            android:launchMode="singleTask"
+106-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:100:13-44
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+107-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:101:13-72
+108
+109        <meta-data
+109-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:103:9-105:36
+110            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+110-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:104:13-70
+111            android:value="face" />
+111-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:105:13-33
+112
+113        <provider
+113-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:107:9-116:20
+114            android:name="abi39_0_0.expo.modules.filesystem.FileSystemFileProvider"
+114-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:108:13-84
+115            android:authorities="${applicationId}.FileSystemFileProvider"
+115-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:109:13-74
+116            android:exported="false"
+116-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:110:13-37
+117            android:grantUriPermissions="true"
+117-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:111:13-47
+118            tools:replace="android:authorities" >
+118-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:112:13-48
+119            <meta-data
+119-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:75:13-77:58
+120                android:name="android.support.FILE_PROVIDER_PATHS"
+120-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:76:17-67
+121                android:resource="@xml/file_system_provider_paths" />
+121-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:77:17-55
+122        </provider>
+123        <!-- https://developer.android.com/guide/topics/manifest/provider-element.html -->
+124        <provider
+124-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:118:9-126:20
+125            android:name="abi39_0_0.expo.modules.imagepicker.ImagePickerFileProvider"
+125-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:119:13-86
+126            android:authorities="${applicationId}.ImagePickerFileProvider"
+126-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:120:13-75
+127            android:exported="false"
+127-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:121:13-37
+128            android:grantUriPermissions="true" >
+128-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:122:13-47
+129            <meta-data
+129-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:75:13-77:58
+130                android:name="android.support.FILE_PROVIDER_PATHS"
+130-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:76:17-67
+131                android:resource="@xml/image_picker_provider_paths" />
+131-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:77:17-55
+132        </provider>
+133
+134        <service
+134-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:128:9-130:40
+135            android:name="abi39_0_0.expo.modules.location.services.LocationTaskService"
+135-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:129:13-88
+136            android:exported="false" />
+136-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:130:13-37
+137        <!-- https://developer.android.com/guide/topics/manifest/provider-element.html -->
+138        <provider
+138-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:132:9-140:20
+139            android:name="abi39_0_0.expo.modules.mailcomposer.MailComposerFileProvider"
+139-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:133:13-88
+140            android:authorities="${applicationId}.MailComposerFileProvider"
+140-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:134:13-76
+141            android:exported="false"
+141-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:135:13-37
+142            android:grantUriPermissions="true" >
+142-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:136:13-47
+143            <meta-data
+143-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:75:13-77:58
+144                android:name="android.support.FILE_PROVIDER_PATHS"
+144-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:76:17-67
+145                android:resource="@xml/mail_composer_provider_paths" />
+145-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:77:17-55
+146        </provider>
+147
+148        <activity
+148-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:142:9-146:75
+149            android:name="abi39_0_0.expo.modules.payments.stripe.OpenBrowserActivity"
+149-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:143:13-86
+150            android:exported="false"
+150-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:144:13-37
+151            android:launchMode="singleTask"
+151-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:145:13-44
+152            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+152-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:146:13-72
+153
+154        <provider
+154-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:148:9-156:20
+155            android:name="abi39_0_0.expo.modules.sharing.SharingFileProvider"
+155-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:149:13-78
+156            android:authorities="${applicationId}.SharingFileProvider"
+156-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:150:13-71
+157            android:exported="false"
+157-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:151:13-37
+158            android:grantUriPermissions="true" >
+158-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:152:13-47
+159            <meta-data
+159-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:75:13-77:58
+160                android:name="android.support.FILE_PROVIDER_PATHS"
+160-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:76:17-67
+161                android:resource="@xml/sharing_provider_paths" />
+161-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:77:17-55
+162        </provider>
+163
+164        <receiver
+164-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:158:9-166:20
+165            android:name="abi39_0_0.expo.modules.taskManager.TaskBroadcastReceiver"
+165-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:159:13-84
+166            android:exported="false" >
+166-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:160:13-37
+167            <intent-filter>
+167-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:161:13-165:29
+168                <action android:name="abi39_0_0.expo.modules.taskManager.TaskBroadcastReceiver.INTENT_ACTION" />
+168-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:162:17-113
+168-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:162:25-110
+169                <action android:name="android.intent.action.BOOT_COMPLETED" />
+169-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:163:17-79
+169-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:163:25-76
+170                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+170-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:164:17-84
+170-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:164:25-81
+171            </intent-filter>
+172        </receiver>
+173
+174        <service
+174-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:168:9-172:72
+175            android:name="abi39_0_0.expo.modules.taskManager.TaskJobService"
+175-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:169:13-77
+176            android:enabled="true"
+176-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:170:13-35
+177            android:exported="false"
+177-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:171:13-37
+178            android:permission="android.permission.BIND_JOB_SERVICE" />
+178-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:172:13-69
+179
+180        <meta-data
+180-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:174:9-176:36
+181            android:name="abi39_0_0.expo.modules.taskManager.oneAppId"
+181-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:175:13-71
+182            android:value="true" />
+182-->/Users/lukasz/work/expo/android/versioned-abis/expoview-abi39_0_0/src/main/AndroidManifest.xml:176:13-33
+183    </application>
+184
+185</manifest>

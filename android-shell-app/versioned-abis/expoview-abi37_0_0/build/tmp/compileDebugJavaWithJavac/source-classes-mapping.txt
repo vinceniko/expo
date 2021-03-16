@@ -1,0 +1,1892 @@
+abi37_0_0/host/exp/exponent/modules/universal/sensors/ScopedMagnetometerService.java
+ abi37_0_0.host.exp.exponent.modules.universal.sensors.ScopedMagnetometerService
+abi37_0_0/host/exp/exponent/modules/internal/ExponentAsyncStorageModule.java
+ abi37_0_0.host.exp.exponent.modules.internal.ExponentAsyncStorageModule
+abi37_0_0/expo/modules/constants/ConstantsService.java
+ abi37_0_0.expo.modules.constants.ConstantsService
+abi37_0_0/host/exp/exponent/modules/api/components/lottie/LottieAnimationViewManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.lottie.LottieAnimationViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.lottie.LottieAnimationViewManager$1
+ abi37_0_0.host.exp.exponent.modules.api.components.lottie.LottieAnimationViewManager$2
+ abi37_0_0.host.exp.exponent.modules.api.components.lottie.LottieAnimationViewManager$2$1
+ abi37_0_0.host.exp.exponent.modules.api.components.lottie.LottieAnimationViewManager$3
+abi37_0_0/host/exp/exponent/modules/api/components/svg/SvgPackage.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.SvgPackage
+abi37_0_0/host/exp/exponent/modules/api/screens/Screen.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.Screen
+ abi37_0_0.host.exp.exponent.modules.api.screens.Screen$1
+ abi37_0_0.host.exp.exponent.modules.api.screens.Screen$2
+ abi37_0_0.host.exp.exponent.modules.api.screens.Screen$StackAnimation
+ abi37_0_0.host.exp.exponent.modules.api.screens.Screen$StackPresentation
+abi37_0_0/expo/modules/print/PrintPDFRenderTask.java
+ abi37_0_0.expo.modules.print.PrintPDFRenderTask
+ abi37_0_0.expo.modules.print.PrintPDFRenderTask$1
+ abi37_0_0.expo.modules.print.PrintPDFRenderTask$2
+ abi37_0_0.expo.modules.print.PrintPDFRenderTask$2$1
+ abi37_0_0.expo.modules.print.PrintPDFRenderTask$3
+ abi37_0_0.expo.modules.print.PrintPDFRenderTask$Callbacks
+abi37_0_0/expo/modules/av/video/VideoTextureView.java
+ abi37_0_0.expo.modules.av.video.VideoTextureView
+abi37_0_0/host/exp/exponent/modules/api/components/sharedelement/RNSharedElementView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementView
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementView$1
+abi37_0_0/host/exp/exponent/modules/api/components/maps/ImageReader.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.ImageReader
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.ImageReader$1
+abi37_0_0/expo/modules/network/NetworkPackage.java
+ abi37_0_0.expo.modules.network.NetworkPackage
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/JSCallNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.JSCallNode
+abi37_0_0/expo/modules/speech/SpeechModule.java
+ abi37_0_0.expo.modules.speech.SpeechModule
+ abi37_0_0.expo.modules.speech.SpeechModule$1
+ abi37_0_0.expo.modules.speech.SpeechModule$2
+ abi37_0_0.expo.modules.speech.SpeechModule$2$1
+abi37_0_0/expo/modules/firebase/core/FirebaseCorePackage.java
+ abi37_0_0.expo.modules.firebase.core.FirebaseCorePackage
+abi37_0_0/org/unimodules/interfaces/sensors/services/RotationVectorSensorService.java
+ abi37_0_0.org.unimodules.interfaces.sensors.services.RotationVectorSensorService
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapFeature.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapFeature
+abi37_0_0/host/exp/exponent/ScopedReactApplicationContext.java
+ abi37_0_0.host.exp.exponent.ScopedReactApplicationContext
+abi37_0_0/host/exp/exponent/modules/internal/ExponentIntentModule.java
+ abi37_0_0.host.exp.exponent.modules.internal.ExponentIntentModule
+ abi37_0_0.host.exp.exponent.modules.internal.ExponentIntentModule$1
+abi37_0_0/expo/modules/webbrowser/CustomTabsConnectionHelper.java
+ abi37_0_0.expo.modules.webbrowser.CustomTabsConnectionHelper
+abi37_0_0/host/exp/exponent/modules/api/viewshot/ViewShot.java
+ abi37_0_0.host.exp.exponent.modules.api.viewshot.ViewShot
+ abi37_0_0.host.exp.exponent.modules.api.viewshot.ViewShot$Formats
+ abi37_0_0.host.exp.exponent.modules.api.viewshot.ViewShot$Results
+ abi37_0_0.host.exp.exponent.modules.api.viewshot.ViewShot$ReusableByteArrayOutputStream
+abi37_0_0/host/exp/exponent/modules/api/components/datetimepicker/RNConstants.java
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNConstants
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/Node.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.Node
+abi37_0_0/expo/modules/contacts/models/RelationshipModel.java
+ abi37_0_0.expo.modules.contacts.models.RelationshipModel
+abi37_0_0/expo/modules/appauth/AuthTask.java
+ abi37_0_0.expo.modules.appauth.AuthTask
+abi37_0_0/org/unimodules/interfaces/sensors/services/MagnetometerUncalibratedService.java
+ abi37_0_0.org.unimodules.interfaces.sensors.services.MagnetometerUncalibratedService
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/BlockNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.BlockNode
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/StyleNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.StyleNode
+abi37_0_0/expo/modules/webbrowser/error/PackageManagerNotFoundException.java
+ abi37_0_0.expo.modules.webbrowser.error.PackageManagerNotFoundException
+abi37_0_0/expo/modules/contacts/ContactsModule.java
+ abi37_0_0.expo.modules.contacts.ContactsModule
+ abi37_0_0.expo.modules.contacts.ContactsModule$1
+ abi37_0_0.expo.modules.contacts.ContactsModule$2
+ abi37_0_0.expo.modules.contacts.ContactsModule$3
+ abi37_0_0.expo.modules.contacts.ContactsModule$4
+ abi37_0_0.expo.modules.contacts.ContactsModule$5
+abi37_0_0/host/exp/exponent/modules/universal/ScopedFacebookModule.java
+ abi37_0_0.host.exp.exponent.modules.universal.ScopedFacebookModule
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/FunctionNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.FunctionNode
+abi37_0_0/org/unimodules/core/interfaces/Function.java
+ abi37_0_0.org.unimodules.core.interfaces.Function
+abi37_0_0/expo/modules/facedetector/FaceDetectorPackage.java
+ abi37_0_0.expo.modules.facedetector.FaceDetectorPackage
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/ClockOpNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.ClockOpNode
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.ClockOpNode$ClockStartNode
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.ClockOpNode$ClockStopNode
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.ClockOpNode$ClockTestNode
+abi37_0_0/expo/modules/camera/tasks/FaceDetectorTask.java
+ abi37_0_0.expo.modules.camera.tasks.FaceDetectorTask
+abi37_0_0/org/unimodules/core/utilities/FileUtilities.java
+ abi37_0_0.org.unimodules.core.utilities.FileUtilities
+abi37_0_0/org/unimodules/core/interfaces/InternalModule.java
+ abi37_0_0.org.unimodules.core.interfaces.InternalModule
+abi37_0_0/host/exp/exponent/modules/api/netinfo/NetInfoPackage.java
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.NetInfoPackage
+abi37_0_0/host/exp/exponent/modules/api/notifications/NotificationsModule.java
+ abi37_0_0.host.exp.exponent.modules.api.notifications.NotificationsModule
+ abi37_0_0.host.exp.exponent.modules.api.notifications.NotificationsModule$1
+ abi37_0_0.host.exp.exponent.modules.api.notifications.NotificationsModule$2
+ abi37_0_0.host.exp.exponent.modules.api.notifications.NotificationsModule$3
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapCalloutManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapCalloutManager
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/CallFuncNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.CallFuncNode
+abi37_0_0/expo/modules/sensors/services/BarometerService.java
+ abi37_0_0.expo.modules.sensors.services.BarometerService
+abi37_0_0/expo/modules/haptics/arguments/HapticsNotificationType.java
+ abi37_0_0.expo.modules.haptics.arguments.HapticsNotificationType
+abi37_0_0/expo/modules/haptics/HapticsModule.java
+ abi37_0_0.expo.modules.haptics.HapticsModule
+abi37_0_0/expo/modules/sqlite/SQLiteModule.java
+ abi37_0_0.expo.modules.sqlite.SQLiteModule
+ abi37_0_0.expo.modules.sqlite.SQLiteModule$ReadOnlyException
+ abi37_0_0.expo.modules.sqlite.SQLiteModule$SQLitePluginResult
+abi37_0_0/expo/modules/lineargradient/LinearGradientPackage.java
+ abi37_0_0.expo.modules.lineargradient.LinearGradientPackage
+abi37_0_0/expo/modules/av/player/datasource/SharedCookiesDataSourceFactory.java
+ abi37_0_0.expo.modules.av.player.datasource.SharedCookiesDataSourceFactory
+abi37_0_0/host/exp/exponent/modules/api/components/viewpager/PageScrollStateChangedEvent.java
+ abi37_0_0.host.exp.exponent.modules.api.components.viewpager.PageScrollStateChangedEvent
+abi37_0_0/org/unimodules/interfaces/permissions/Permissions.java
+ abi37_0_0.org.unimodules.interfaces.permissions.Permissions
+abi37_0_0/expo/modules/contacts/models/BaseModel.java
+ abi37_0_0.expo.modules.contacts.models.BaseModel
+abi37_0_0/org/unimodules/core/interfaces/DoNotStrip.java
+ abi37_0_0.org.unimodules.core.interfaces.DoNotStrip
+abi37_0_0/host/exp/exponent/modules/api/reanimated/Utils.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.Utils
+abi37_0_0/org/unimodules/interfaces/permissions/PermissionsResponseListener.java
+ abi37_0_0.org.unimodules.interfaces.permissions.PermissionsResponseListener
+abi37_0_0/expo/modules/taskManager/Task.java
+ abi37_0_0.expo.modules.taskManager.Task
+abi37_0_0/expo/modules/filesystem/FileSystemFileProvider.java
+ abi37_0_0.expo.modules.filesystem.FileSystemFileProvider
+abi37_0_0/host/exp/exponent/modules/internal/ExponentUnsignedAsyncStorageModule.java
+ abi37_0_0.host.exp.exponent.modules.internal.ExponentUnsignedAsyncStorageModule
+abi37_0_0/expo/modules/gl/GLContext.java
+ abi37_0_0.expo.modules.gl.GLContext
+ abi37_0_0.expo.modules.gl.GLContext$1
+ abi37_0_0.expo.modules.gl.GLContext$2
+ abi37_0_0.expo.modules.gl.GLContext$3
+ abi37_0_0.expo.modules.gl.GLContext$GLThread
+ abi37_0_0.expo.modules.gl.GLContext$TakeSnapshot
+abi37_0_0/expo/modules/application/ApplicationPackage.java
+ abi37_0_0.expo.modules.application.ApplicationPackage
+abi37_0_0/expo/modules/camera/utils/ImageDimensions.java
+ abi37_0_0.expo.modules.camera.utils.ImageDimensions
+abi37_0_0/expo/modules/location/LocationActivityResultListener.java
+ abi37_0_0.expo.modules.location.LocationActivityResultListener
+abi37_0_0/host/exp/exponent/modules/api/netinfo/ConnectivityReceiver.java
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.ConnectivityReceiver
+abi37_0_0/expo/modules/taskManager/exceptions/TaskNotFoundException.java
+ abi37_0_0.expo.modules.taskManager.exceptions.TaskNotFoundException
+abi37_0_0/expo/modules/location/exceptions/LocationUnauthorizedException.java
+ abi37_0_0.expo.modules.location.exceptions.LocationUnauthorizedException
+abi37_0_0/host/exp/exponent/modules/universal/ConstantsBinding.java
+ abi37_0_0.host.exp.exponent.modules.universal.ConstantsBinding
+abi37_0_0/host/exp/exponent/modules/api/safeareacontext/SafeAreaView.java
+ abi37_0_0.host.exp.exponent.modules.api.safeareacontext.SafeAreaView
+ abi37_0_0.host.exp.exponent.modules.api.safeareacontext.SafeAreaView$OnInsetsChangeListener
+abi37_0_0/expo/modules/camera/events/BarCodeScannedEvent.java
+ abi37_0_0.expo.modules.camera.events.BarCodeScannedEvent
+abi37_0_0/expo/modules/lineargradient/LinearGradientManager.java
+ abi37_0_0.expo.modules.lineargradient.LinearGradientManager
+abi37_0_0/expo/modules/medialibrary/GetAlbums.java
+ abi37_0_0.expo.modules.medialibrary.GetAlbums
+abi37_0_0/host/exp/exponent/modules/api/components/datetimepicker/RNDismissableDatePickerDialog.java
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNDismissableDatePickerDialog
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/AlwaysNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.AlwaysNode
+abi37_0_0/expo/modules/taskManager/TaskManagerPackage.java
+ abi37_0_0.expo.modules.taskManager.TaskManagerPackage
+abi37_0_0/expo/modules/gl/GLObjectManagerModule.java
+ abi37_0_0.expo.modules.gl.GLObjectManagerModule
+ abi37_0_0.expo.modules.gl.GLObjectManagerModule$1
+ abi37_0_0.expo.modules.gl.GLObjectManagerModule$1$1
+ abi37_0_0.expo.modules.gl.GLObjectManagerModule$2
+abi37_0_0/expo/modules/mailcomposer/MailComposerFileProvider.java
+ abi37_0_0.expo.modules.mailcomposer.MailComposerFileProvider
+abi37_0_0/expo/modules/sensors/modules/PedometerModule.java
+ abi37_0_0.expo.modules.sensors.modules.PedometerModule
+abi37_0_0/host/exp/exponent/modules/api/PedometerModule.java
+ abi37_0_0.host.exp.exponent.modules.api.PedometerModule
+ abi37_0_0.host.exp.exponent.modules.api.PedometerModule$1
+ abi37_0_0.host.exp.exponent.modules.api.PedometerModule$2
+ abi37_0_0.host.exp.exponent.modules.api.PedometerModule$3
+ abi37_0_0.host.exp.exponent.modules.api.PedometerModule$4
+ abi37_0_0.host.exp.exponent.modules.api.PedometerModule$5
+ abi37_0_0.host.exp.exponent.modules.api.PedometerModule$6
+abi37_0_0/expo/modules/ads/admob/AdMobModule.java
+ abi37_0_0.expo.modules.ads.admob.AdMobModule
+abi37_0_0/org/unimodules/interfaces/imageloader/ImageLoader.java
+ abi37_0_0.org.unimodules.interfaces.imageloader.ImageLoader
+ abi37_0_0.org.unimodules.interfaces.imageloader.ImageLoader$ResultListener
+abi37_0_0/host/exp/exponent/modules/universal/sensors/ScopedLinearAccelerationSensorService.java
+ abi37_0_0.host.exp.exponent.modules.universal.sensors.ScopedLinearAccelerationSensorService
+abi37_0_0/org/unimodules/core/interfaces/services/EventEmitter.java
+ abi37_0_0.org.unimodules.core.interfaces.services.EventEmitter
+ abi37_0_0.org.unimodules.core.interfaces.services.EventEmitter$BaseEvent
+ abi37_0_0.org.unimodules.core.interfaces.services.EventEmitter$Event
+abi37_0_0/expo/modules/imagepicker/ImagePickerPackage.java
+ abi37_0_0.expo.modules.imagepicker.ImagePickerPackage
+abi37_0_0/expo/modules/location/exceptions/LocationRequestRejectedException.java
+ abi37_0_0.expo.modules.location.exceptions.LocationRequestRejectedException
+abi37_0_0/host/exp/exponent/modules/api/components/svg/ViewBox.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.ViewBox
+abi37_0_0/org/unimodules/core/interfaces/ActivityEventListener.java
+ abi37_0_0.org.unimodules.core.interfaces.ActivityEventListener
+abi37_0_0/expo/modules/facebook/FacebookModule.java
+ abi37_0_0.expo.modules.facebook.FacebookModule
+ abi37_0_0.expo.modules.facebook.FacebookModule$1
+ abi37_0_0.expo.modules.facebook.FacebookModule$2
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapLocalTile.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapLocalTile
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapLocalTile$AIRMapLocalTileProvider
+abi37_0_0/expo/modules/sensors/services/SensorServiceSubscription.java
+ abi37_0_0.expo.modules.sensors.services.SensorServiceSubscription
+abi37_0_0/host/exp/exponent/modules/api/components/viewpager/PageSelectedEvent.java
+ abi37_0_0.host.exp.exponent.modules.api.components.viewpager.PageSelectedEvent
+abi37_0_0/org/unimodules/core/interfaces/RuntimeEnvironmentInterface.java
+ abi37_0_0.org.unimodules.core.interfaces.RuntimeEnvironmentInterface
+ abi37_0_0.org.unimodules.core.interfaces.RuntimeEnvironmentInterface$PlatformVersion
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/react/RNGestureHandlerRootInterface.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerRootInterface
+abi37_0_0/expo/modules/ads/admob/AdMobRewardedVideoAdModule.java
+ abi37_0_0.expo.modules.ads.admob.AdMobRewardedVideoAdModule
+ abi37_0_0.expo.modules.ads.admob.AdMobRewardedVideoAdModule$1
+ abi37_0_0.expo.modules.ads.admob.AdMobRewardedVideoAdModule$2
+ abi37_0_0.expo.modules.ads.admob.AdMobRewardedVideoAdModule$3
+ abi37_0_0.expo.modules.ads.admob.AdMobRewardedVideoAdModule$Events
+abi37_0_0/expo/modules/medialibrary/GetAssetInfo.java
+ abi37_0_0.expo.modules.medialibrary.GetAssetInfo
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/ParamNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.ParamNode
+abi37_0_0/host/exp/exponent/modules/api/screens/ScreenStack.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStack
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStack$1
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStack$2
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStack$3
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStack$4
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/react/RNViewConfigurationHelper.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNViewConfigurationHelper
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNViewConfigurationHelper$1
+abi37_0_0/expo/modules/barcodescanner/BarCodeScannerPackage.java
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerPackage
+abi37_0_0/host/exp/exponent/modules/api/components/sharedelement/RNSharedElementTransition.java
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementTransition
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementTransition$1
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementTransition$2
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementTransition$3
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementTransition$Item
+abi37_0_0/expo/modules/barcodescanner/utils/ImageDimensions.java
+ abi37_0_0.expo.modules.barcodescanner.utils.ImageDimensions
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/GestureHandlerRegistry.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.GestureHandlerRegistry
+abi37_0_0/host/exp/exponent/modules/api/screens/RNScreensPackage.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.RNScreensPackage
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapUrlTileManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapUrlTileManager
+abi37_0_0/org/unimodules/interfaces/sensors/services/PedometerService.java
+ abi37_0_0.org.unimodules.interfaces.sensors.services.PedometerService
+abi37_0_0/expo/modules/keepawake/KeepAwakePackage.java
+ abi37_0_0.expo.modules.keepawake.KeepAwakePackage
+abi37_0_0/expo/modules/imagemanipulator/ImageManipulatorPackage.java
+ abi37_0_0.expo.modules.imagemanipulator.ImageManipulatorPackage
+abi37_0_0/expo/modules/barcodescanner/utils/FrameFactory.java
+ abi37_0_0.expo.modules.barcodescanner.utils.FrameFactory
+abi37_0_0/expo/modules/appauth/AppAuthBrowserActivity.java
+ abi37_0_0.expo.modules.appauth.AppAuthBrowserActivity
+ abi37_0_0.expo.modules.appauth.AppAuthBrowserActivity$OAuthResultEvent
+abi37_0_0/host/exp/exponent/ReactUnthemedRootView.java
+ abi37_0_0.host.exp.exponent.ReactUnthemedRootView
+abi37_0_0/expo/modules/av/video/MediaController.java
+ abi37_0_0.expo.modules.av.video.MediaController
+ abi37_0_0.expo.modules.av.video.MediaController$1
+ abi37_0_0.expo.modules.av.video.MediaController$2
+ abi37_0_0.expo.modules.av.video.MediaController$3
+ abi37_0_0.expo.modules.av.video.MediaController$4
+ abi37_0_0.expo.modules.av.video.MediaController$5
+ abi37_0_0.expo.modules.av.video.MediaController$MessageHandler
+abi37_0_0/host/exp/exponent/modules/api/netinfo/types/CellularGeneration.java
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.types.CellularGeneration
+abi37_0_0/host/exp/exponent/modules/api/components/sharedelement/RNSharedElementTypes.java
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementAlign
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementAnimation
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementResize
+abi37_0_0/expo/modules/ads/facebook/AdSettingsManager.java
+ abi37_0_0.expo.modules.ads.facebook.AdSettingsManager
+abi37_0_0/expo/modules/payments/stripe/util/CardFlipAnimator.java
+ abi37_0_0.expo.modules.payments.stripe.util.CardFlipAnimator
+abi37_0_0/host/exp/exponent/modules/universal/ScopedFileSystemModule.java
+ abi37_0_0.host.exp.exponent.modules.universal.ScopedFileSystemModule
+abi37_0_0/host/exp/exponent/modules/api/components/maps/ImageReadable.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.ImageReadable
+abi37_0_0/expo/modules/sms/SMSPackage.java
+ abi37_0_0.expo.modules.sms.SMSPackage
+abi37_0_0/expo/modules/haptics/arguments/HapticsImpactType.java
+ abi37_0_0.expo.modules.haptics.arguments.HapticsImpactType
+abi37_0_0/expo/modules/location/LocationHelpers.java
+ abi37_0_0.expo.modules.location.LocationHelpers
+ abi37_0_0.expo.modules.location.LocationHelpers$1
+ abi37_0_0.expo.modules.location.LocationHelpers$2
+abi37_0_0/org/unimodules/adapters/react/views/SimpleViewManagerAdapter.java
+ abi37_0_0.org.unimodules.adapters.react.views.SimpleViewManagerAdapter
+abi37_0_0/org/unimodules/core/BasePackage.java
+ abi37_0_0.org.unimodules.core.BasePackage
+abi37_0_0/host/exp/exponent/modules/api/components/datetimepicker/RNDismissableTimePickerDialog.java
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNDismissableTimePickerDialog
+abi37_0_0/org/unimodules/interfaces/barcodescanner/BarCodeScannerProvider.java
+ abi37_0_0.org.unimodules.interfaces.barcodescanner.BarCodeScannerProvider
+abi37_0_0/expo/modules/haptics/arguments/HapticsInvalidArgumentException.java
+ abi37_0_0.expo.modules.haptics.arguments.HapticsInvalidArgumentException
+abi37_0_0/host/exp/exponent/modules/api/components/svg/Brush.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.Brush
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.Brush$BrushType
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.Brush$BrushUnits
+abi37_0_0/org/unimodules/adapters/react/ArgumentsHelper.java
+ abi37_0_0.org.unimodules.adapters.react.ArgumentsHelper
+ abi37_0_0.org.unimodules.adapters.react.ArgumentsHelper$1
+abi37_0_0/host/exp/exponent/modules/universal/sensors/ScopedSensorEventListener.java
+ abi37_0_0.host.exp.exponent.modules.universal.sensors.ScopedSensorEventListener
+abi37_0_0/host/exp/exponent/modules/api/appearance/rncappearance/RNCAppearancePackage.java
+ abi37_0_0.host.exp.exponent.modules.api.appearance.rncappearance.RNCAppearancePackage
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/react/RNGestureHandlerModule.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerModule
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerModule$1
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerModule$2
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerModule$FlingGestureHandlerFactory
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerModule$HandlerFactory
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerModule$LongPressGestureHandlerFactory
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerModule$NativeViewGestureHandlerFactory
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerModule$PanGestureHandlerFactory
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerModule$PinchGestureHandlerFactory
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerModule$RotationGestureHandlerFactory
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerModule$TapGestureHandlerFactory
+abi37_0_0/expo/modules/av/AudioFocusNotAcquiredException.java
+ abi37_0_0.expo.modules.av.AudioFocusNotAcquiredException
+abi37_0_0/expo/modules/sensors/modules/MagnetometerUncalibratedModule.java
+ abi37_0_0.expo.modules.sensors.modules.MagnetometerUncalibratedModule
+abi37_0_0/expo/modules/av/video/VideoView.java
+ abi37_0_0.expo.modules.av.video.VideoView
+ abi37_0_0.expo.modules.av.video.VideoView$1
+ abi37_0_0.expo.modules.av.video.VideoView$2
+ abi37_0_0.expo.modules.av.video.VideoView$3
+ abi37_0_0.expo.modules.av.video.VideoView$4
+ abi37_0_0.expo.modules.av.video.VideoView$5
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/DebugNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.DebugNode
+abi37_0_0/expo/modules/ads/admob/AdMobBannerViewManager.java
+ abi37_0_0.expo.modules.ads.admob.AdMobBannerViewManager
+ abi37_0_0.expo.modules.ads.admob.AdMobBannerViewManager$Events
+abi37_0_0/expo/modules/camera/tasks/BarCodeScannerAsyncTask.java
+ abi37_0_0.expo.modules.camera.tasks.BarCodeScannerAsyncTask
+abi37_0_0/expo/modules/battery/BatteryLevelReceiver.java
+ abi37_0_0.expo.modules.battery.BatteryLevelReceiver
+abi37_0_0/expo/modules/av/player/datasource/SharedCookiesDataSourceFactoryProvider.java
+ abi37_0_0.expo.modules.av.player.datasource.SharedCookiesDataSourceFactoryProvider
+abi37_0_0/expo/modules/intentlauncher/IntentLauncherModule.java
+ abi37_0_0.expo.modules.intentlauncher.IntentLauncherModule
+abi37_0_0/expo/modules/constants/ConstantsModule.java
+ abi37_0_0.expo.modules.constants.ConstantsModule
+abi37_0_0/org/unimodules/adapters/react/NativeModulesProxy.java
+ abi37_0_0.org.unimodules.adapters.react.NativeModulesProxy
+abi37_0_0/host/exp/exponent/modules/api/reanimated/transitions/TransitionUtils.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.transitions.TransitionUtils
+abi37_0_0/expo/modules/sensors/SensorsPackage.java
+ abi37_0_0.expo.modules.sensors.SensorsPackage
+abi37_0_0/expo/modules/localauthentication/LocalAuthenticationPackage.java
+ abi37_0_0.expo.modules.localauthentication.LocalAuthenticationPackage
+abi37_0_0/org/unimodules/interfaces/font/FontManager.java
+ abi37_0_0.org.unimodules.interfaces.font.FontManager
+abi37_0_0/expo/modules/payments/stripe/util/ArgCheck.java
+ abi37_0_0.expo.modules.payments.stripe.util.ArgCheck
+abi37_0_0/expo/modules/av/player/PlayerData.java
+ abi37_0_0.expo.modules.av.player.PlayerData
+ abi37_0_0.expo.modules.av.player.PlayerData$1
+ abi37_0_0.expo.modules.av.player.PlayerData$ErrorListener
+ abi37_0_0.expo.modules.av.player.PlayerData$FullscreenPresenter
+ abi37_0_0.expo.modules.av.player.PlayerData$LoadCompletionListener
+ abi37_0_0.expo.modules.av.player.PlayerData$ProgressUpdater
+ abi37_0_0.expo.modules.av.player.PlayerData$SetStatusCompletionListener
+ abi37_0_0.expo.modules.av.player.PlayerData$StatusUpdateListener
+ abi37_0_0.expo.modules.av.player.PlayerData$VideoSizeUpdateListener
+abi37_0_0/org/unimodules/core/InvalidArgumentException.java
+ abi37_0_0.org.unimodules.core.InvalidArgumentException
+abi37_0_0/expo/modules/contacts/models/UrlAddressModel.java
+ abi37_0_0.expo.modules.contacts.models.UrlAddressModel
+abi37_0_0/host/exp/exponent/modules/api/cognito/RNAWSCognitoPackage.java
+ abi37_0_0.host.exp.exponent.modules.api.cognito.RNAWSCognitoPackage
+abi37_0_0/host/exp/exponent/modules/api/components/svg/RNSVGMarkerPosition.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.ElementType
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.Point
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RNSVGMarkerPosition
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RNSVGMarkerPosition$1
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RNSVGMarkerType
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.SegmentData
+abi37_0_0/host/exp/exponent/modules/api/components/svg/RenderableView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableView
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableView$1
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/PointerEventsSpec.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.PointerEventsSpec
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/RotationGestureDetector.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.RotationGestureDetector
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.RotationGestureDetector$OnRotationGestureListener
+abi37_0_0/host/exp/exponent/modules/api/components/svg/RenderableViewManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$1
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$2
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$CircleViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$ClipPathViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$DefsViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$EllipseViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$ForeignObjectManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$GroupViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$ImageViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$LineViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$LinearGradientManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$MarkerManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$MaskManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$MatrixDecompositionContext
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$PathViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$PatternManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$RadialGradientManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$RectViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$RenderableShadowNode
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$SVGClass
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$SymbolManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$TSpanViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$TextPathViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$TextViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RenderableViewManager$UseViewManager
+abi37_0_0/host/exp/exponent/modules/api/components/viewpager/VerticalViewPager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.viewpager.VerticalViewPager
+ abi37_0_0.host.exp.exponent.modules.api.components.viewpager.VerticalViewPager$1
+ abi37_0_0.host.exp.exponent.modules.api.components.viewpager.VerticalViewPager$VerticalPageTransformer
+abi37_0_0/host/exp/exponent/ExperiencePackagePicker.java
+ abi37_0_0.host.exp.exponent.ExperiencePackagePicker
+abi37_0_0/expo/modules/ads/facebook/NativeAdModule.java
+ abi37_0_0.expo.modules.ads.facebook.NativeAdModule
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/react/RNGestureHandlerRegistry.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerRegistry
+abi37_0_0/expo/modules/ads/admob/AdMobUtils.java
+ abi37_0_0.expo.modules.ads.admob.AdMobUtils
+abi37_0_0/expo/modules/payments/stripe/util/Utils.java
+ abi37_0_0.expo.modules.payments.stripe.util.Utils
+abi37_0_0/host/exp/exponent/modules/api/components/svg/DefinitionView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.DefinitionView
+abi37_0_0/org/unimodules/core/errors/CodedException.java
+ abi37_0_0.org.unimodules.core.errors.CodedException
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/ConcatNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.ConcatNode
+abi37_0_0/host/exp/exponent/modules/universal/av/SharedCookiesDataSourceFactory.java
+ abi37_0_0.host.exp.exponent.modules.universal.av.SharedCookiesDataSourceFactory
+abi37_0_0/host/exp/exponent/modules/api/components/svg/LineView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.LineView
+abi37_0_0/host/exp/exponent/modules/api/components/lottie/LottiePackage.java
+ abi37_0_0.host.exp.exponent.modules.api.components.lottie.LottiePackage
+abi37_0_0/host/exp/exponent/modules/api/components/webview/RNCWebViewManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.webview.RNCWebViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.webview.RNCWebViewManager$1
+ abi37_0_0.host.exp.exponent.modules.api.components.webview.RNCWebViewManager$2
+ abi37_0_0.host.exp.exponent.modules.api.components.webview.RNCWebViewManager$3
+ abi37_0_0.host.exp.exponent.modules.api.components.webview.RNCWebViewManager$4
+ abi37_0_0.host.exp.exponent.modules.api.components.webview.RNCWebViewManager$RNCWebChromeClient
+ abi37_0_0.host.exp.exponent.modules.api.components.webview.RNCWebViewManager$RNCWebView
+ abi37_0_0.host.exp.exponent.modules.api.components.webview.RNCWebViewManager$RNCWebView$1
+ abi37_0_0.host.exp.exponent.modules.api.components.webview.RNCWebViewManager$RNCWebView$RNCWebViewBridge
+ abi37_0_0.host.exp.exponent.modules.api.components.webview.RNCWebViewManager$RNCWebViewClient
+abi37_0_0/expo/modules/ads/facebook/BannerView.java
+ abi37_0_0.expo.modules.ads.facebook.BannerView
+ abi37_0_0.expo.modules.ads.facebook.BannerView$1
+abi37_0_0/expo/modules/camera/tasks/FaceDetectorAsyncTaskDelegate.java
+ abi37_0_0.expo.modules.camera.tasks.FaceDetectorAsyncTaskDelegate
+abi37_0_0/host/exp/exponent/modules/api/components/svg/SvgView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.SvgView
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.SvgView$Events
+abi37_0_0/org/unimodules/core/ModuleRegistryProvider.java
+ abi37_0_0.org.unimodules.core.ModuleRegistryProvider
+abi37_0_0/host/exp/exponent/modules/api/screens/LifecycleHelper.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.LifecycleHelper
+ abi37_0_0.host.exp.exponent.modules.api.screens.LifecycleHelper$1
+abi37_0_0/host/exp/exponent/VersionedUtils.java
+ abi37_0_0.host.exp.exponent.VersionedUtils
+abi37_0_0/host/exp/exponent/modules/api/appearance/ExpoAppearancePackage.java
+ abi37_0_0.host.exp.exponent.modules.api.appearance.ExpoAppearancePackage
+abi37_0_0/expo/modules/webbrowser/DeferredClientActionsQueue.java
+ abi37_0_0.expo.modules.webbrowser.DeferredClientActionsQueue
+abi37_0_0/host/exp/exponent/modules/api/components/viewpager/ReactViewPager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.viewpager.ReactViewPager
+ abi37_0_0.host.exp.exponent.modules.api.components.viewpager.ReactViewPager$1
+ abi37_0_0.host.exp.exponent.modules.api.components.viewpager.ReactViewPager$Adapter
+ abi37_0_0.host.exp.exponent.modules.api.components.viewpager.ReactViewPager$PageChangeListener
+abi37_0_0/expo/modules/videothumbnails/VideoThumbnailsModule.java
+ abi37_0_0.expo.modules.videothumbnails.VideoThumbnailsModule
+ abi37_0_0.expo.modules.videothumbnails.VideoThumbnailsModule$1
+ abi37_0_0.expo.modules.videothumbnails.VideoThumbnailsModule$GetThumbnailAsyncTask
+abi37_0_0/expo/modules/appauth/Serialization.java
+ abi37_0_0.expo.modules.appauth.Serialization
+abi37_0_0/expo/modules/gl/GLCameraObject.java
+ abi37_0_0.expo.modules.gl.GLCameraObject
+ abi37_0_0.expo.modules.gl.GLCameraObject$1
+abi37_0_0/org/unimodules/core/ExportedModule.java
+ abi37_0_0.org.unimodules.core.ExportedModule
+ abi37_0_0.org.unimodules.core.ExportedModule$MethodInfo
+abi37_0_0/expo/modules/sensors/modules/AccelerometerModule.java
+ abi37_0_0.expo.modules.sensors.modules.AccelerometerModule
+abi37_0_0/org/unimodules/adapters/react/ModuleRegistryReadyNotifier.java
+ abi37_0_0.org.unimodules.adapters.react.ModuleRegistryReadyNotifier
+abi37_0_0/host/exp/exponent/modules/api/components/svg/TextPathView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextPathView
+abi37_0_0/host/exp/exponent/modules/api/components/svg/SvgViewManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.SvgViewManager
+abi37_0_0/host/exp/exponent/modules/api/ShakeModule.java
+ abi37_0_0.host.exp.exponent.modules.api.ShakeModule
+ abi37_0_0.host.exp.exponent.modules.api.ShakeModule$1
+abi37_0_0/org/unimodules/adapters/react/PromiseWrapper.java
+ abi37_0_0.org.unimodules.adapters.react.PromiseWrapper
+abi37_0_0/org/unimodules/interfaces/filesystem/Permission.java
+ abi37_0_0.org.unimodules.interfaces.filesystem.Permission
+abi37_0_0/host/exp/exponent/modules/api/reanimated/transitions/SaneSidePropagation.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.transitions.SaneSidePropagation
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapUrlTile.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapUrlTile
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapUrlTile$AIRMapUrlTileProvider
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/OperatorNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$1
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$10
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$11
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$12
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$13
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$14
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$15
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$16
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$17
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$18
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$19
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$2
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$20
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$21
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$22
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$23
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$24
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$25
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$26
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$3
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$4
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$5
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$6
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$7
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$8
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$9
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$CompOperator
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$Operator
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$ReduceOperator
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.OperatorNode$SingleOperator
+abi37_0_0/expo/modules/ads/admob/AdMobPackage.java
+ abi37_0_0.expo.modules.ads.admob.AdMobPackage
+abi37_0_0/expo/modules/camera/CameraViewHelper.java
+ abi37_0_0.expo.modules.camera.CameraViewHelper
+abi37_0_0/expo/modules/crypto/CryptoPackage.java
+ abi37_0_0.expo.modules.crypto.CryptoPackage
+abi37_0_0/host/exp/exponent/modules/api/components/sharedelement/RNSharedElementNodeManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementNodeManager
+abi37_0_0/host/exp/exponent/modules/api/reanimated/UpdateContext.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.UpdateContext
+abi37_0_0/expo/modules/camera/CameraModule.java
+ abi37_0_0.expo.modules.camera.CameraModule
+ abi37_0_0.expo.modules.camera.CameraModule$1
+ abi37_0_0.expo.modules.camera.CameraModule$1$1
+ abi37_0_0.expo.modules.camera.CameraModule$1$2
+ abi37_0_0.expo.modules.camera.CameraModule$1$3
+ abi37_0_0.expo.modules.camera.CameraModule$1$4
+ abi37_0_0.expo.modules.camera.CameraModule$1$5
+ abi37_0_0.expo.modules.camera.CameraModule$2
+ abi37_0_0.expo.modules.camera.CameraModule$3
+ abi37_0_0.expo.modules.camera.CameraModule$4
+ abi37_0_0.expo.modules.camera.CameraModule$5
+ abi37_0_0.expo.modules.camera.CameraModule$6
+ abi37_0_0.expo.modules.camera.CameraModule$7
+ abi37_0_0.expo.modules.camera.CameraModule$8
+abi37_0_0/expo/modules/backgroundfetch/BackgroundFetchTaskConsumer.java
+ abi37_0_0.expo.modules.backgroundfetch.BackgroundFetchTaskConsumer
+ abi37_0_0.expo.modules.backgroundfetch.BackgroundFetchTaskConsumer$1
+abi37_0_0/expo/modules/google/signin/GoogleSignInModule.java
+ abi37_0_0.expo.modules.google.signin.GoogleSignInModule
+ abi37_0_0.expo.modules.google.signin.GoogleSignInModule$1
+ abi37_0_0.expo.modules.google.signin.GoogleSignInModule$1$1
+ abi37_0_0.expo.modules.google.signin.GoogleSignInModule$2
+ abi37_0_0.expo.modules.google.signin.GoogleSignInModule$3
+ abi37_0_0.expo.modules.google.signin.GoogleSignInModule$4
+ abi37_0_0.expo.modules.google.signin.GoogleSignInModule$AccessTokenRetrievalTask
+ abi37_0_0.expo.modules.google.signin.GoogleSignInModule$GoogleSignInActivityEventListener
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/NativeViewGestureHandler.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.NativeViewGestureHandler
+abi37_0_0/host/exp/exponent/modules/api/reanimated/transitions/Scale.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.transitions.Scale
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.transitions.Scale$1
+abi37_0_0/host/exp/exponent/modules/api/cognito/RNAWSCognitoModule.java
+ abi37_0_0.host.exp.exponent.modules.api.cognito.RNAWSCognitoModule
+abi37_0_0/expo/modules/av/video/VideoViewManager.java
+ abi37_0_0.expo.modules.av.video.VideoViewManager
+ abi37_0_0.expo.modules.av.video.VideoViewManager$Events
+ abi37_0_0.expo.modules.av.video.VideoViewManager$FullscreenPlayerUpdate
+abi37_0_0/expo/modules/av/player/SimpleExoPlayerData.java
+ abi37_0_0.expo.modules.av.player.SimpleExoPlayerData
+abi37_0_0/expo/modules/camera/utils/FileSystemUtils.java
+ abi37_0_0.expo.modules.camera.utils.FileSystemUtils
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/SetNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.SetNode
+abi37_0_0/expo/modules/payments/stripe/util/Fun0.java
+ abi37_0_0.expo.modules.payments.stripe.util.Fun0
+abi37_0_0/host/exp/exponent/modules/api/components/maps/LatLngBoundsUtils.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.LatLngBoundsUtils
+abi37_0_0/expo/modules/medialibrary/GetAlbum.java
+ abi37_0_0.expo.modules.medialibrary.GetAlbum
+abi37_0_0/org/unimodules/core/interfaces/CodedThrowable.java
+ abi37_0_0.org.unimodules.core.interfaces.CodedThrowable
+abi37_0_0/expo/modules/mailcomposer/MailComposerPackage.java
+ abi37_0_0.expo.modules.mailcomposer.MailComposerPackage
+abi37_0_0/expo/modules/google/signin/Serialization.java
+ abi37_0_0.expo.modules.google.signin.Serialization
+abi37_0_0/expo/modules/camera/CameraViewManager.java
+ abi37_0_0.expo.modules.camera.CameraViewManager
+ abi37_0_0.expo.modules.camera.CameraViewManager$Events
+abi37_0_0/host/exp/exponent/modules/universal/ExpoModuleRegistryAdapter.java
+ abi37_0_0.host.exp.exponent.modules.universal.ExpoModuleRegistryAdapter
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/PropsNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.PropsNode
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.PropsNode$1
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapGradientPolylineManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapGradientPolylineManager
+abi37_0_0/host/exp/exponent/ExponentPackageDelegate.java
+ abi37_0_0.host.exp.exponent.ExponentPackageDelegate
+abi37_0_0/expo/modules/filesystem/FilePermissionModule.java
+ abi37_0_0.expo.modules.filesystem.FilePermissionModule
+abi37_0_0/expo/modules/camera/events/FaceDetectionErrorEvent.java
+ abi37_0_0.expo.modules.camera.events.FaceDetectionErrorEvent
+abi37_0_0/org/unimodules/interfaces/sensors/services/GyroscopeService.java
+ abi37_0_0.org.unimodules.interfaces.sensors.services.GyroscopeService
+abi37_0_0/expo/modules/analytics/segment/SegmentPackage.java
+ abi37_0_0.expo.modules.analytics.segment.SegmentPackage
+abi37_0_0/expo/modules/device/DevicePackage.java
+ abi37_0_0.expo.modules.device.DevicePackage
+abi37_0_0/host/exp/exponent/modules/universal/av/SharedCookiesDataSourceFactoryProvider.java
+ abi37_0_0.host.exp.exponent.modules.universal.av.SharedCookiesDataSourceFactoryProvider
+abi37_0_0/host/exp/exponent/modules/api/components/viewpager/PageScrollEvent.java
+ abi37_0_0.host.exp.exponent.modules.api.components.viewpager.PageScrollEvent
+abi37_0_0/org/unimodules/adapters/react/services/RuntimeEnvironmentModule.java
+ abi37_0_0.org.unimodules.adapters.react.services.RuntimeEnvironmentModule
+ abi37_0_0.org.unimodules.adapters.react.services.RuntimeEnvironmentModule$1
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/OnTouchEventListener.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.OnTouchEventListener
+abi37_0_0/expo/modules/localization/LocalizationModule.java
+ abi37_0_0.expo.modules.localization.LocalizationModule
+abi37_0_0/org/unimodules/interfaces/sensors/services/MagnetometerService.java
+ abi37_0_0.org.unimodules.interfaces.sensors.services.MagnetometerService
+abi37_0_0/expo/modules/av/AVPackage.java
+ abi37_0_0.expo.modules.av.AVPackage
+abi37_0_0/expo/modules/barcodescanner/BarCodeScannerView.java
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerView
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerView$1
+abi37_0_0/host/exp/exponent/modules/api/components/svg/FontData.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.FontData
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.FontData$AbsoluteFontWeight
+abi37_0_0/expo/modules/payments/stripe/util/Action.java
+ abi37_0_0.expo.modules.payments.stripe.util.Action
+abi37_0_0/org/unimodules/core/errors/ModuleNotFoundException.java
+ abi37_0_0.org.unimodules.core.errors.ModuleNotFoundException
+abi37_0_0/host/exp/exponent/modules/api/components/svg/UseView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.UseView
+abi37_0_0/org/unimodules/interfaces/filesystem/FilePermissionModuleInterface.java
+ abi37_0_0.org.unimodules.interfaces.filesystem.FilePermissionModuleInterface
+abi37_0_0/expo/modules/taskManager/TaskManagerModule.java
+ abi37_0_0.expo.modules.taskManager.TaskManagerModule
+ abi37_0_0.expo.modules.taskManager.TaskManagerModule$1
+abi37_0_0/expo/modules/brightness/BrightnessPackage.java
+ abi37_0_0.expo.modules.brightness.BrightnessPackage
+abi37_0_0/host/exp/exponent/modules/api/components/svg/VirtualView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.VirtualView
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.VirtualView$1
+abi37_0_0/host/exp/expoview/R2.java
+ abi37_0_0.host.exp.expoview.R2
+ abi37_0_0.host.exp.expoview.R2$anim
+ abi37_0_0.host.exp.expoview.R2$array
+ abi37_0_0.host.exp.expoview.R2$attr
+ abi37_0_0.host.exp.expoview.R2$bool
+ abi37_0_0.host.exp.expoview.R2$color
+ abi37_0_0.host.exp.expoview.R2$dimen
+ abi37_0_0.host.exp.expoview.R2$drawable
+ abi37_0_0.host.exp.expoview.R2$id
+ abi37_0_0.host.exp.expoview.R2$integer
+ abi37_0_0.host.exp.expoview.R2$layout
+ abi37_0_0.host.exp.expoview.R2$menu
+ abi37_0_0.host.exp.expoview.R2$plurals
+ abi37_0_0.host.exp.expoview.R2$string
+ abi37_0_0.host.exp.expoview.R2$style
+ abi37_0_0.host.exp.expoview.R2$styleable
+abi37_0_0/host/exp/exponent/modules/api/components/svg/PropHelper.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.PropHelper
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.PropHelper$1
+abi37_0_0/host/exp/exponent/modules/api/safeareacontext/InsetsChangeEvent.java
+ abi37_0_0.host.exp.exponent.modules.api.safeareacontext.InsetsChangeEvent
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapWMSTile.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapWMSTile
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapWMSTile$AIRMapGSUrlTileProvider
+abi37_0_0/expo/modules/ads/admob/AdMobInterstitialAdModule.java
+ abi37_0_0.expo.modules.ads.admob.AdMobInterstitialAdModule
+ abi37_0_0.expo.modules.ads.admob.AdMobInterstitialAdModule$1
+ abi37_0_0.expo.modules.ads.admob.AdMobInterstitialAdModule$2
+ abi37_0_0.expo.modules.ads.admob.AdMobInterstitialAdModule$3
+ abi37_0_0.expo.modules.ads.admob.AdMobInterstitialAdModule$4
+ abi37_0_0.expo.modules.ads.admob.AdMobInterstitialAdModule$5
+ abi37_0_0.expo.modules.ads.admob.AdMobInterstitialAdModule$5$1
+ abi37_0_0.expo.modules.ads.admob.AdMobInterstitialAdModule$Events
+abi37_0_0/host/exp/exponent/modules/api/SplashScreenModule.java
+ abi37_0_0.host.exp.exponent.modules.api.SplashScreenModule
+abi37_0_0/host/exp/exponent/modules/api/screens/ScreenStackHeaderSubviewManager.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStackHeaderSubviewManager
+abi37_0_0/expo/modules/sharing/SharingModule.java
+ abi37_0_0.expo.modules.sharing.SharingModule
+abi37_0_0/org/unimodules/core/Promise.java
+ abi37_0_0.org.unimodules.core.Promise
+abi37_0_0/expo/modules/sensors/modules/BarometerModule.java
+ abi37_0_0.expo.modules.sensors.modules.BarometerModule
+abi37_0_0/host/exp/exponent/modules/universal/ScopedFirebaseCoreService.java
+ abi37_0_0.host.exp.exponent.modules.universal.ScopedFirebaseCoreService
+abi37_0_0/expo/modules/cellular/CellularPackage.java
+ abi37_0_0.expo.modules.cellular.CellularPackage
+abi37_0_0/org/unimodules/adapters/react/ReactAdapterPackage.java
+ abi37_0_0.org.unimodules.adapters.react.ReactAdapterPackage
+abi37_0_0/org/unimodules/interfaces/camera/CameraViewInterface.java
+ abi37_0_0.org.unimodules.interfaces.camera.CameraViewInterface
+abi37_0_0/expo/modules/imagepicker/ImagePickerFileProvider.java
+ abi37_0_0.expo.modules.imagepicker.ImagePickerFileProvider
+abi37_0_0/host/exp/exponent/modules/api/components/LinearGradientManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.LinearGradientManager
+abi37_0_0/expo/modules/mailcomposer/MailComposerModule.java
+ abi37_0_0.expo.modules.mailcomposer.MailComposerModule
+abi37_0_0/host/exp/exponent/modules/api/safeareacontext/SafeAreaViewManager.java
+ abi37_0_0.host.exp.exponent.modules.api.safeareacontext.SafeAreaViewManager
+ abi37_0_0.host.exp.exponent.modules.api.safeareacontext.SafeAreaViewManager$1
+abi37_0_0/expo/modules/contacts/models/EmailModel.java
+ abi37_0_0.expo.modules.contacts.models.EmailModel
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/react/RNGestureHandlerRootView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerRootView
+abi37_0_0/expo/modules/haptics/arguments/HapticsSelectionType.java
+ abi37_0_0.expo.modules.haptics.arguments.HapticsSelectionType
+abi37_0_0/expo/modules/contacts/models/PhoneNumberModel.java
+ abi37_0_0.expo.modules.contacts.models.PhoneNumberModel
+abi37_0_0/expo/modules/documentpicker/DocumentPickerModule.java
+ abi37_0_0.expo.modules.documentpicker.DocumentPickerModule
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapMarker.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapMarker
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapMarker$1
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapMarker$2
+abi37_0_0/host/exp/exponent/modules/api/components/sharedelement/RNSharedElementContent.java
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementContent
+abi37_0_0/org/unimodules/interfaces/facedetector/FaceDetectorProvider.java
+ abi37_0_0.org.unimodules.interfaces.facedetector.FaceDetectorProvider
+abi37_0_0/expo/modules/ads/admob/PublisherBannerView.java
+ abi37_0_0.expo.modules.ads.admob.PublisherBannerView
+ abi37_0_0.expo.modules.ads.admob.PublisherBannerView$1
+ abi37_0_0.expo.modules.ads.admob.PublisherBannerView$2
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/BaseGestureHandlerInteractionController.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.BaseGestureHandlerInteractionController
+abi37_0_0/expo/modules/contacts/Contact.java
+ abi37_0_0.expo.modules.contacts.Contact
+abi37_0_0/expo/modules/contacts/models/PostalAddressModel.java
+ abi37_0_0.expo.modules.contacts.models.PostalAddressModel
+abi37_0_0/expo/modules/payments/stripe/StripePackage.java
+ abi37_0_0.expo.modules.payments.stripe.StripePackage
+abi37_0_0/expo/modules/av/video/VideoManager.java
+ abi37_0_0.expo.modules.av.video.VideoManager
+ abi37_0_0.expo.modules.av.video.VideoManager$1
+ abi37_0_0.expo.modules.av.video.VideoManager$1$1
+ abi37_0_0.expo.modules.av.video.VideoManager$2
+ abi37_0_0.expo.modules.av.video.VideoManager$VideoViewCallback
+abi37_0_0/host/exp/exponent/modules/api/components/svg/GlyphContext.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.GlyphContext
+abi37_0_0/host/exp/exponent/modules/ExpoBaseModule.java
+ abi37_0_0.host.exp.exponent.modules.ExpoBaseModule
+abi37_0_0/expo/modules/battery/BatteryModule.java
+ abi37_0_0.expo.modules.battery.BatteryModule
+ abi37_0_0.expo.modules.battery.BatteryModule$BatteryState
+abi37_0_0/expo/modules/firebase/core/FirebaseCoreModule.java
+ abi37_0_0.expo.modules.firebase.core.FirebaseCoreModule
+abi37_0_0/expo/modules/sms/SMSModule.java
+ abi37_0_0.expo.modules.sms.SMSModule
+abi37_0_0/org/unimodules/core/errors/InvalidArgumentException.java
+ abi37_0_0.org.unimodules.core.errors.InvalidArgumentException
+abi37_0_0/expo/modules/taskManager/TaskManagerUtils.java
+ abi37_0_0.expo.modules.taskManager.TaskManagerUtils
+ abi37_0_0.expo.modules.taskManager.TaskManagerUtils$1
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapGradientPolyline.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapGradientPolyline
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapGradientPolyline$AirMapGradientPolylineProvider
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapGradientPolyline$MutPoint
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/PointerEventsConfig.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.PointerEventsConfig
+abi37_0_0/host/exp/exponent/modules/api/components/viewpager/RNCViewPagerPackage.java
+ abi37_0_0.host.exp.exponent.modules.api.components.viewpager.RNCViewPagerPackage
+abi37_0_0/org/unimodules/interfaces/sensors/services/AccelerometerService.java
+ abi37_0_0.org.unimodules.interfaces.sensors.services.AccelerometerService
+abi37_0_0/expo/modules/securestore/SecureStorePackage.java
+ abi37_0_0.expo.modules.securestore.SecureStorePackage
+abi37_0_0/expo/modules/facebook/FacebookPackage.java
+ abi37_0_0.expo.modules.facebook.FacebookPackage
+abi37_0_0/host/exp/exponent/modules/api/screens/ScreenContainerViewManager.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenContainerViewManager
+abi37_0_0/host/exp/exponent/modules/api/components/svg/GlyphPathBag.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.GlyphPathBag
+abi37_0_0/expo/modules/medialibrary/AddAssetsToAlbum.java
+ abi37_0_0.expo.modules.medialibrary.AddAssetsToAlbum
+ abi37_0_0.expo.modules.medialibrary.AddAssetsToAlbum$1
+abi37_0_0/expo/modules/imagepicker/ImagePickerFileUtils.java
+ abi37_0_0.expo.modules.imagepicker.ImagePickerFileUtils
+abi37_0_0/expo/modules/calendar/CalendarPackage.java
+ abi37_0_0.expo.modules.calendar.CalendarPackage
+abi37_0_0/host/exp/exponent/modules/api/components/maskedview/RNCMaskedViewPackage.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maskedview.RNCMaskedViewPackage
+abi37_0_0/expo/modules/barcodescanner/utils/Frame.java
+ abi37_0_0.expo.modules.barcodescanner.utils.Frame
+abi37_0_0/expo/modules/barcodescanner/BarCodeScannerProvider.java
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerProvider
+abi37_0_0/expo/modules/imagemanipulator/arguments/ActionCrop.java
+ abi37_0_0.expo.modules.imagemanipulator.arguments.ActionCrop
+abi37_0_0/host/exp/exponent/modules/universal/ScopedAmplitudeModule.java
+ abi37_0_0.host.exp.exponent.modules.universal.ScopedAmplitudeModule
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapPolygon.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapPolygon
+abi37_0_0/org/unimodules/interfaces/permissions/PermissionsStatus.java
+ abi37_0_0.org.unimodules.interfaces.permissions.PermissionsStatus
+abi37_0_0/expo/modules/camera/tasks/BarCodeScannerAsyncTaskDelegate.java
+ abi37_0_0.expo.modules.camera.tasks.BarCodeScannerAsyncTaskDelegate
+abi37_0_0/org/unimodules/interfaces/barcodescanner/BarCodeScanner.java
+ abi37_0_0.org.unimodules.interfaces.barcodescanner.BarCodeScanner
+abi37_0_0/host/exp/exponent/modules/api/components/svg/MaskView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.MaskView
+abi37_0_0/expo/modules/av/AVManagerInterface.java
+ abi37_0_0.expo.modules.av.AVManagerInterface
+abi37_0_0/expo/modules/ads/facebook/NativeAdViewManager.java
+ abi37_0_0.expo.modules.ads.facebook.NativeAdViewManager
+abi37_0_0/host/exp/exponent/modules/api/components/svg/SVGLength.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.SVGLength
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.SVGLength$1
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.SVGLength$UnitType
+abi37_0_0/expo/modules/ads/facebook/MediaViewManager.java
+ abi37_0_0.expo.modules.ads.facebook.MediaViewManager
+abi37_0_0/expo/modules/localauthentication/LocalAuthenticationModule.java
+ abi37_0_0.expo.modules.localauthentication.LocalAuthenticationModule
+ abi37_0_0.expo.modules.localauthentication.LocalAuthenticationModule$1
+ abi37_0_0.expo.modules.localauthentication.LocalAuthenticationModule$2
+ abi37_0_0.expo.modules.localauthentication.LocalAuthenticationModule$3
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapModule.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapModule
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapModule$1
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapModule$1$1
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapModule$2
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapModule$3
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapModule$4
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapModule$5
+abi37_0_0/expo/modules/sensors/services/GravitySensorService.java
+ abi37_0_0.expo.modules.sensors.services.GravitySensorService
+abi37_0_0/expo/modules/medialibrary/MediaLibraryPackage.java
+ abi37_0_0.expo.modules.medialibrary.MediaLibraryPackage
+abi37_0_0/host/exp/exponent/modules/api/components/maps/ViewChangesTracker.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.ViewChangesTracker
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.ViewChangesTracker$1
+abi37_0_0/host/exp/exponent/modules/api/components/webview/WebViewConfig.java
+ abi37_0_0.host.exp.exponent.modules.api.components.webview.WebViewConfig
+abi37_0_0/expo/modules/ads/facebook/AdIconViewManager.java
+ abi37_0_0.expo.modules.ads.facebook.AdIconViewManager
+abi37_0_0/expo/modules/location/exceptions/LocationUnavailableException.java
+ abi37_0_0.expo.modules.location.exceptions.LocationUnavailableException
+abi37_0_0/host/exp/exponent/modules/api/netinfo/types/ConnectionType.java
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.types.ConnectionType
+abi37_0_0/org/unimodules/adapters/react/views/ViewManagerAdapterUtils.java
+ abi37_0_0.org.unimodules.adapters.react.views.ViewManagerAdapterUtils
+abi37_0_0/expo/modules/location/LocationModule.java
+ abi37_0_0.expo.modules.location.LocationModule
+ abi37_0_0.expo.modules.location.LocationModule$1
+ abi37_0_0.expo.modules.location.LocationModule$10
+ abi37_0_0.expo.modules.location.LocationModule$11
+ abi37_0_0.expo.modules.location.LocationModule$12
+ abi37_0_0.expo.modules.location.LocationModule$2
+ abi37_0_0.expo.modules.location.LocationModule$3
+ abi37_0_0.expo.modules.location.LocationModule$4
+ abi37_0_0.expo.modules.location.LocationModule$5
+ abi37_0_0.expo.modules.location.LocationModule$6
+ abi37_0_0.expo.modules.location.LocationModule$7
+ abi37_0_0.expo.modules.location.LocationModule$8
+ abi37_0_0.expo.modules.location.LocationModule$9
+abi37_0_0/expo/modules/sensors/services/MagnetometerUncalibratedService.java
+ abi37_0_0.expo.modules.sensors.services.MagnetometerUncalibratedService
+abi37_0_0/host/exp/exponent/modules/api/components/datetimepicker/RNTimePickerDisplay.java
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNTimePickerDisplay
+abi37_0_0/expo/modules/gl/GLView.java
+ abi37_0_0.expo.modules.gl.GLView
+ abi37_0_0.expo.modules.gl.GLView$1
+ abi37_0_0.expo.modules.gl.GLView$1$1
+abi37_0_0/expo/modules/taskManager/TaskManagerInternalModule.java
+ abi37_0_0.expo.modules.taskManager.TaskManagerInternalModule
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapLiteManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapLiteManager
+abi37_0_0/expo/modules/ads/facebook/NativeAdLayout.java
+ abi37_0_0.expo.modules.ads.facebook.NativeAdLayout
+ abi37_0_0.expo.modules.ads.facebook.NativeAdLayout$1
+abi37_0_0/expo/modules/firebase/analytics/FirebaseAnalyticsPackage.java
+ abi37_0_0.expo.modules.firebase.analytics.FirebaseAnalyticsPackage
+abi37_0_0/expo/modules/medialibrary/MediaLibraryUtils.java
+ abi37_0_0.expo.modules.medialibrary.MediaLibraryUtils
+ abi37_0_0.expo.modules.medialibrary.MediaLibraryUtils$1
+ abi37_0_0.expo.modules.medialibrary.MediaLibraryUtils$2
+ abi37_0_0.expo.modules.medialibrary.MediaLibraryUtils$FileStrategy
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/react/RNGestureHandlerEvent.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerEvent
+abi37_0_0/host/exp/exponent/modules/api/components/datetimepicker/RNDateTimePickerPackage.java
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNDateTimePickerPackage
+abi37_0_0/expo/modules/av/video/FullscreenVideoPlayerPresentationChangeProgressListener.java
+ abi37_0_0.expo.modules.av.video.FullscreenVideoPlayerPresentationChangeProgressListener
+abi37_0_0/expo/modules/barcodescanner/scanners/ZxingBarCodeScanner.java
+ abi37_0_0.expo.modules.barcodescanner.scanners.ZxingBarCodeScanner
+ abi37_0_0.expo.modules.barcodescanner.scanners.ZxingBarCodeScanner$1
+ abi37_0_0.expo.modules.barcodescanner.scanners.ZxingBarCodeScanner$2
+abi37_0_0/expo/modules/sqlite/SQLitePackage.java
+ abi37_0_0.expo.modules.sqlite.SQLitePackage
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/GestureHandlerInteractionController.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.GestureHandlerInteractionController
+abi37_0_0/host/exp/exponent/modules/api/reanimated/transitions/ChangeTransition.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.transitions.ChangeTransition
+abi37_0_0/org/unimodules/adapters/react/views/ViewGroupManagerAdapter.java
+ abi37_0_0.org.unimodules.adapters.react.views.ViewGroupManagerAdapter
+abi37_0_0/expo/modules/font/FontLoaderPackage.java
+ abi37_0_0.expo.modules.font.FontLoaderPackage
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/PinchGestureHandler.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.PinchGestureHandler
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.PinchGestureHandler$1
+abi37_0_0/expo/modules/print/PrintModule.java
+ abi37_0_0.expo.modules.print.PrintModule
+ abi37_0_0.expo.modules.print.PrintModule$1
+ abi37_0_0.expo.modules.print.PrintModule$1$1
+ abi37_0_0.expo.modules.print.PrintModule$2
+ abi37_0_0.expo.modules.print.PrintModule$3
+ abi37_0_0.expo.modules.print.PrintModule$3$1
+ abi37_0_0.expo.modules.print.PrintModule$4
+abi37_0_0/expo/modules/sensors/modules/GyroscopeModule.java
+ abi37_0_0.expo.modules.sensors.modules.GyroscopeModule
+abi37_0_0/host/exp/exponent/modules/api/components/datetimepicker/RNDatePickerDialogModule.java
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNDatePickerDialogModule
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNDatePickerDialogModule$1
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNDatePickerDialogModule$DatePickerDialogListener
+abi37_0_0/host/exp/exponent/modules/universal/sensors/ScopedGyroscopeService.java
+ abi37_0_0.host.exp.exponent.modules.universal.sensors.ScopedGyroscopeService
+abi37_0_0/expo/modules/filesystem/FileSystemModule.java
+ abi37_0_0.expo.modules.filesystem.FileSystemModule
+ abi37_0_0.expo.modules.filesystem.FileSystemModule$1
+ abi37_0_0.expo.modules.filesystem.FileSystemModule$2
+ abi37_0_0.expo.modules.filesystem.FileSystemModule$3
+ abi37_0_0.expo.modules.filesystem.FileSystemModule$DownloadResumable
+ abi37_0_0.expo.modules.filesystem.FileSystemModule$DownloadResumableTask
+ abi37_0_0.expo.modules.filesystem.FileSystemModule$DownloadResumableTaskParams
+ abi37_0_0.expo.modules.filesystem.FileSystemModule$ProgressListener
+ abi37_0_0.expo.modules.filesystem.FileSystemModule$ProgressResponseBody
+ abi37_0_0.expo.modules.filesystem.FileSystemModule$ProgressResponseBody$1
+abi37_0_0/org/unimodules/interfaces/barcodescanner/BarCodeScannerSettingsKey.java
+ abi37_0_0.org.unimodules.interfaces.barcodescanner.BarCodeScannerSettingsKey
+abi37_0_0/expo/modules/intentlauncher/exceptions/ActivityAlreadyStartedException.java
+ abi37_0_0.expo.modules.intentlauncher.exceptions.ActivityAlreadyStartedException
+abi37_0_0/expo/modules/sensors/modules/DeviceMotionModule.java
+ abi37_0_0.expo.modules.sensors.modules.DeviceMotionModule
+ abi37_0_0.expo.modules.sensors.modules.DeviceMotionModule$1
+ abi37_0_0.expo.modules.sensors.modules.DeviceMotionModule$2
+ abi37_0_0.expo.modules.sensors.modules.DeviceMotionModule$DispatchEventRunnable
+ abi37_0_0.expo.modules.sensors.modules.DeviceMotionModule$ScheduleDispatchFrameCallback
+ abi37_0_0.expo.modules.sensors.modules.DeviceMotionModule$ScheduleDispatchFrameCallback$1
+abi37_0_0/host/exp/exponent/modules/api/components/svg/TextProperties.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextProperties
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextProperties$AlignmentBaseline
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextProperties$Direction
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextProperties$FontStyle
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextProperties$FontVariantLigatures
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextProperties$FontWeight
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextProperties$TextAnchor
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextProperties$TextDecoration
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextProperties$TextLengthAdjust
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextProperties$TextPathMethod
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextProperties$TextPathMidLine
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextProperties$TextPathSide
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextProperties$TextPathSpacing
+abi37_0_0/expo/modules/sensors/services/PedometerService.java
+ abi37_0_0.expo.modules.sensors.services.PedometerService
+abi37_0_0/org/unimodules/core/interfaces/SingletonModule.java
+ abi37_0_0.org.unimodules.core.interfaces.SingletonModule
+abi37_0_0/com/facebook/react/views/modal/RNGHModalUtils.java
+ abi37_0_0.com.facebook.react.views.modal.RNGHModalUtils
+abi37_0_0/expo/modules/gl/GLObject.java
+ abi37_0_0.expo.modules.gl.GLObject
+abi37_0_0/expo/modules/ads/facebook/NativeAdView.java
+ abi37_0_0.expo.modules.ads.facebook.NativeAdView
+abi37_0_0/expo/modules/keepawake/ExpoKeepAwakeManager.java
+ abi37_0_0.expo.modules.keepawake.ExpoKeepAwakeManager
+abi37_0_0/host/exp/exponent/modules/api/components/svg/MarkerView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.MarkerView
+abi37_0_0/org/unimodules/core/ViewManager.java
+ abi37_0_0.org.unimodules.core.ViewManager
+ abi37_0_0.org.unimodules.core.ViewManager$PropSetterInfo
+ abi37_0_0.org.unimodules.core.ViewManager$ViewManagerType
+abi37_0_0/org/unimodules/adapters/react/ModuleRegistryAdapter.java
+ abi37_0_0.org.unimodules.adapters.react.ModuleRegistryAdapter
+ abi37_0_0.org.unimodules.adapters.react.ModuleRegistryAdapter$1
+abi37_0_0/host/exp/exponent/modules/universal/sensors/BaseSensorService.java
+ abi37_0_0.host.exp.exponent.modules.universal.sensors.BaseSensorService
+abi37_0_0/expo/modules/facedetector/ExpoFaceDetectorProvider.java
+ abi37_0_0.expo.modules.facedetector.ExpoFaceDetectorProvider
+abi37_0_0/host/exp/exponent/modules/api/netinfo/AmazonFireDeviceConnectivityPoller.java
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.AmazonFireDeviceConnectivityPoller
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.AmazonFireDeviceConnectivityPoller$1
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.AmazonFireDeviceConnectivityPoller$ConnectivityChangedCallback
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.AmazonFireDeviceConnectivityPoller$PollerTask
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.AmazonFireDeviceConnectivityPoller$Receiver
+abi37_0_0/org/unimodules/core/errors/CodedRuntimeException.java
+ abi37_0_0.org.unimodules.core.errors.CodedRuntimeException
+abi37_0_0/org/unimodules/adapters/react/services/EventEmitterModule.java
+ abi37_0_0.org.unimodules.adapters.react.services.EventEmitterModule
+ abi37_0_0.org.unimodules.adapters.react.services.EventEmitterModule$1
+ abi37_0_0.org.unimodules.adapters.react.services.EventEmitterModule$2
+abi37_0_0/expo/modules/medialibrary/MediaLibraryModule.java
+ abi37_0_0.expo.modules.medialibrary.MediaLibraryModule
+ abi37_0_0.expo.modules.medialibrary.MediaLibraryModule$1
+ abi37_0_0.expo.modules.medialibrary.MediaLibraryModule$1$1
+ abi37_0_0.expo.modules.medialibrary.MediaLibraryModule$1$2
+ abi37_0_0.expo.modules.medialibrary.MediaLibraryModule$MediaStoreContentObserver
+abi37_0_0/host/exp/exponent/ExponentDevBundleDownloadListener.java
+ abi37_0_0.host.exp.exponent.ExponentDevBundleDownloadListener
+abi37_0_0/expo/modules/av/player/PlayerDataControl.java
+ abi37_0_0.expo.modules.av.player.PlayerDataControl
+abi37_0_0/expo/modules/ads/admob/PublisherBannerViewManager.java
+ abi37_0_0.expo.modules.ads.admob.PublisherBannerViewManager
+ abi37_0_0.expo.modules.ads.admob.PublisherBannerViewManager$Events
+abi37_0_0/expo/modules/haptics/HapticsPackage.java
+ abi37_0_0.expo.modules.haptics.HapticsPackage
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapOverlay.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapOverlay
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/react/RNGestureHandlerButtonViewManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerButtonViewManager
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerButtonViewManager$ButtonViewGroup
+abi37_0_0/expo/modules/payments/stripe/OpenBrowserActivity.java
+ abi37_0_0.expo.modules.payments.stripe.OpenBrowserActivity
+abi37_0_0/expo/modules/barcodescanner/BarCodeScannerViewManager.java
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerViewManager
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerViewManager$1
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerViewManager$Events
+abi37_0_0/host/exp/exponent/modules/api/components/sharedelement/RNSharedElementTransitionManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementTransitionManager
+abi37_0_0/host/exp/exponent/modules/api/components/svg/RectView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RectView
+abi37_0_0/expo/modules/cellular/CellularModule.java
+ abi37_0_0.expo.modules.cellular.CellularModule
+ abi37_0_0.expo.modules.cellular.CellularModule$CellularGeneration
+abi37_0_0/org/unimodules/interfaces/sensors/SensorServiceSubscription.java
+ abi37_0_0.org.unimodules.interfaces.sensors.SensorServiceSubscription
+abi37_0_0/host/exp/exponent/modules/api/components/svg/PatternView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.PatternView
+abi37_0_0/expo/modules/sensors/modules/MagnetometerModule.java
+ abi37_0_0.expo.modules.sensors.modules.MagnetometerModule
+abi37_0_0/expo/modules/facedetector/tasks/FileFaceDetectionCompletionListener.java
+ abi37_0_0.expo.modules.facedetector.tasks.FileFaceDetectionCompletionListener
+abi37_0_0/expo/modules/webbrowser/WebBrowserPackage.java
+ abi37_0_0.expo.modules.webbrowser.WebBrowserPackage
+abi37_0_0/org/unimodules/core/interfaces/ActivityProvider.java
+ abi37_0_0.org.unimodules.core.interfaces.ActivityProvider
+abi37_0_0/expo/modules/haptics/arguments/HapticsVibrationType.java
+ abi37_0_0.expo.modules.haptics.arguments.HapticsVibrationType
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/react/RNGestureHandlerPackage.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerPackage
+abi37_0_0/host/exp/exponent/modules/api/screens/ScreenStackFragment.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStackFragment
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStackFragment$NotifyingCoordinatorLayout
+abi37_0_0/expo/modules/medialibrary/DeleteAlbums.java
+ abi37_0_0.expo.modules.medialibrary.DeleteAlbums
+abi37_0_0/expo/modules/sensors/services/MagnetometerService.java
+ abi37_0_0.expo.modules.sensors.services.MagnetometerService
+abi37_0_0/expo/modules/av/video/FullscreenVideoPlayer.java
+ abi37_0_0.expo.modules.av.video.FullscreenVideoPlayer
+ abi37_0_0.expo.modules.av.video.FullscreenVideoPlayer$KeepScreenOnUpdater
+abi37_0_0/expo/modules/font/FontLoaderModule.java
+ abi37_0_0.expo.modules.font.FontLoaderModule
+abi37_0_0/expo/modules/ads/facebook/NativeAdLayoutManager.java
+ abi37_0_0.expo.modules.ads.facebook.NativeAdLayoutManager
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/react/RNGestureHandlerStateChangeEvent.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerStateChangeEvent
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapHeatmapManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapHeatmapManager
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/GestureHandler.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.GestureHandler
+abi37_0_0/host/exp/exponent/modules/api/screens/ScreenContainer.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenContainer
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenContainer$1
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenContainer$2
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenContainer$3
+abi37_0_0/org/unimodules/core/interfaces/Consumer.java
+ abi37_0_0.org.unimodules.core.interfaces.Consumer
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/EventNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.EventNode
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.EventNode$EventMap
+abi37_0_0/host/exp/exponent/modules/api/components/LinearGradientView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.LinearGradientView
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/NoopNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.NoopNode
+abi37_0_0/host/exp/exponent/modules/api/components/webview/RNCWebViewModule.java
+ abi37_0_0.host.exp.exponent.modules.api.components.webview.RNCWebViewModule
+ abi37_0_0.host.exp.exponent.modules.api.components.webview.RNCWebViewModule$1
+abi37_0_0/expo/modules/location/taskConsumers/LocationTaskConsumer.java
+ abi37_0_0.expo.modules.location.taskConsumers.LocationTaskConsumer
+ abi37_0_0.expo.modules.location.taskConsumers.LocationTaskConsumer$1
+ abi37_0_0.expo.modules.location.taskConsumers.LocationTaskConsumer$2
+ abi37_0_0.expo.modules.location.taskConsumers.LocationTaskConsumer$3
+abi37_0_0/org/unimodules/core/ArgumentsHelper.java
+ abi37_0_0.org.unimodules.core.ArgumentsHelper
+abi37_0_0/expo/modules/facedetector/FaceDetectorModule.java
+ abi37_0_0.expo.modules.facedetector.FaceDetectorModule
+ abi37_0_0.expo.modules.facedetector.FaceDetectorModule$1
+ abi37_0_0.expo.modules.facedetector.FaceDetectorModule$1$1
+ abi37_0_0.expo.modules.facedetector.FaceDetectorModule$1$2
+ abi37_0_0.expo.modules.facedetector.FaceDetectorModule$1$3
+ abi37_0_0.expo.modules.facedetector.FaceDetectorModule$2
+abi37_0_0/expo/modules/barcodescanner/BarCodeScannerModule.java
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerModule
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerModule$1
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerModule$2
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerModule$2$1
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerModule$3
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerModule$3$1
+abi37_0_0/host/exp/exponent/modules/api/components/datetimepicker/RNTimePickerDialogModule.java
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNTimePickerDialogModule
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNTimePickerDialogModule$1
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNTimePickerDialogModule$TimePickerDialogListener
+abi37_0_0/host/exp/exponent/modules/api/components/sharedelement/RNSharedElementPackage.java
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementPackage
+abi37_0_0/org/unimodules/core/interfaces/services/KeepAwakeManager.java
+ abi37_0_0.org.unimodules.core.interfaces.services.KeepAwakeManager
+abi37_0_0/expo/modules/imagemanipulator/FileUtils.java
+ abi37_0_0.expo.modules.imagemanipulator.FileUtils
+abi37_0_0/expo/modules/ads/facebook/BannerViewManager.java
+ abi37_0_0.expo.modules.ads.facebook.BannerViewManager
+abi37_0_0/host/exp/exponent/modules/api/KeepAwakeModule.java
+ abi37_0_0.host.exp.exponent.modules.api.KeepAwakeModule
+ abi37_0_0.host.exp.exponent.modules.api.KeepAwakeModule$1
+ abi37_0_0.host.exp.exponent.modules.api.KeepAwakeModule$2
+abi37_0_0/host/exp/exponent/modules/api/screens/ScreenStackViewManager.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStackViewManager
+abi37_0_0/expo/modules/barcodescanner/BarCodeScannedEvent.java
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannedEvent
+abi37_0_0/host/exp/exponent/modules/universal/sensors/SensorSubscription.java
+ abi37_0_0.host.exp.exponent.modules.universal.sensors.SensorSubscription
+abi37_0_0/host/exp/exponent/modules/api/screens/ScreenViewManager.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenViewManager
+abi37_0_0/host/exp/exponent/modules/api/screens/ScreenStackHeaderConfigViewManager.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStackHeaderConfigViewManager
+abi37_0_0/expo/modules/contacts/models/ExtraNameModel.java
+ abi37_0_0.expo.modules.contacts.models.ExtraNameModel
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/GestureHandlerRegistryImpl.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.GestureHandlerRegistryImpl
+abi37_0_0/host/exp/exponent/modules/universal/sensors/ScopedAccelerometerService.java
+ abi37_0_0.host.exp.exponent.modules.universal.sensors.ScopedAccelerometerService
+abi37_0_0/host/exp/exponent/modules/universal/ScopedUIManagerModuleWrapper.java
+ abi37_0_0.host.exp.exponent.modules.universal.ScopedUIManagerModuleWrapper
+ abi37_0_0.host.exp.exponent.modules.universal.ScopedUIManagerModuleWrapper$1
+abi37_0_0/expo/modules/sensors/services/LinearAccelerationSensorService.java
+ abi37_0_0.expo.modules.sensors.services.LinearAccelerationSensorService
+abi37_0_0/expo/modules/facedetector/ExpoFaceDetector.java
+ abi37_0_0.expo.modules.facedetector.ExpoFaceDetector
+abi37_0_0/expo/modules/facedetector/ImageDimensions.java
+ abi37_0_0.expo.modules.facedetector.ImageDimensions
+abi37_0_0/org/unimodules/core/arguments/ReadableArguments.java
+ abi37_0_0.org.unimodules.core.arguments.ReadableArguments
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/PointerEvents.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.PointerEvents
+abi37_0_0/expo/modules/webbrowser/error/NoPreferredPackageFound.java
+ abi37_0_0.expo.modules.webbrowser.error.NoPreferredPackageFound
+abi37_0_0/expo/modules/contacts/ContactsPackage.java
+ abi37_0_0.expo.modules.contacts.ContactsPackage
+abi37_0_0/org/unimodules/interfaces/facedetector/FaceDetectionSkipped.java
+ abi37_0_0.org.unimodules.interfaces.facedetector.FaceDetectionSkipped
+abi37_0_0/expo/modules/taskManager/exceptions/TaskRegisteringFailedException.java
+ abi37_0_0.expo.modules.taskManager.exceptions.TaskRegisteringFailedException
+abi37_0_0/host/exp/exponent/modules/api/safeareacontext/EdgeInsets.java
+ abi37_0_0.host.exp.exponent.modules.api.safeareacontext.EdgeInsets
+abi37_0_0/host/exp/exponent/modules/api/components/svg/RadialGradientView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RadialGradientView
+abi37_0_0/expo/modules/camera/ExpoCameraView.java
+ abi37_0_0.expo.modules.camera.ExpoCameraView
+ abi37_0_0.expo.modules.camera.ExpoCameraView$1
+abi37_0_0/expo/modules/google/signin/AuthTask.java
+ abi37_0_0.expo.modules.google.signin.AuthTask
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/ValueNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.ValueNode
+abi37_0_0/host/exp/exponent/modules/universal/ScopedModuleRegistryAdapter.java
+ abi37_0_0.host.exp.exponent.modules.universal.ScopedModuleRegistryAdapter
+abi37_0_0/host/exp/exponent/modules/api/safeareacontext/SafeAreaContextPackage.java
+ abi37_0_0.host.exp.exponent.modules.api.safeareacontext.SafeAreaContextPackage
+abi37_0_0/host/exp/exponent/modules/api/components/maps/RegionChangeEvent.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.RegionChangeEvent
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/LongPressGestureHandler.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.LongPressGestureHandler
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.LongPressGestureHandler$1
+abi37_0_0/host/exp/expoview/BuildConfig.java
+ abi37_0_0.host.exp.expoview.BuildConfig
+abi37_0_0/expo/modules/sensors/services/AccelerometerService.java
+ abi37_0_0.expo.modules.sensors.services.AccelerometerService
+abi37_0_0/expo/modules/medialibrary/CreateAsset.java
+ abi37_0_0.expo.modules.medialibrary.CreateAsset
+ abi37_0_0.expo.modules.medialibrary.CreateAsset$1
+abi37_0_0/host/exp/exponent/modules/api/components/sharedelement/RNSharedElementStyle.java
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementStyle
+abi37_0_0/expo/modules/location/exceptions/LocationSettingsUnsatisfiedException.java
+ abi37_0_0.expo.modules.location.exceptions.LocationSettingsUnsatisfiedException
+abi37_0_0/host/exp/exponent/modules/api/components/maps/FileUtil.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.FileUtil
+abi37_0_0/org/unimodules/adapters/react/services/FontManagerModule.java
+ abi37_0_0.org.unimodules.adapters.react.services.FontManagerModule
+abi37_0_0/expo/modules/location/LocationPackage.java
+ abi37_0_0.expo.modules.location.LocationPackage
+abi37_0_0/expo/modules/imagemanipulator/arguments/ActionFlip.java
+ abi37_0_0.expo.modules.imagemanipulator.arguments.ActionFlip
+abi37_0_0/expo/modules/firebase/analytics/FirebaseAnalyticsModule.java
+ abi37_0_0.expo.modules.firebase.analytics.FirebaseAnalyticsModule
+ abi37_0_0.expo.modules.firebase.analytics.FirebaseAnalyticsModule$1
+abi37_0_0/expo/modules/backgroundfetch/BackgroundFetchModule.java
+ abi37_0_0.expo.modules.backgroundfetch.BackgroundFetchModule
+abi37_0_0/expo/modules/imagemanipulator/ImageManipulatorModule.java
+ abi37_0_0.expo.modules.imagemanipulator.ImageManipulatorModule
+ abi37_0_0.expo.modules.imagemanipulator.ImageManipulatorModule$1
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$1
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$10
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$11
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$12
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$13
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$14
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$15
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$16
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$2
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$3
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$4
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$5
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$6
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$7
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$8
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapView$9
+abi37_0_0/expo/modules/av/player/MediaPlayerData.java
+ abi37_0_0.expo.modules.av.player.MediaPlayerData
+ abi37_0_0.expo.modules.av.player.MediaPlayerData$1
+ abi37_0_0.expo.modules.av.player.MediaPlayerData$2
+ abi37_0_0.expo.modules.av.player.MediaPlayerData$2$1
+abi37_0_0/host/exp/exponent/modules/ExpoKernelServiceConsumerBaseModule.java
+ abi37_0_0.host.exp.exponent.modules.ExpoKernelServiceConsumerBaseModule
+abi37_0_0/host/exp/exponent/modules/api/screens/ScreenFragment.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenFragment
+abi37_0_0/expo/modules/av/AVModule.java
+ abi37_0_0.expo.modules.av.AVModule
+abi37_0_0/expo/modules/contacts/models/DateModel.java
+ abi37_0_0.expo.modules.contacts.models.DateModel
+abi37_0_0/host/exp/exponent/modules/universal/sensors/ScopedGravitySensorService.java
+ abi37_0_0.host.exp.exponent.modules.universal.sensors.ScopedGravitySensorService
+abi37_0_0/org/unimodules/interfaces/sensors/SensorService.java
+ abi37_0_0.org.unimodules.interfaces.sensors.SensorService
+abi37_0_0/expo/modules/analytics/amplitude/AmplitudePackage.java
+ abi37_0_0.expo.modules.analytics.amplitude.AmplitudePackage
+abi37_0_0/org/unimodules/core/interfaces/RegistryLifecycleListener.java
+ abi37_0_0.org.unimodules.core.interfaces.RegistryLifecycleListener
+abi37_0_0/host/exp/exponent/modules/api/components/datetimepicker/RNDatePickerDisplay.java
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNDatePickerDisplay
+abi37_0_0/expo/modules/speech/SpeechPackage.java
+ abi37_0_0.expo.modules.speech.SpeechPackage
+abi37_0_0/host/exp/exponent/modules/api/components/svg/TSpanView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TSpanView
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TSpanView$1
+abi37_0_0/expo/modules/camera/events/CameraReadyEvent.java
+ abi37_0_0.expo.modules.camera.events.CameraReadyEvent
+abi37_0_0/host/exp/exponent/modules/api/netinfo/NetworkCallbackConnectivityReceiver.java
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.NetworkCallbackConnectivityReceiver
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.NetworkCallbackConnectivityReceiver$1
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.NetworkCallbackConnectivityReceiver$ConnectivityNetworkCallback
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/react/RNGestureHandlerEventDataExtractor.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerEventDataExtractor
+abi37_0_0/expo/modules/sensors/services/SubscribableSensorService.java
+ abi37_0_0.expo.modules.sensors.services.SubscribableSensorService
+abi37_0_0/expo/modules/av/AudioEventHandler.java
+ abi37_0_0.expo.modules.av.AudioEventHandler
+abi37_0_0/org/unimodules/interfaces/sensors/services/GravitySensorService.java
+ abi37_0_0.org.unimodules.interfaces.sensors.services.GravitySensorService
+abi37_0_0/expo/modules/gl/GLPackage.java
+ abi37_0_0.expo.modules.gl.GLPackage
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/FinalNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.FinalNode
+abi37_0_0/expo/modules/device/DeviceModule.java
+ abi37_0_0.expo.modules.device.DeviceModule
+ abi37_0_0.expo.modules.device.DeviceModule$DeviceType
+abi37_0_0/expo/modules/contacts/EXColumns.java
+ abi37_0_0.expo.modules.contacts.EXColumns
+abi37_0_0/expo/modules/facedetector/FaceDetectorUtils.java
+ abi37_0_0.expo.modules.facedetector.FaceDetectorUtils
+ abi37_0_0.expo.modules.facedetector.FaceDetectorUtils$LandmarkId
+abi37_0_0/host/exp/exponent/modules/api/components/maps/ImageUtil.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.ImageUtil
+abi37_0_0/host/exp/exponent/modules/api/screens/ScreenAppearEvent.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenAppearEvent
+abi37_0_0/expo/modules/location/exceptions/LocationRequestTimeoutException.java
+ abi37_0_0.expo.modules.location.exceptions.LocationRequestTimeoutException
+abi37_0_0/expo/modules/imageloader/SimpleSettableFuture.java
+ abi37_0_0.expo.modules.imageloader.SimpleSettableFuture
+abi37_0_0/expo/modules/print/PrintPackage.java
+ abi37_0_0.expo.modules.print.PrintPackage
+abi37_0_0/host/exp/exponent/modules/api/components/svg/EllipseView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.EllipseView
+abi37_0_0/expo/modules/camera/events/FacesDetectedEvent.java
+ abi37_0_0.expo.modules.camera.events.FacesDetectedEvent
+abi37_0_0/expo/modules/random/RandomModule.java
+ abi37_0_0.expo.modules.random.RandomModule
+abi37_0_0/expo/modules/speech/LanguageUtils.java
+ abi37_0_0.expo.modules.speech.LanguageUtils
+abi37_0_0/expo/modules/medialibrary/DeleteAssets.java
+ abi37_0_0.expo.modules.medialibrary.DeleteAssets
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/TransformNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.TransformNode
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.TransformNode$1
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.TransformNode$AnimatedTransformConfig
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.TransformNode$StaticTransformConfig
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.TransformNode$TransformConfig
+abi37_0_0/org/unimodules/core/errors/CurrentActivityNotFoundException.java
+ abi37_0_0.org.unimodules.core.errors.CurrentActivityNotFoundException
+abi37_0_0/expo/modules/imagemanipulator/arguments/ActionResize.java
+ abi37_0_0.expo.modules.imagemanipulator.arguments.ActionResize
+abi37_0_0/expo/modules/payments/stripe/PayFlow.java
+ abi37_0_0.expo.modules.payments.stripe.PayFlow
+abi37_0_0/expo/modules/av/video/FullscreenVideoPlayerPresentationChangeListener.java
+ abi37_0_0.expo.modules.av.video.FullscreenVideoPlayerPresentationChangeListener
+abi37_0_0/host/exp/exponent/modules/api/screens/ScreenStackHeaderSubview.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStackHeaderSubview
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStackHeaderSubview$Type
+abi37_0_0/host/exp/exponent/modules/api/components/svg/DefsView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.DefsView
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/ViewConfigurationHelper.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.ViewConfigurationHelper
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/TapGestureHandler.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.TapGestureHandler
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.TapGestureHandler$1
+abi37_0_0/host/exp/exponent/modules/api/reanimated/MapUtils.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.MapUtils
+abi37_0_0/host/exp/exponent/modules/universal/sensors/ScopedRotationVectorSensorService.java
+ abi37_0_0.host.exp.exponent.modules.universal.sensors.ScopedRotationVectorSensorService
+abi37_0_0/host/exp/exponent/modules/api/reanimated/ReanimatedModule.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedModule
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedModule$1
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedModule$10
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedModule$11
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedModule$12
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedModule$2
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedModule$3
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedModule$4
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedModule$5
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedModule$6
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedModule$7
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedModule$8
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedModule$9
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedModule$UIThreadOperation
+abi37_0_0/expo/modules/filesystem/FileSystemPackage.java
+ abi37_0_0.expo.modules.filesystem.FileSystemPackage
+abi37_0_0/expo/modules/barcodescanner/ExpoBarCodeScanner.java
+ abi37_0_0.expo.modules.barcodescanner.ExpoBarCodeScanner
+ abi37_0_0.expo.modules.barcodescanner.ExpoBarCodeScanner$CameraInfoWrapper
+abi37_0_0/org/unimodules/adapters/react/services/CookieManagerModule.java
+ abi37_0_0.org.unimodules.adapters.react.services.CookieManagerModule
+abi37_0_0/expo/modules/camera/events/CameraMountErrorEvent.java
+ abi37_0_0.expo.modules.camera.events.CameraMountErrorEvent
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapCircle.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapCircle
+abi37_0_0/expo/modules/imagepicker/ImagePickerModule.java
+ abi37_0_0.expo.modules.imagepicker.ImagePickerModule
+ abi37_0_0.expo.modules.imagepicker.ImagePickerModule$1
+ abi37_0_0.expo.modules.imagepicker.ImagePickerModule$1$1
+abi37_0_0/host/exp/exponent/modules/api/viewshot/DebugViews.java
+ abi37_0_0.host.exp.exponent.modules.api.viewshot.DebugViews
+abi37_0_0/org/unimodules/interfaces/facedetector/FacesDetectionCompleted.java
+ abi37_0_0.org.unimodules.interfaces.facedetector.FacesDetectionCompleted
+abi37_0_0/expo/modules/camera/CameraPackage.java
+ abi37_0_0.expo.modules.camera.CameraPackage
+abi37_0_0/expo/modules/payments/stripe/util/PayParams.java
+ abi37_0_0.expo.modules.payments.stripe.util.PayParams
+abi37_0_0/expo/modules/facedetector/tasks/FileFaceDetectionTask.java
+ abi37_0_0.expo.modules.facedetector.tasks.FileFaceDetectionTask
+abi37_0_0/expo/modules/securestore/SecureStoreModule.java
+ abi37_0_0.expo.modules.securestore.SecureStoreModule
+ abi37_0_0.expo.modules.securestore.SecureStoreModule$1
+ abi37_0_0.expo.modules.securestore.SecureStoreModule$AESEncrypter
+ abi37_0_0.expo.modules.securestore.SecureStoreModule$HybridAESEncrypter
+ abi37_0_0.expo.modules.securestore.SecureStoreModule$KeyBasedEncrypter
+ abi37_0_0.expo.modules.securestore.SecureStoreModule$LegacySDK20Encrypter
+abi37_0_0/expo/modules/appauth/UnsafeConnectionBuilder.java
+ abi37_0_0.expo.modules.appauth.UnsafeConnectionBuilder
+abi37_0_0/expo/modules/firebase/core/FirebaseCoreService.java
+ abi37_0_0.expo.modules.firebase.core.FirebaseCoreService
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/FlingGestureHandler.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.FlingGestureHandler
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.FlingGestureHandler$1
+abi37_0_0/org/unimodules/interfaces/sensors/services/BarometerService.java
+ abi37_0_0.org.unimodules.interfaces.sensors.services.BarometerService
+abi37_0_0/expo/modules/constants/ConstantsPackage.java
+ abi37_0_0.expo.modules.constants.ConstantsPackage
+abi37_0_0/host/exp/exponent/modules/api/components/sharedelement/RNSharedElementDrawable.java
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementDrawable
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementDrawable$1
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementDrawable$ViewType
+abi37_0_0/expo/modules/taskManager/exceptions/InvalidConsumerClassException.java
+ abi37_0_0.expo.modules.taskManager.exceptions.InvalidConsumerClassException
+abi37_0_0/expo/modules/camera/tasks/PictureSavedDelegate.java
+ abi37_0_0.expo.modules.camera.tasks.PictureSavedDelegate
+abi37_0_0/host/exp/exponent/modules/api/reanimated/transitions/TransitionModule.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.transitions.TransitionModule
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.transitions.TransitionModule$1
+abi37_0_0/expo/modules/taskManager/TaskBroadcastReceiver.java
+ abi37_0_0.expo.modules.taskManager.TaskBroadcastReceiver
+abi37_0_0/expo/modules/network/NetworkModule.java
+ abi37_0_0.expo.modules.network.NetworkModule
+ abi37_0_0.expo.modules.network.NetworkModule$NetworkStateType
+abi37_0_0/host/exp/exponent/modules/api/netinfo/NetInfoUtils.java
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.NetInfoUtils
+abi37_0_0/org/unimodules/core/interfaces/ExpoMethod.java
+ abi37_0_0.org.unimodules.core.interfaces.ExpoMethod
+abi37_0_0/expo/modules/analytics/segment/SegmentModule.java
+ abi37_0_0.expo.modules.analytics.segment.SegmentModule
+abi37_0_0/expo/modules/av/player/datasource/CustomHeadersOkHttpDataSourceFactory.java
+ abi37_0_0.expo.modules.av.player.datasource.CustomHeadersOkHttpDataSourceFactory
+abi37_0_0/org/unimodules/core/arguments/MapArguments.java
+ abi37_0_0.org.unimodules.core.arguments.MapArguments
+abi37_0_0/host/exp/exponent/modules/api/safeareacontext/SafeAreaUtils.java
+ abi37_0_0.host.exp.exponent.modules.api.safeareacontext.SafeAreaUtils
+abi37_0_0/expo/modules/webbrowser/WebBrowserModule.java
+ abi37_0_0.expo.modules.webbrowser.WebBrowserModule
+abi37_0_0/expo/modules/calendar/EventNotSavedException.java
+ abi37_0_0.expo.modules.calendar.EventNotSavedException
+abi37_0_0/expo/modules/medialibrary/GetAssets.java
+ abi37_0_0.expo.modules.medialibrary.GetAssets
+abi37_0_0/host/exp/exponent/modules/universal/sensors/ScopedMagnetometerUncalibratedService.java
+ abi37_0_0.host.exp.exponent.modules.universal.sensors.ScopedMagnetometerUncalibratedService
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/CondNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.CondNode
+abi37_0_0/expo/modules/calendar/CalendarModule.java
+ abi37_0_0.expo.modules.calendar.CalendarModule
+ abi37_0_0.expo.modules.calendar.CalendarModule$1
+ abi37_0_0.expo.modules.calendar.CalendarModule$10
+ abi37_0_0.expo.modules.calendar.CalendarModule$2
+ abi37_0_0.expo.modules.calendar.CalendarModule$3
+ abi37_0_0.expo.modules.calendar.CalendarModule$4
+ abi37_0_0.expo.modules.calendar.CalendarModule$5
+ abi37_0_0.expo.modules.calendar.CalendarModule$6
+ abi37_0_0.expo.modules.calendar.CalendarModule$7
+ abi37_0_0.expo.modules.calendar.CalendarModule$8
+ abi37_0_0.expo.modules.calendar.CalendarModule$9
+abi37_0_0/host/exp/exponent/modules/api/components/svg/TextView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextView
+abi37_0_0/expo/modules/camera/tasks/ResolveTakenPictureAsyncTask.java
+ abi37_0_0.expo.modules.camera.tasks.ResolveTakenPictureAsyncTask
+abi37_0_0/host/exp/exponent/modules/api/netinfo/NetInfoModule.java
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.NetInfoModule
+abi37_0_0/host/exp/exponent/modules/api/components/svg/PathParser.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.PathElement
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.PathParser
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapLocalTileManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapLocalTileManager
+abi37_0_0/expo/modules/intentlauncher/IntentLauncherPackage.java
+ abi37_0_0.expo.modules.intentlauncher.IntentLauncherPackage
+abi37_0_0/expo/modules/brightness/BrightnessModule.java
+ abi37_0_0.expo.modules.brightness.BrightnessModule
+ abi37_0_0.expo.modules.brightness.BrightnessModule$1
+ abi37_0_0.expo.modules.brightness.BrightnessModule$2
+ abi37_0_0.expo.modules.brightness.BrightnessModule$3
+ abi37_0_0.expo.modules.brightness.BrightnessModule$4
+abi37_0_0/org/unimodules/interfaces/facedetector/FaceDetectionUnspecifiedError.java
+ abi37_0_0.org.unimodules.interfaces.facedetector.FaceDetectionUnspecifiedError
+abi37_0_0/expo/modules/contacts/models/ImAddressModel.java
+ abi37_0_0.expo.modules.contacts.models.ImAddressModel
+abi37_0_0/org/unimodules/interfaces/barcodescanner/BarCodeScannerResult.java
+ abi37_0_0.org.unimodules.interfaces.barcodescanner.BarCodeScannerResult
+abi37_0_0/expo/modules/appauth/AppAuthPackage.java
+ abi37_0_0.expo.modules.appauth.AppAuthPackage
+abi37_0_0/expo/modules/payments/stripe/dialog/AddCardDialogFragment.java
+ abi37_0_0.expo.modules.payments.stripe.dialog.AddCardDialogFragment
+ abi37_0_0.expo.modules.payments.stripe.dialog.AddCardDialogFragment$1
+ abi37_0_0.expo.modules.payments.stripe.dialog.AddCardDialogFragment$2
+ abi37_0_0.expo.modules.payments.stripe.dialog.AddCardDialogFragment$3
+ abi37_0_0.expo.modules.payments.stripe.dialog.AddCardDialogFragment$3$1
+ abi37_0_0.expo.modules.payments.stripe.dialog.AddCardDialogFragment$4
+ abi37_0_0.expo.modules.payments.stripe.dialog.AddCardDialogFragment$5
+abi37_0_0/host/exp/exponent/modules/api/screens/ScreenDismissedEvent.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenDismissedEvent
+abi37_0_0/expo/modules/imagemanipulator/arguments/Action.java
+ abi37_0_0.expo.modules.imagemanipulator.arguments.Action
+abi37_0_0/expo/modules/battery/BatteryStateReceiver.java
+ abi37_0_0.expo.modules.battery.BatteryStateReceiver
+abi37_0_0/expo/modules/print/FileUtils.java
+ abi37_0_0.expo.modules.print.FileUtils
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/GestureUtils.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.GestureUtils
+abi37_0_0/host/exp/exponent/modules/api/components/svg/PathView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.PathView
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapPolygonManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapPolygonManager
+abi37_0_0/org/unimodules/core/interfaces/ExpoProp.java
+ abi37_0_0.org.unimodules.core.interfaces.ExpoProp
+abi37_0_0/host/exp/exponent/modules/api/components/maps/MapsPackage.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.MapsPackage
+abi37_0_0/expo/modules/sensors/services/GyroscopeService.java
+ abi37_0_0.expo.modules.sensors.services.GyroscopeService
+abi37_0_0/expo/modules/localization/LocalizationPackage.java
+ abi37_0_0.expo.modules.localization.LocalizationPackage
+abi37_0_0/host/exp/exponent/modules/api/viewshot/RNViewShotModule.java
+ abi37_0_0.host.exp.exponent.modules.api.viewshot.RNViewShotModule
+ abi37_0_0.host.exp.exponent.modules.api.viewshot.RNViewShotModule$1
+ abi37_0_0.host.exp.exponent.modules.api.viewshot.RNViewShotModule$CleanTask
+abi37_0_0/host/exp/exponent/modules/api/components/lottie/LottieAnimationViewPropertyManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.lottie.LottieAnimationViewPropertyManager
+abi37_0_0/expo/modules/av/player/datasource/DataSourceFactoryProvider.java
+ abi37_0_0.expo.modules.av.player.datasource.DataSourceFactoryProvider
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapMarkerManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapMarkerManager
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapMarkerManager$AirMapMarkerSharedIcon
+abi37_0_0/expo/modules/documentpicker/DocumentPickerPackage.java
+ abi37_0_0.expo.modules.documentpicker.DocumentPickerPackage
+abi37_0_0/host/exp/exponent/modules/api/components/maps/ViewAttacherGroup.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.ViewAttacherGroup
+abi37_0_0/expo/modules/backgroundfetch/BackgroundFetchPackage.java
+ abi37_0_0.expo.modules.backgroundfetch.BackgroundFetchPackage
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/react/RNGestureHandlerRootHelper.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerRootHelper
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerRootHelper$1
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerRootHelper$RootViewGestureHandler
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/PanGestureHandler.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.PanGestureHandler
+abi37_0_0/host/exp/exponent/modules/api/components/svg/SymbolView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.SymbolView
+abi37_0_0/expo/modules/taskManager/TaskJobService.java
+ abi37_0_0.expo.modules.taskManager.TaskJobService
+abi37_0_0/host/exp/exponent/modules/api/components/svg/ForeignObjectView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.ForeignObjectView
+abi37_0_0/host/exp/exponent/modules/api/components/datetimepicker/RNDate.java
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNDate
+abi37_0_0/expo/modules/payments/stripe/Errors.java
+ abi37_0_0.expo.modules.payments.stripe.Errors
+abi37_0_0/host/exp/exponent/modules/api/components/datetimepicker/RNDatePickerDialogFragment.java
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNDatePickerDialogFragment
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNDatePickerDialogFragment$1
+abi37_0_0/host/exp/exponent/modules/api/components/sharedelement/RNSharedElementNode.java
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementNode
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementNode$1
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementNode$2
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RetryRunnable
+abi37_0_0/host/exp/exponent/modules/api/components/maskedview/RNCMaskedViewManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maskedview.RNCMaskedViewManager
+abi37_0_0/expo/modules/medialibrary/CreateAlbum.java
+ abi37_0_0.expo.modules.medialibrary.CreateAlbum
+ abi37_0_0.expo.modules.medialibrary.CreateAlbum$1
+abi37_0_0/host/exp/exponent/modules/api/components/sharedelement/RNSharedElementModule.java
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementModule
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementModule$1
+abi37_0_0/org/unimodules/interfaces/facedetector/FaceDetector.java
+ abi37_0_0.org.unimodules.interfaces.facedetector.FaceDetector
+abi37_0_0/expo/modules/imagemanipulator/arguments/SaveOptions.java
+ abi37_0_0.expo.modules.imagemanipulator.arguments.SaveOptions
+abi37_0_0/expo/modules/ads/admob/AdMobBannerView.java
+ abi37_0_0.expo.modules.ads.admob.AdMobBannerView
+ abi37_0_0.expo.modules.ads.admob.AdMobBannerView$1
+ abi37_0_0.expo.modules.ads.admob.AdMobBannerView$2
+ abi37_0_0.expo.modules.ads.admob.AdMobBannerView$3
+abi37_0_0/expo/modules/ads/facebook/NativeAdManager.java
+ abi37_0_0.expo.modules.ads.facebook.NativeAdManager
+ abi37_0_0.expo.modules.ads.facebook.NativeAdManager$1
+ abi37_0_0.expo.modules.ads.facebook.NativeAdManager$2
+ abi37_0_0.expo.modules.ads.facebook.NativeAdManager$3
+abi37_0_0/host/exp/exponent/modules/api/components/maps/SizeReportingShadowNode.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.SizeReportingShadowNode
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapPolylineManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapPolylineManager
+abi37_0_0/expo/modules/payments/stripe/GoogleApiPayFlowImpl.java
+ abi37_0_0.expo.modules.payments.stripe.GoogleApiPayFlowImpl
+ abi37_0_0.expo.modules.payments.stripe.GoogleApiPayFlowImpl$1
+abi37_0_0/host/exp/exponent/ExponentPackage.java
+ abi37_0_0.host.exp.exponent.ExponentPackage
+abi37_0_0/expo/modules/camera/events/PictureSavedEvent.java
+ abi37_0_0.expo.modules.camera.events.PictureSavedEvent
+abi37_0_0/expo/modules/barcodescanner/scanners/ExpoBarCodeScanner.java
+ abi37_0_0.expo.modules.barcodescanner.scanners.ExpoBarCodeScanner
+abi37_0_0/host/exp/exponent/modules/api/components/svg/TextLayoutAlgorithm.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextLayoutAlgorithm
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextLayoutAlgorithm$1
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextLayoutAlgorithm$1CharacterPositioningResolver
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextLayoutAlgorithm$1TextLengthResolver
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextLayoutAlgorithm$CharacterInformation
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.TextLayoutAlgorithm$LayoutInput
+abi37_0_0/org/unimodules/core/interfaces/services/UIManager.java
+ abi37_0_0.org.unimodules.core.interfaces.services.UIManager
+ abi37_0_0.org.unimodules.core.interfaces.services.UIManager$GroupUIBlock
+ abi37_0_0.org.unimodules.core.interfaces.services.UIManager$UIBlock
+ abi37_0_0.org.unimodules.core.interfaces.services.UIManager$ViewHolder
+abi37_0_0/expo/modules/appauth/AppAuthConstants.java
+ abi37_0_0.expo.modules.appauth.AppAuthConstants
+ abi37_0_0.expo.modules.appauth.AppAuthConstants$Error
+ abi37_0_0.expo.modules.appauth.AppAuthConstants$HTTPS
+ abi37_0_0.expo.modules.appauth.AppAuthConstants$Props
+abi37_0_0/expo/modules/firebase/core/FirebaseCoreInterface.java
+ abi37_0_0.expo.modules.firebase.core.FirebaseCoreInterface
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/BezierNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.BezierNode
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.BezierNode$CubicBezierInterpolator
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapPolyline.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapPolyline
+abi37_0_0/host/exp/exponent/modules/api/components/svg/SvgViewModule.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.SvgViewModule
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.SvgViewModule$1
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.SvgViewModule$1$1
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.SvgViewModule$1$1$1
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.SvgViewModule$1$2
+abi37_0_0/expo/modules/payments/stripe/util/Converters.java
+ abi37_0_0.expo.modules.payments.stripe.util.Converters
+abi37_0_0/expo/modules/av/AVManager.java
+ abi37_0_0.expo.modules.av.AVManager
+ abi37_0_0.expo.modules.av.AVManager$1
+ abi37_0_0.expo.modules.av.AVManager$10
+ abi37_0_0.expo.modules.av.AVManager$2
+ abi37_0_0.expo.modules.av.AVManager$3
+ abi37_0_0.expo.modules.av.AVManager$4
+ abi37_0_0.expo.modules.av.AVManager$5
+ abi37_0_0.expo.modules.av.AVManager$6
+ abi37_0_0.expo.modules.av.AVManager$7
+ abi37_0_0.expo.modules.av.AVManager$8
+ abi37_0_0.expo.modules.av.AVManager$9
+ abi37_0_0.expo.modules.av.AVManager$AudioInterruptionMode
+ abi37_0_0.expo.modules.av.AVManager$VideoViewCallback
+abi37_0_0/org/unimodules/core/interfaces/JavaScriptContextProvider.java
+ abi37_0_0.org.unimodules.core.interfaces.JavaScriptContextProvider
+abi37_0_0/org/unimodules/interfaces/facedetector/FaceDetectionError.java
+ abi37_0_0.org.unimodules.interfaces.facedetector.FaceDetectionError
+abi37_0_0/expo/modules/videothumbnails/VideoThumbnailsPackage.java
+ abi37_0_0.expo.modules.videothumbnails.VideoThumbnailsPackage
+abi37_0_0/host/exp/exponent/modules/api/screens/StackFinishTransitioningEvent.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.StackFinishTransitioningEvent
+abi37_0_0/expo/modules/battery/BatteryPackage.java
+ abi37_0_0.expo.modules.battery.BatteryPackage
+abi37_0_0/host/exp/exponent/modules/api/appearance/rncappearance/RNCAppearanceModule.java
+ abi37_0_0.host.exp.exponent.modules.api.appearance.rncappearance.RNCAppearanceModule
+ abi37_0_0.host.exp.exponent.modules.api.appearance.rncappearance.RNCAppearanceModule$1
+abi37_0_0/host/exp/exponent/modules/api/components/viewpager/ReactViewPagerManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.viewpager.ReactViewPagerManager
+abi37_0_0/expo/modules/barcodescanner/scanners/GMVBarCodeScanner.java
+ abi37_0_0.expo.modules.barcodescanner.scanners.GMVBarCodeScanner
+abi37_0_0/host/exp/exponent/modules/ExpoKernelServiceConsumerViewManager.java
+ abi37_0_0.host.exp.exponent.modules.ExpoKernelServiceConsumerViewManager
+abi37_0_0/expo/modules/random/RandomPackage.java
+ abi37_0_0.expo.modules.random.RandomPackage
+abi37_0_0/expo/modules/av/video/VideoViewWrapper.java
+ abi37_0_0.expo.modules.av.video.VideoViewWrapper
+ abi37_0_0.expo.modules.av.video.VideoViewWrapper$1
+abi37_0_0/host/exp/exponent/modules/api/components/svg/CircleView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.CircleView
+abi37_0_0/expo/modules/imagemanipulator/arguments/SaveOptionsFormat.java
+ abi37_0_0.expo.modules.imagemanipulator.arguments.SaveOptionsFormat
+abi37_0_0/expo/modules/medialibrary/RemoveAssetsFromAlbum.java
+ abi37_0_0.expo.modules.medialibrary.RemoveAssetsFromAlbum
+abi37_0_0/org/unimodules/adapters/react/services/UIManagerModuleWrapper.java
+ abi37_0_0.org.unimodules.adapters.react.services.UIManagerModuleWrapper
+ abi37_0_0.org.unimodules.adapters.react.services.UIManagerModuleWrapper$1
+ abi37_0_0.org.unimodules.adapters.react.services.UIManagerModuleWrapper$2
+ abi37_0_0.org.unimodules.adapters.react.services.UIManagerModuleWrapper$2$1
+ abi37_0_0.org.unimodules.adapters.react.services.UIManagerModuleWrapper$3
+ abi37_0_0.org.unimodules.adapters.react.services.UIManagerModuleWrapper$4
+abi37_0_0/host/exp/exponent/modules/api/components/svg/GroupView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.GroupView
+abi37_0_0/host/exp/exponent/modules/api/components/sharedelement/RNSharedElementTransitionItem.java
+ abi37_0_0.host.exp.exponent.modules.api.components.sharedelement.RNSharedElementTransitionItem
+abi37_0_0/host/exp/exponent/modules/api/components/svg/RNSVGRenderableManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.RNSVGRenderableManager
+abi37_0_0/expo/modules/sharing/SharingPackage.java
+ abi37_0_0.expo.modules.sharing.SharingPackage
+abi37_0_0/host/exp/exponent/modules/universal/av/CustomHeadersOkHttpDataSourceFactory.java
+ abi37_0_0.host.exp.exponent.modules.universal.av.CustomHeadersOkHttpDataSourceFactory
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapHeatmap.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapHeatmap
+abi37_0_0/expo/modules/lineargradient/LinearGradientView.java
+ abi37_0_0.expo.modules.lineargradient.LinearGradientView
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/RotationGestureHandler.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.RotationGestureHandler
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.RotationGestureHandler$1
+abi37_0_0/com/facebook/react/uimanager/UIManagerReanimatedHelper.java
+ abi37_0_0.com.facebook.react.uimanager.UIManagerReanimatedHelper
+abi37_0_0/expo/modules/location/utils/TimeoutObject.java
+ abi37_0_0.expo.modules.location.utils.TimeoutObject
+ abi37_0_0.expo.modules.location.utils.TimeoutObject$1
+ abi37_0_0.expo.modules.location.utils.TimeoutObject$TimeoutListener
+abi37_0_0/expo/modules/medialibrary/MediaLibraryConstants.java
+ abi37_0_0.expo.modules.medialibrary.MediaLibraryConstants
+ abi37_0_0.expo.modules.medialibrary.MediaLibraryConstants$1
+ abi37_0_0.expo.modules.medialibrary.MediaLibraryConstants$2
+abi37_0_0/expo/modules/gl/GLViewManager.java
+ abi37_0_0.expo.modules.gl.GLViewManager
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/react/RNGestureHandlerEnabledRootView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerEnabledRootView
+abi37_0_0/expo/modules/appauth/AppAuthModule.java
+ abi37_0_0.expo.modules.appauth.AppAuthModule
+ abi37_0_0.expo.modules.appauth.AppAuthModule$1
+ abi37_0_0.expo.modules.appauth.AppAuthModule$2
+ abi37_0_0.expo.modules.appauth.AppAuthModule$3
+ abi37_0_0.expo.modules.appauth.AppAuthModule$4
+abi37_0_0/org/unimodules/interfaces/sensors/services/LinearAccelerationSensorService.java
+ abi37_0_0.org.unimodules.interfaces.sensors.services.LinearAccelerationSensorService
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapManager
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/GestureHandlerOrchestrator.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.GestureHandlerOrchestrator
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.GestureHandlerOrchestrator$1
+abi37_0_0/expo/modules/location/LocationRequestCallbacks.java
+ abi37_0_0.expo.modules.location.LocationRequestCallbacks
+abi37_0_0/org/unimodules/core/ModuleRegistry.java
+ abi37_0_0.org.unimodules.core.ModuleRegistry
+abi37_0_0/host/exp/exponent/modules/api/reanimated/nodes/ClockNode.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.nodes.ClockNode
+abi37_0_0/expo/modules/sensors/services/BaseSensorService.java
+ abi37_0_0.expo.modules.sensors.services.BaseSensorService
+abi37_0_0/host/exp/exponent/modules/api/components/datetimepicker/ReflectionHelper.java
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.ReflectionHelper
+abi37_0_0/expo/modules/keepawake/KeepAwakeModule.java
+ abi37_0_0.expo.modules.keepawake.KeepAwakeModule
+abi37_0_0/expo/modules/ads/facebook/AdOptionsWrapperViewManager.java
+ abi37_0_0.expo.modules.ads.facebook.AdOptionsWrapperViewManager
+ abi37_0_0.expo.modules.ads.facebook.AdOptionsWrapperViewManager$1
+abi37_0_0/expo/modules/taskManager/TaskService.java
+ abi37_0_0.expo.modules.taskManager.TaskService
+ abi37_0_0.expo.modules.taskManager.TaskService$1
+ abi37_0_0.expo.modules.taskManager.TaskService$2
+abi37_0_0/org/unimodules/core/interfaces/LifecycleEventListener.java
+ abi37_0_0.org.unimodules.core.interfaces.LifecycleEventListener
+abi37_0_0/host/exp/exponent/modules/api/netinfo/BroadcastReceiverConnectivityReceiver.java
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.BroadcastReceiverConnectivityReceiver
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.BroadcastReceiverConnectivityReceiver$1
+ abi37_0_0.host.exp.exponent.modules.api.netinfo.BroadcastReceiverConnectivityReceiver$ConnectivityBroadcastReceiver
+abi37_0_0/host/exp/exponent/modules/api/reanimated/NodesManager.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.NodesManager
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.NodesManager$1
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.NodesManager$2
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.NodesManager$NativeUpdateOperation
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.NodesManager$OnAnimationFrame
+abi37_0_0/host/exp/exponent/modules/universal/ScopedFilePermissionModule.java
+ abi37_0_0.host.exp.exponent.modules.universal.ScopedFilePermissionModule
+abi37_0_0/host/exp/exponent/modules/api/ScreenOrientationModule.java
+ abi37_0_0.host.exp.exponent.modules.api.ScreenOrientationModule
+ abi37_0_0.host.exp.exponent.modules.api.ScreenOrientationModule$1
+ abi37_0_0.host.exp.exponent.modules.api.ScreenOrientationModule$Orientation
+ abi37_0_0.host.exp.exponent.modules.api.ScreenOrientationModule$OrientationLock
+abi37_0_0/org/unimodules/adapters/react/ReactPackagesProvider.java
+ abi37_0_0.org.unimodules.adapters.react.ReactPackagesProvider
+abi37_0_0/expo/modules/crypto/CryptoModule.java
+ abi37_0_0.expo.modules.crypto.CryptoModule
+abi37_0_0/host/exp/exponent/modules/api/components/svg/ClipPathView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.ClipPathView
+abi37_0_0/expo/modules/ads/facebook/AdOptionsWrapperView.java
+ abi37_0_0.expo.modules.ads.facebook.AdOptionsWrapperView
+ abi37_0_0.expo.modules.ads.facebook.AdOptionsWrapperView$1
+abi37_0_0/expo/modules/barcodescanner/BarCodeScannerViewFinder.java
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerViewFinder
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerViewFinder$1
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerViewFinder$BarCodeScannerAsyncTask
+ abi37_0_0.expo.modules.barcodescanner.BarCodeScannerViewFinder$BarCodeScannerAsyncTask$1
+abi37_0_0/host/exp/exponent/modules/api/screens/ScreenStackHeaderConfig.java
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStackHeaderConfig
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStackHeaderConfig$1
+ abi37_0_0.host.exp.exponent.modules.api.screens.ScreenStackHeaderConfig$2
+abi37_0_0/expo/modules/ads/facebook/InterstitialAdManager.java
+ abi37_0_0.expo.modules.ads.facebook.InterstitialAdManager
+abi37_0_0/expo/modules/sensors/services/RotationVectorSensorService.java
+ abi37_0_0.expo.modules.sensors.services.RotationVectorSensorService
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapOverlayManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapOverlayManager
+abi37_0_0/org/unimodules/core/interfaces/Arguments.java
+ abi37_0_0.org.unimodules.core.interfaces.Arguments
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapCallout.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapCallout
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapWMSTileManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapWMSTileManager
+abi37_0_0/host/exp/exponent/modules/test/ExponentTestNativeModule.java
+ abi37_0_0.host.exp.exponent.modules.test.ExponentTestNativeModule
+abi37_0_0/expo/modules/gl/utils/FileSystemUtils.java
+ abi37_0_0.expo.modules.gl.utils.FileSystemUtils
+abi37_0_0/expo/modules/webbrowser/CustomTabsActivitiesHelper.java
+ abi37_0_0.expo.modules.webbrowser.CustomTabsActivitiesHelper
+abi37_0_0/expo/modules/contacts/CommonProvider.java
+ abi37_0_0.expo.modules.contacts.CommonProvider
+abi37_0_0/expo/modules/application/ApplicationModule.java
+ abi37_0_0.expo.modules.application.ApplicationModule
+ abi37_0_0.expo.modules.application.ApplicationModule$1
+abi37_0_0/expo/modules/sensors/modules/BaseSensorModule.java
+ abi37_0_0.expo.modules.sensors.modules.BaseSensorModule
+abi37_0_0/host/exp/exponent/modules/api/KeyboardModule.java
+ abi37_0_0.host.exp.exponent.modules.api.KeyboardModule
+abi37_0_0/host/exp/exponent/modules/api/components/datetimepicker/RNTimePickerDialogFragment.java
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNTimePickerDialogFragment
+ abi37_0_0.host.exp.exponent.modules.api.components.datetimepicker.RNTimePickerDialogFragment$1
+abi37_0_0/expo/modules/payments/stripe/StripeModule.java
+ abi37_0_0.expo.modules.payments.stripe.StripeModule
+ abi37_0_0.expo.modules.payments.stripe.StripeModule$1
+ abi37_0_0.expo.modules.payments.stripe.StripeModule$2
+ abi37_0_0.expo.modules.payments.stripe.StripeModule$3
+ abi37_0_0.expo.modules.payments.stripe.StripeModule$4
+ abi37_0_0.expo.modules.payments.stripe.StripeModule$5
+ abi37_0_0.expo.modules.payments.stripe.StripeModule$6
+abi37_0_0/expo/modules/sensors/services/BaseService.java
+ abi37_0_0.expo.modules.sensors.services.BaseService
+abi37_0_0/org/unimodules/adapters/react/ReactModuleRegistryProvider.java
+ abi37_0_0.org.unimodules.adapters.react.ReactModuleRegistryProvider
+abi37_0_0/host/exp/exponent/modules/api/URLHandlerModule.java
+ abi37_0_0.host.exp.exponent.modules.api.URLHandlerModule
+abi37_0_0/expo/modules/barcodescanner/utils/BarCodeScannerEventHelper.java
+ abi37_0_0.expo.modules.barcodescanner.utils.BarCodeScannerEventHelper
+abi37_0_0/expo/modules/google/signin/GoogleSignInPackage.java
+ abi37_0_0.expo.modules.google.signin.GoogleSignInPackage
+abi37_0_0/host/exp/exponent/modules/api/components/svg/LinearGradientView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.LinearGradientView
+abi37_0_0/expo/modules/ads/facebook/AdsFacebookPackage.java
+ abi37_0_0.expo.modules.ads.facebook.AdsFacebookPackage
+abi37_0_0/expo/modules/firebase/core/FirebaseCoreOptions.java
+ abi37_0_0.expo.modules.firebase.core.FirebaseCoreOptions
+abi37_0_0/expo/modules/sharing/SharingFileProvider.java
+ abi37_0_0.expo.modules.sharing.SharingFileProvider
+abi37_0_0/expo/modules/battery/PowerSaverReceiver.java
+ abi37_0_0.expo.modules.battery.PowerSaverReceiver
+abi37_0_0/expo/modules/payments/stripe/RedirectUriReceiver.java
+ abi37_0_0.expo.modules.payments.stripe.RedirectUriReceiver
+abi37_0_0/host/exp/exponent/modules/api/components/maps/AirMapCircleManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maps.AirMapCircleManager
+abi37_0_0/org/unimodules/core/interfaces/Package.java
+ abi37_0_0.org.unimodules.core.interfaces.Package
+abi37_0_0/host/exp/exponent/modules/api/components/webview/RNCWebViewFileProvider.java
+ abi37_0_0.host.exp.exponent.modules.api.components.webview.RNCWebViewFileProvider
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/react/RNGestureHandlerInteractionManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerInteractionManager
+abi37_0_0/host/exp/exponent/ReadableObjectUtils.java
+ abi37_0_0.host.exp.exponent.ReadableObjectUtils
+ abi37_0_0.host.exp.exponent.ReadableObjectUtils$1
+abi37_0_0/host/exp/exponent/modules/api/reanimated/ReanimatedPackage.java
+ abi37_0_0.host.exp.exponent.modules.api.reanimated.ReanimatedPackage
+abi37_0_0/host/exp/exponent/modules/api/components/maskedview/RNCMaskedView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.maskedview.RNCMaskedView
+abi37_0_0/host/exp/exponent/modules/api/appearance/ExpoAppearanceModule.java
+ abi37_0_0.host.exp.exponent.modules.api.appearance.ExpoAppearanceModule
+abi37_0_0/org/unimodules/core/MapHelper.java
+ abi37_0_0.org.unimodules.core.MapHelper
+abi37_0_0/expo/modules/payments/stripe/util/InitializationOptions.java
+ abi37_0_0.expo.modules.payments.stripe.util.InitializationOptions
+abi37_0_0/expo/modules/analytics/amplitude/AmplitudeModule.java
+ abi37_0_0.expo.modules.analytics.amplitude.AmplitudeModule
+abi37_0_0/org/unimodules/interfaces/constants/ConstantsInterface.java
+ abi37_0_0.org.unimodules.interfaces.constants.ConstantsInterface
+abi37_0_0/host/exp/exponent/modules/api/UpdatesModule.java
+ abi37_0_0.host.exp.exponent.modules.api.UpdatesModule
+ abi37_0_0.host.exp.exponent.modules.api.UpdatesModule$1
+ abi37_0_0.host.exp.exponent.modules.api.UpdatesModule$2
+abi37_0_0/expo/modules/medialibrary/GetQueryInfo.java
+ abi37_0_0.expo.modules.medialibrary.GetQueryInfo
+abi37_0_0/expo/modules/location/taskConsumers/GeofencingTaskConsumer.java
+ abi37_0_0.expo.modules.location.taskConsumers.GeofencingTaskConsumer
+abi37_0_0/expo/modules/location/services/LocationTaskService.java
+ abi37_0_0.expo.modules.location.services.LocationTaskService
+ abi37_0_0.expo.modules.location.services.LocationTaskService$ServiceBinder
+abi37_0_0/org/unimodules/interfaces/barcodescanner/BarCodeScannerSettings.java
+ abi37_0_0.org.unimodules.interfaces.barcodescanner.BarCodeScannerSettings
+abi37_0_0/host/exp/exponent/modules/api/components/svg/ImageView.java
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.ImageView
+ abi37_0_0.host.exp.exponent.modules.api.components.svg.ImageView$1
+abi37_0_0/host/exp/exponent/modules/api/components/gesturehandler/react/RNGestureHandlerRootViewManager.java
+ abi37_0_0.host.exp.exponent.modules.api.components.gesturehandler.react.RNGestureHandlerRootViewManager

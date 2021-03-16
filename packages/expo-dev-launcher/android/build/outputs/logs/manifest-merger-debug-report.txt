@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:1:1-10:12
+	package
+		ADDED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:2:3-37
+		INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+		ADDED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:1:1-10:12
+		INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+		ADDED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:1:1-10:12
+		INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:4:3-9:17
+activity#expo.modules.devlauncher.launcher.DevLauncherActivity
+ADDED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:5:5-8:56
+	android:screenOrientation
+		ADDED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:7:7-43
+	android:theme
+		ADDED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:8:7-53
+	android:name
+		ADDED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml:6:7-75
+uses-sdk
+INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+		ADDED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+		ADDED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/lukasz/work/expo/packages/expo-dev-launcher/android/src/main/AndroidManifest.xml

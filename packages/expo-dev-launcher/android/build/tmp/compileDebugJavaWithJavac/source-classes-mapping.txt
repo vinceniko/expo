@@ -1,0 +1,4 @@
+expo/modules/devlauncher/BuildConfig.java
+ expo.modules.devlauncher.BuildConfig
+expo/modules/devlauncher/modules/DevLauncherDevMenuExtensions.java
+ expo.modules.devlauncher.modules.DevLauncherDevMenuExtensions

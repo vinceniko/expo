@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: host.exp.exponent:expo-crypto:8.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac1e0ef417f05ee678ba5bc9d23b7c4c/jetified-expo-crypto-8.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac1e0ef417f05ee678ba5bc9d23b7c4c/jetified-expo-crypto-8.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac1e0ef417f05ee678ba5bc9d23b7c4c/jetified-expo-crypto-8.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/maven/host/exp/exponent/expo-crypto/8.4.0/expo-crypto-8.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

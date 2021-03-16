@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "applicationId": "abi35_0_0.host.exp.expoview",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "AAPT_FRIENDLY_MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0",
+        "outputFile": "expoview-abi35_0_0-debug.aar",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "abi35_0_0.host.exp.expoview",
+        "split": ""
+      }
+    }
+  ]
+}

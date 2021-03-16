@@ -1,0 +1,12 @@
+host/exp/exponent/generated/DetachBuildConstants.java
+ host.exp.exponent.generated.DetachBuildConstants
+host/exp/exponent/generated/AppConstants.java
+ host.exp.exponent.generated.AppConstants
+host/exp/exponent/MainApplication.java
+ host.exp.exponent.MainApplication
+host/exp/exponent/MainActivity.java
+ host.exp.exponent.MainActivity
+host/exp/exponent/generated/BasePackageList.java
+ host.exp.exponent.generated.BasePackageList
+host/exp/exponent/BuildConfig.java
+ host.exp.exponent.BuildConfig

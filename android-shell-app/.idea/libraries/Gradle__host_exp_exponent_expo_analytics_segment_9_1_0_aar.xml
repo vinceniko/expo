@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: host.exp.exponent:expo-analytics-segment:9.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/256d20fd6c365110f19bf3142c88ecbb/jetified-expo-analytics-segment-9.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/256d20fd6c365110f19bf3142c88ecbb/jetified-expo-analytics-segment-9.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/256d20fd6c365110f19bf3142c88ecbb/jetified-expo-analytics-segment-9.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/maven/host/exp/exponent/expo-analytics-segment/9.1.0/expo-analytics-segment-9.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: host.exp.exponent:expo-permissions:10.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/80b799c4ed5ba29196d99f343c44f041/jetified-expo-permissions-10.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/80b799c4ed5ba29196d99f343c44f041/jetified-expo-permissions-10.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/80b799c4ed5ba29196d99f343c44f041/jetified-expo-permissions-10.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/maven/host/exp/exponent/expo-permissions/10.0.0/expo-permissions-10.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

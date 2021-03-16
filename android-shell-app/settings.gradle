@@ -1,0 +1,15 @@
+include ':app'
+
+include ':expoview'
+project(':expoview').projectDir = new File('./expoview')
+
+
+include ':ReactAndroid'
+project(':ReactAndroid').projectDir = new File('./ReactAndroid')
+
+// Import gradle helpers for unimodules.
+apply from: '../node_modules/react-native-unimodules/gradle.groovy'
+
+// Include unimodules.
+includeUnimodulesProjects(
+)

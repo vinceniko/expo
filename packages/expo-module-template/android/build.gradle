@@ -76,6 +76,6 @@ dependencies {
   unimodule 'unimodules-core'
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${safeExtGet("kotlinVersion", "1.3.50")}"
 
-  testImplementation project(':unimodules-test-core')
+//  testImplementation project(':unimodules-test-core')
   testImplementation 'org.robolectric:robolectric:4.3.1'
 }

@@ -1,0 +1,23 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Pipe = exports.Append = exports.renameClass = exports.RemoveDirectory = exports.renameIOSFiles = exports.TransformFilesName = exports.renameIOSSymbols = exports.prefixPackage = exports.TransformFilesContent = exports.CopyFiles = exports.Clone = void 0;
+var Clone_1 = require("./steps/Clone");
+Object.defineProperty(exports, "Clone", { enumerable: true, get: function () { return Clone_1.Clone; } });
+var CopyFiles_1 = require("./steps/CopyFiles");
+Object.defineProperty(exports, "CopyFiles", { enumerable: true, get: function () { return CopyFiles_1.CopyFiles; } });
+var TransformFilesContent_1 = require("./steps/TransformFilesContent");
+Object.defineProperty(exports, "TransformFilesContent", { enumerable: true, get: function () { return TransformFilesContent_1.TransformFilesContent; } });
+Object.defineProperty(exports, "prefixPackage", { enumerable: true, get: function () { return TransformFilesContent_1.prefixPackage; } });
+Object.defineProperty(exports, "renameIOSSymbols", { enumerable: true, get: function () { return TransformFilesContent_1.renameIOSSymbols; } });
+var TransformFilesName_1 = require("./steps/TransformFilesName");
+Object.defineProperty(exports, "TransformFilesName", { enumerable: true, get: function () { return TransformFilesName_1.TransformFilesName; } });
+Object.defineProperty(exports, "renameIOSFiles", { enumerable: true, get: function () { return TransformFilesName_1.renameIOSFiles; } });
+var RemoveDirectory_1 = require("./steps/RemoveDirectory");
+Object.defineProperty(exports, "RemoveDirectory", { enumerable: true, get: function () { return RemoveDirectory_1.RemoveDirectory; } });
+var RenameClass_1 = require("./steps/RenameClass");
+Object.defineProperty(exports, "renameClass", { enumerable: true, get: function () { return RenameClass_1.renameClass; } });
+var Append_1 = require("./steps/Append");
+Object.defineProperty(exports, "Append", { enumerable: true, get: function () { return Append_1.Append; } });
+var Pipe_1 = require("./Pipe");
+Object.defineProperty(exports, "Pipe", { enumerable: true, get: function () { return Pipe_1.Pipe; } });
+//# sourceMappingURL=index.js.map

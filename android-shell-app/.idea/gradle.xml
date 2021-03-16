@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8 (2)" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ReactAndroid" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/expoview" />
+            <option value="$PROJECT_DIR$/../packages/@unimodules/core/android" />
+            <option value="$PROJECT_DIR$/../packages/@unimodules/react-native-adapter/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-ads-admob/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-ads-facebook/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-analytics-amplitude/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-analytics-segment/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-app-auth/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-application/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-av/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-background-fetch/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-barcode-scanner/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-battery/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-branch/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-brightness/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-calendar/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-camera/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-cellular/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-constants/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-contacts/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-crypto/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-device/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-document-picker/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-error-recovery/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-face-detector/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-facebook/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-file-system/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-firebase-analytics/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-firebase-core/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-font/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-gl-cpp-legacy/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-gl-cpp/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-gl/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-google-sign-in/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-haptics/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-image-loader/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-image-manipulator/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-image-picker/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-in-app-purchases/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-intent-launcher/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-keep-awake/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-linear-gradient/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-local-authentication/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-localization/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-location/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-mail-composer/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-media-library/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-module-template/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-network/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-notifications/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-permissions/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-print/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-screen-capture/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-screen-orientation/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-secure-store/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-sensors/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-sharing/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-sms/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-speech/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-splash-screen/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-sqlite/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-store-review/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-task-manager/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-updates/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-video-thumbnails/android" />
+            <option value="$PROJECT_DIR$/../packages/expo-web-browser/android" />
+            <option value="$PROJECT_DIR$/../packages/unimodules-app-loader/android" />
+            <option value="$PROJECT_DIR$/../packages/unimodules-barcode-scanner-interface/android" />
+            <option value="$PROJECT_DIR$/../packages/unimodules-camera-interface/android" />
+            <option value="$PROJECT_DIR$/../packages/unimodules-constants-interface/android" />
+            <option value="$PROJECT_DIR$/../packages/unimodules-face-detector-interface/android" />
+            <option value="$PROJECT_DIR$/../packages/unimodules-file-system-interface/android" />
+            <option value="$PROJECT_DIR$/../packages/unimodules-font-interface/android" />
+            <option value="$PROJECT_DIR$/../packages/unimodules-image-loader-interface/android" />
+            <option value="$PROJECT_DIR$/../packages/unimodules-permissions-interface/android" />
+            <option value="$PROJECT_DIR$/../packages/unimodules-sensors-interface/android" />
+            <option value="$PROJECT_DIR$/../packages/unimodules-task-manager-interface/android" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

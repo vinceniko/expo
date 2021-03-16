@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: host.exp.exponent:expo-speech:8.5.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7233b9f39adb30e98a89591956894ce5/jetified-expo-speech-8.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7233b9f39adb30e98a89591956894ce5/jetified-expo-speech-8.5.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7233b9f39adb30e98a89591956894ce5/jetified-expo-speech-8.5.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/maven/host/exp/exponent/expo-speech/8.5.0/expo-speech-8.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

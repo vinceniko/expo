@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: host.exp.exponent:expo-font:8.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1a1fc284212e1d14f047ace15a98ac35/jetified-expo-font-8.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1a1fc284212e1d14f047ace15a98ac35/jetified-expo-font-8.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1a1fc284212e1d14f047ace15a98ac35/jetified-expo-font-8.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/maven/host/exp/exponent/expo-font/8.4.0/expo-font-8.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

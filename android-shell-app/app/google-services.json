@@ -1,0 +1,34 @@
+{
+  "project_info": {
+    "project_id": "exponent-5dd6d",
+    "firebase_url": "https://exponent-5dd6d.firebaseio.com",
+    "project_number": "367315174693",
+    "name": "Expo Client"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367315174693:android:f968efbb41d1fa7a",
+        "android_client_info": {
+          "package_name": "com.adrienblc.r2test",
+          "certificate_hash": "892B2B46907B26D3E729829AFCE15446B9947450"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIvHTsLtSnaYDRZhP71f5Kjg9Qq3N1cCc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-76673608-1"
+          }
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

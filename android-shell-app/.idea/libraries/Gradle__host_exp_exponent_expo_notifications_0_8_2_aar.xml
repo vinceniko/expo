@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: host.exp.exponent:expo-notifications:0.8.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/691be4814a8068138133eed550e33e6d/jetified-expo-notifications-0.8.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/691be4814a8068138133eed550e33e6d/jetified-expo-notifications-0.8.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/691be4814a8068138133eed550e33e6d/jetified-expo-notifications-0.8.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/maven/host/exp/exponent/expo-notifications/0.8.2/expo-notifications-0.8.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

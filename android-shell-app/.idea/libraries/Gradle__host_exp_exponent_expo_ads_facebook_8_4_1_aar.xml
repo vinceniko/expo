@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: host.exp.exponent:expo-ads-facebook:8.4.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e42d0791a776f988ddfe866b4e29951/jetified-expo-ads-facebook-8.4.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e42d0791a776f988ddfe866b4e29951/jetified-expo-ads-facebook-8.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e42d0791a776f988ddfe866b4e29951/jetified-expo-ads-facebook-8.4.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/maven/host/exp/exponent/expo-ads-facebook/8.4.1/expo-ads-facebook-8.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

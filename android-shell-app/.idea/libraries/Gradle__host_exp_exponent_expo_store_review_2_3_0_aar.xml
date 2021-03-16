@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: host.exp.exponent:expo-store-review:2.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c64689936c7d2bb3a7f5b51f31c511b6/jetified-expo-store-review-2.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c64689936c7d2bb3a7f5b51f31c511b6/jetified-expo-store-review-2.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c64689936c7d2bb3a7f5b51f31c511b6/jetified-expo-store-review-2.3.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/maven/host/exp/exponent/expo-store-review/2.3.0/expo-store-review-2.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

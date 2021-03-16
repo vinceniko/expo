@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.unimodules:unimodules-image-loader-interface:5.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/38e2ec8547c4902da1da0fe38563e885/jetified-unimodules-image-loader-interface-5.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/38e2ec8547c4902da1da0fe38563e885/jetified-unimodules-image-loader-interface-5.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/38e2ec8547c4902da1da0fe38563e885/jetified-unimodules-image-loader-interface-5.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/maven/org/unimodules/unimodules-image-loader-interface/5.4.0/unimodules-image-loader-interface-5.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,4 @@
+R_DEF: Internal format may change without notice
+local
+raw expo_dev_launcher_android
+style Theme.DevelopmentClient

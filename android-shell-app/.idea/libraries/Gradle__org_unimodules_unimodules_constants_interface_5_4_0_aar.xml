@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.unimodules:unimodules-constants-interface:5.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7709480b26779fb2184e6da14f2df4e0/jetified-unimodules-constants-interface-5.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7709480b26779fb2184e6da14f2df4e0/jetified-unimodules-constants-interface-5.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7709480b26779fb2184e6da14f2df4e0/jetified-unimodules-constants-interface-5.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/maven/org/unimodules/unimodules-constants-interface/5.4.0/unimodules-constants-interface-5.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
