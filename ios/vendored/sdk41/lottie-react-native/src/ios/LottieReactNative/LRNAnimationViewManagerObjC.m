@@ -11,11 +11,11 @@ ABI41_0_0RCT_EXPORT_VIEW_PROPERTY(speed, CGFloat);
 ABI41_0_0RCT_EXPORT_VIEW_PROPERTY(onAnimationFinish, ABI41_0_0RCTBubblingEventBlock);
 ABI41_0_0RCT_EXPORT_VIEW_PROPERTY(colorFilters, NSArray);
 
-ABI41_0_0RCT_EXTERN_METHOD(play:(nonnull NSNumber *)reactTag fromFrame:(nonnull NSNumber *) startFrame toFrame:(nonnull NSNumber *) endFrame);
+ABI41_0_0RCT_EXTERN_METHOD(play:(nonnull NSNumber *)ABI41_0_0ReactTag fromFrame:(nonnull NSNumber *) startFrame toFrame:(nonnull NSNumber *) endFrame);
 
-ABI41_0_0RCT_EXTERN_METHOD(reset:(nonnull NSNumber *)reactTag);
-ABI41_0_0RCT_EXTERN_METHOD(pause:(nonnull NSNumber *)reactTag);
-ABI41_0_0RCT_EXTERN_METHOD(resume:(nonnull NSNumber *)reactTag);
+ABI41_0_0RCT_EXTERN_METHOD(reset:(nonnull NSNumber *)ABI41_0_0ReactTag);
+ABI41_0_0RCT_EXTERN_METHOD(pause:(nonnull NSNumber *)ABI41_0_0ReactTag);
+ABI41_0_0RCT_EXTERN_METHOD(resume:(nonnull NSNumber *)ABI41_0_0ReactTag);
 
 @end
 

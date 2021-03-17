@@ -4,7 +4,7 @@
 #include <array>
 #include <set>
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 void MapperRegistry::startMapper(std::shared_ptr<Mapper> mapper) {
   mappers[mapper->id] = mapper;

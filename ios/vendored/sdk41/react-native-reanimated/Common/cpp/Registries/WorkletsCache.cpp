@@ -2,9 +2,9 @@
 #include "ShareableValue.h"
 #include "FrozenObject.h"
 
-using namespace facebook;
+using namespace ABI41_0_0facebook;
 
-namespace reanimated
+namespace ABI41_0_0reanimated
 {
 
 jsi::Value eval(jsi::Runtime &rt, const char *code) {

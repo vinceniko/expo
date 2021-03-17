@@ -1,6 +1,6 @@
 #include "JSIStoreValueUser.h"
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 std::atomic<int> StoreUser::ctr;
 std::recursive_mutex StoreUser::storeMutex;

@@ -1,7 +1,7 @@
 #include "EventHandlerRegistry.h"
 #include "WorkletEventHandler.h"
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 void EventHandlerRegistry::registerEventHandler(std::shared_ptr<WorkletEventHandler> eventHandler) {
   const std::lock_guard<std::mutex> lock(instanceMutex);

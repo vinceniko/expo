@@ -7,15 +7,15 @@
 #ifdef ONANDROID
   #include "TurboModule.h"
 #else
-  #include <ABI41_0_0ReactCommon/TurboModule.h>
+  #include <ABI41_0_0ReactCommon/ABI41_0_0TurboModule.h>
 #endif
 
-#include <ABI41_0_0ReactCommon/CallInvoker.h>
+#include <ABI41_0_0ReactCommon/ABI41_0_0CallInvoker.h>
 
-using namespace facebook;
-using namespace react;
+using namespace ABI41_0_0facebook;
+using namespace ABI41_0_0React;
 
-namespace reanimated
+namespace ABI41_0_0reanimated
 {
 
 class JSI_EXPORT NativeReanimatedModuleSpec : public TurboModule {

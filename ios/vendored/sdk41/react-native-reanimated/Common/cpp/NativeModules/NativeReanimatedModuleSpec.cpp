@@ -1,6 +1,6 @@
 #include "NativeReanimatedModuleSpec.h"
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 static jsi::Value __hostFunction_NativeReanimatedModuleSpec_installCoreFunctions(
     jsi::Runtime &rt,

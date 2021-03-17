@@ -3,7 +3,7 @@
 #include "ShareableValue.h"
 #include "NativeReanimatedModule.h"
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 void MutableValue::setValue(jsi::Runtime &rt, const jsi::Value &newValue) {
   std::lock_guard<std::mutex> lock(readWriteMutex);

@@ -1,11 +1,11 @@
 #pragma once
 
 #include <stdio.h>
-#include <jsi/jsi.h>
+#include <ABI41_0_0jsi/ABI41_0_0jsi.h>
 
-using namespace facebook;
+using namespace ABI41_0_0facebook;
 
-namespace reanimated
+namespace ABI41_0_0reanimated
 {
 
 using UpdaterFunction = std::function<void(jsi::Runtime &rt, int viewTag, const jsi::Value &viewName, const jsi::Object &object)>;

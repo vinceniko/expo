@@ -5,13 +5,13 @@
 #include <memory>
 #include <vector>
 #include <unordered_map>
-#include <jsi/jsi.h>
+#include <ABI41_0_0jsi/ABI41_0_0jsi.h>
 #include <mutex>
 #include "Scheduler.h"
 
-using namespace facebook;
+using namespace ABI41_0_0facebook;
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 class StoreUser {
   int identifier = 0;

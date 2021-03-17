@@ -2,7 +2,7 @@
 #include "SharedParent.h"
 #include "ShareableValue.h"
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 FrozenObject::FrozenObject(jsi::Runtime &rt, const jsi::Object &object, NativeReanimatedModule *module) {
   auto propertyNames = object.getPropertyNames(rt);

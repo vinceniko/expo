@@ -2,12 +2,12 @@
 
 #include "WorkletsCache.h"
 #include "SharedParent.h"
-#include <jsi/jsi.h>
+#include <ABI41_0_0jsi/ABI41_0_0jsi.h>
 #include <string>
 #include "JSIStoreValueUser.h"
 #include "HostFunctionHandler.h"
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 class HostFunctionWrapper;
 

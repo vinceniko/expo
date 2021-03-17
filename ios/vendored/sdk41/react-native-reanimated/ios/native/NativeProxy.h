@@ -2,11 +2,11 @@
 
 #if __cplusplus
 
-#import <RNReanimated/NativeReanimatedModule.h>
+#import <ABI41_0_0RNReanimated/NativeReanimatedModule.h>
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
  
-std::shared_ptr<reanimated::NativeReanimatedModule> createReanimatedModule(std::shared_ptr<facebook::react::CallInvoker> jsInvoker);
+std::shared_ptr<ABI41_0_0reanimated::NativeReanimatedModule> createReanimatedModule(std::shared_ptr<ABI41_0_0facebook::ABI41_0_0React::CallInvoker> jsInvoker);
 
 }
 

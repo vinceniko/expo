@@ -2,10 +2,10 @@
 #import <ABI41_0_0React/ABI41_0_0RCTScrollView.h>
 #import <ABI41_0_0React/ABI41_0_0RCTEventDispatcher.h>
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 std::vector<std::pair<std::string,double>> measure(int viewTag, ABI41_0_0RCTUIManager *uiManager) {
-  UIView *view = [uiManager viewForReactTag:@(viewTag)];
+  UIView *view = [uiManager viewForABI41_0_0ReactTag:@(viewTag)];
 
   UIView *rootView = view;
 
@@ -13,11 +13,11 @@ std::vector<std::pair<std::string,double>> measure(int viewTag, ABI41_0_0RCTUIMa
     return std::vector<std::pair<std::string, double>>(0, std::make_pair("x", -1234567.0));
   }
 
-  while (rootView.superview && ![rootView isReactRootView]) {
+  while (rootView.superview && ![rootView isABI41_0_0ReactRootView]) {
     rootView = rootView.superview;
   }
 
-  if (rootView == nil || (![rootView isReactRootView])) {
+  if (rootView == nil || (![rootView isABI41_0_0ReactRootView])) {
     return std::vector<std::pair<std::string, double>>(0, std::make_pair("x", -1234567.0));
   }
 
@@ -38,7 +38,7 @@ std::vector<std::pair<std::string,double>> measure(int viewTag, ABI41_0_0RCTUIMa
 
 
 void scrollTo(int scrollViewTag, ABI41_0_0RCTUIManager *uiManager, double x, double y, bool animated) {
-  UIView *view = [uiManager viewForReactTag:@(scrollViewTag)];
+  UIView *view = [uiManager viewForABI41_0_0ReactTag:@(scrollViewTag)];
   ABI41_0_0RCTScrollView *scrollView = (ABI41_0_0RCTScrollView *) view;
   [scrollView scrollToOffset:(CGPoint){(CGFloat)x, (CGFloat)y} animated:animated];
 }

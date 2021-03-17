@@ -3,11 +3,11 @@
 #include "ShareableValue.h"
 #include "NativeReanimatedModule.h"
 #include <stdio.h>
-#include <jsi/jsi.h>
+#include <ABI41_0_0jsi/ABI41_0_0jsi.h>
 
-using namespace facebook;
+using namespace ABI41_0_0facebook;
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 class MapperRegistry;
 

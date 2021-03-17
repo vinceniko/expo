@@ -1,6 +1,6 @@
 #include "Scheduler.h"
 
-namespace reanimated
+namespace ABI41_0_0reanimated
 {
 
 void Scheduler::scheduleOnUI(std::function<void()> job) {
@@ -16,7 +16,7 @@ void Scheduler::triggerUI() {
   job();
 }
 
-void Scheduler::setJSCallInvoker(std::shared_ptr<facebook::react::CallInvoker> jsCallInvoker) {
+void Scheduler::setJSCallInvoker(std::shared_ptr<ABI41_0_0facebook::ABI41_0_0React::CallInvoker> jsCallInvoker) {
   jsCallInvoker_ = jsCallInvoker;
 }
 

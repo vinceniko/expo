@@ -2,7 +2,7 @@
 #include "SharedParent.h"
 #include "MutableValue.h"
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 Mapper::Mapper(NativeReanimatedModule *module,
                unsigned long id,

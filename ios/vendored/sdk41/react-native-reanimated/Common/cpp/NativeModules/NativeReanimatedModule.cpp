@@ -11,9 +11,9 @@
 #include <memory>
 #include "JSIStoreValueUser.h"
 
-using namespace facebook;
+using namespace ABI41_0_0facebook;
 
-namespace reanimated
+namespace ABI41_0_0reanimated
 {
 
 void extractMutables(jsi::Runtime &rt,

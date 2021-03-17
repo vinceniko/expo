@@ -6,7 +6,7 @@
 #include "RemoteObject.h"
 #include "FrozenObject.h"
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 const char *HIDDEN_HOST_OBJECT_PROP = "__reanimatedHostObjectRef";
 const char *ALREADY_CONVERTED= "__alreadyConverted";

@@ -106,10 +106,10 @@ ABI41_0_0RCT_EXPORT_VIEW_PROPERTY(messagingEnabled, BOOL)
 ABI41_0_0RCT_EXPORT_VIEW_PROPERTY(onMessage, ABI41_0_0RCTDirectEventBlock)
 ABI41_0_0RCT_EXPORT_VIEW_PROPERTY(onScroll, ABI41_0_0RCTDirectEventBlock)
 
-ABI41_0_0RCT_EXPORT_METHOD(postMessage:(nonnull NSNumber *)reactTag message:(NSString *)message)
+ABI41_0_0RCT_EXPORT_METHOD(postMessage:(nonnull NSNumber *)ABI41_0_0ReactTag message:(NSString *)message)
 {
   [self.bridge.uiManager addUIBlock:^(__unused ABI41_0_0RCTUIManager *uiManager, NSDictionary<NSNumber *, ABI41_0_0RNCWebView *> *viewRegistry) {
-    ABI41_0_0RNCWebView *view = viewRegistry[reactTag];
+    ABI41_0_0RNCWebView *view = viewRegistry[ABI41_0_0ReactTag];
     if (![view isKindOfClass:[ABI41_0_0RNCWebView class]]) {
       ABI41_0_0RCTLogError(@"Invalid view returned from registry, expecting ABI41_0_0RNCWebView, got: %@", view);
     } else {
@@ -160,10 +160,10 @@ ABI41_0_0RCT_CUSTOM_VIEW_PROPERTY(keyboardDisplayRequiresUserAction, BOOL, ABI41
   view.keyboardDisplayRequiresUserAction = json == nil ? true : [ABI41_0_0RCTConvert BOOL: json];
 }
 
-ABI41_0_0RCT_EXPORT_METHOD(injectJavaScript:(nonnull NSNumber *)reactTag script:(NSString *)script)
+ABI41_0_0RCT_EXPORT_METHOD(injectJavaScript:(nonnull NSNumber *)ABI41_0_0ReactTag script:(NSString *)script)
 {
   [self.bridge.uiManager addUIBlock:^(__unused ABI41_0_0RCTUIManager *uiManager, NSDictionary<NSNumber *, ABI41_0_0RNCWebView *> *viewRegistry) {
-    ABI41_0_0RNCWebView *view = viewRegistry[reactTag];
+    ABI41_0_0RNCWebView *view = viewRegistry[ABI41_0_0ReactTag];
     if (![view isKindOfClass:[ABI41_0_0RNCWebView class]]) {
       ABI41_0_0RCTLogError(@"Invalid view returned from registry, expecting ABI41_0_0RNCWebView, got: %@", view);
     } else {
@@ -172,10 +172,10 @@ ABI41_0_0RCT_EXPORT_METHOD(injectJavaScript:(nonnull NSNumber *)reactTag script:
   }];
 }
 
-ABI41_0_0RCT_EXPORT_METHOD(goBack:(nonnull NSNumber *)reactTag)
+ABI41_0_0RCT_EXPORT_METHOD(goBack:(nonnull NSNumber *)ABI41_0_0ReactTag)
 {
   [self.bridge.uiManager addUIBlock:^(__unused ABI41_0_0RCTUIManager *uiManager, NSDictionary<NSNumber *, ABI41_0_0RNCWebView *> *viewRegistry) {
-    ABI41_0_0RNCWebView *view = viewRegistry[reactTag];
+    ABI41_0_0RNCWebView *view = viewRegistry[ABI41_0_0ReactTag];
     if (![view isKindOfClass:[ABI41_0_0RNCWebView class]]) {
       ABI41_0_0RCTLogError(@"Invalid view returned from registry, expecting ABI41_0_0RNCWebView, got: %@", view);
     } else {
@@ -184,10 +184,10 @@ ABI41_0_0RCT_EXPORT_METHOD(goBack:(nonnull NSNumber *)reactTag)
   }];
 }
 
-ABI41_0_0RCT_EXPORT_METHOD(goForward:(nonnull NSNumber *)reactTag)
+ABI41_0_0RCT_EXPORT_METHOD(goForward:(nonnull NSNumber *)ABI41_0_0ReactTag)
 {
   [self.bridge.uiManager addUIBlock:^(__unused ABI41_0_0RCTUIManager *uiManager, NSDictionary<NSNumber *, ABI41_0_0RNCWebView *> *viewRegistry) {
-    ABI41_0_0RNCWebView *view = viewRegistry[reactTag];
+    ABI41_0_0RNCWebView *view = viewRegistry[ABI41_0_0ReactTag];
     if (![view isKindOfClass:[ABI41_0_0RNCWebView class]]) {
       ABI41_0_0RCTLogError(@"Invalid view returned from registry, expecting ABI41_0_0RNCWebView, got: %@", view);
     } else {
@@ -196,10 +196,10 @@ ABI41_0_0RCT_EXPORT_METHOD(goForward:(nonnull NSNumber *)reactTag)
   }];
 }
 
-ABI41_0_0RCT_EXPORT_METHOD(reload:(nonnull NSNumber *)reactTag)
+ABI41_0_0RCT_EXPORT_METHOD(reload:(nonnull NSNumber *)ABI41_0_0ReactTag)
 {
   [self.bridge.uiManager addUIBlock:^(__unused ABI41_0_0RCTUIManager *uiManager, NSDictionary<NSNumber *, ABI41_0_0RNCWebView *> *viewRegistry) {
-    ABI41_0_0RNCWebView *view = viewRegistry[reactTag];
+    ABI41_0_0RNCWebView *view = viewRegistry[ABI41_0_0ReactTag];
     if (![view isKindOfClass:[ABI41_0_0RNCWebView class]]) {
       ABI41_0_0RCTLogError(@"Invalid view returned from registry, expecting ABI41_0_0RNCWebView, got: %@", view);
     } else {
@@ -208,10 +208,10 @@ ABI41_0_0RCT_EXPORT_METHOD(reload:(nonnull NSNumber *)reactTag)
   }];
 }
 
-ABI41_0_0RCT_EXPORT_METHOD(stopLoading:(nonnull NSNumber *)reactTag)
+ABI41_0_0RCT_EXPORT_METHOD(stopLoading:(nonnull NSNumber *)ABI41_0_0ReactTag)
 {
   [self.bridge.uiManager addUIBlock:^(__unused ABI41_0_0RCTUIManager *uiManager, NSDictionary<NSNumber *, ABI41_0_0RNCWebView *> *viewRegistry) {
-    ABI41_0_0RNCWebView *view = viewRegistry[reactTag];
+    ABI41_0_0RNCWebView *view = viewRegistry[ABI41_0_0ReactTag];
     if (![view isKindOfClass:[ABI41_0_0RNCWebView class]]) {
       ABI41_0_0RCTLogError(@"Invalid view returned from registry, expecting ABI41_0_0RNCWebView, got: %@", view);
     } else {

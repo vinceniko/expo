@@ -1,6 +1,6 @@
 #pragma once
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 struct HostFunctionHandler {
   std::shared_ptr<jsi::Function> pureFunction;

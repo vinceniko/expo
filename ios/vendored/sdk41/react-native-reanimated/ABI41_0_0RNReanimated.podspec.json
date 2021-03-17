@@ -2,7 +2,7 @@
   "name": "ABI41_0_0RNReanimated",
   "version": "2.0.0",
   "summary": "More powerful alternative to Animated library for ABI41_0_0React Native.",
-  "description": "RNReanimated",
+  "description": "ABI41_0_0RNReanimated",
   "homepage": "https://github.com/software-mansion/react-native-reanimated",
   "license": "MIT",
   "authors": {

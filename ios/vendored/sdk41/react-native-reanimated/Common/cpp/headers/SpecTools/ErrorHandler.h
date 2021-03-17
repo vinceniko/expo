@@ -3,7 +3,7 @@
 #include "Scheduler.h"
 #include <string>
 
-namespace reanimated
+namespace ABI41_0_0reanimated
 {
 
 struct ErrorWrapper {

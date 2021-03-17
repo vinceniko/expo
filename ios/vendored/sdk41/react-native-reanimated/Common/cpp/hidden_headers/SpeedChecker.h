@@ -7,7 +7,7 @@
 #include <functional>
 #include <string>
 
-namespace reanimated
+namespace ABI41_0_0reanimated
 {
 
 class SpeedChecker {

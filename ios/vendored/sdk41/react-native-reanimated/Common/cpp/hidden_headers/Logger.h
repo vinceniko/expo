@@ -3,7 +3,7 @@
 #include "./LoggerInterface.h"
 #include <memory>
 
-namespace reanimated
+namespace ABI41_0_0reanimated
 {
 
 class Logger {

@@ -1,9 +1,9 @@
 #import "NativeProxy.h"
-#import "REAIOSScheduler.h"
-#import "REAIOSErrorHandler.h"
+#import "ABI41_0_0REAIOSScheduler.h"
+#import "ABI41_0_0REAIOSErrorHandler.h"
 #import "RuntimeDecorator.h"
-#import "REAModule.h"
-#import "REANodesManager.h"
+#import "ABI41_0_0REAModule.h"
+#import "ABI41_0_0REANodesManager.h"
 #import "NativeMethods.h"
 #import <folly/json.h>
 #import <ABI41_0_0React/ABI41_0_0RCTFollyConvert.h>
@@ -12,13 +12,13 @@
 #if __has_include(<hermes/hermes.h>)
 #import <hermes/hermes.h>
 #else
-#import <jsi/JSCRuntime.h>
+#import <ABI41_0_0jsi/ABI41_0_0JSCRuntime.h>
 #endif
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
-using namespace facebook;
-using namespace react;
+using namespace ABI41_0_0facebook;
+using namespace ABI41_0_0React;
 
 
 // COPIED FROM ABI41_0_0RCTTurboModule.mm
@@ -84,8 +84,8 @@ static id convertJSIValueToObjCObject(jsi::Runtime &runtime, const jsi::Value &v
 }
 
 std::shared_ptr<NativeReanimatedModule> createReanimatedModule(std::shared_ptr<CallInvoker> jsInvoker) {
-  ABI41_0_0RCTBridge *bridge = _bridge_reanimated;
-  REAModule *reanimatedModule = [bridge moduleForClass:[REAModule class]];
+  ABI41_0_0RCTBridge *bridge = ABI41_0_0_bridge_reanimated;
+  ABI41_0_0REAModule *reanimatedModule = [bridge moduleForClass:[ABI41_0_0REAModule class]];
 
   auto propUpdater = [reanimatedModule](jsi::Runtime &rt, int viewTag, const jsi::Value& viewName, const jsi::Object &props) -> void {
     NSString *nsViewName = [NSString stringWithCString:viewName.asString(rt).utf8(rt).c_str() encoding:[NSString defaultCStringEncoding]];
@@ -111,14 +111,14 @@ std::shared_ptr<NativeReanimatedModule> createReanimatedModule(std::shared_ptr<C
       return val;
   };
 
-  std::shared_ptr<Scheduler> scheduler(new REAIOSScheduler(jsInvoker));
+  std::shared_ptr<Scheduler> scheduler(new ABI41_0_0REAIOSScheduler(jsInvoker));
 
 #if __has_include(<hermes/hermes.h>)
-  std::unique_ptr<jsi::Runtime> animatedRuntime = facebook::hermes::makeHermesRuntime();
+  std::unique_ptr<jsi::Runtime> animatedRuntime = ABI41_0_0facebook::hermes::makeHermesRuntime();
 #else
-  std::unique_ptr<jsi::Runtime> animatedRuntime = facebook::jsc::makeJSCRuntime();
+  std::unique_ptr<jsi::Runtime> animatedRuntime = ABI41_0_0facebook::jsc::makeJSCRuntime();
 #endif
-  std::shared_ptr<ErrorHandler> errorHandler = std::make_shared<REAIOSErrorHandler>(scheduler);
+  std::shared_ptr<ErrorHandler> errorHandler = std::make_shared<ABI41_0_0REAIOSErrorHandler>(scheduler);
   std::shared_ptr<NativeReanimatedModule> module;
 
   auto requestRender = [reanimatedModule, &module](std::function<void(double)> onRender, jsi::Runtime &rt) {

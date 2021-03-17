@@ -3,7 +3,7 @@
 #include <unordered_map>
 #include <memory>
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 void RuntimeDecorator::addNativeObjects(jsi::Runtime &rt,
                                         UpdaterFunction updater,

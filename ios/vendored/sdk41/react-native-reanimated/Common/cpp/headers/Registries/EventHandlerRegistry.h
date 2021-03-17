@@ -5,12 +5,12 @@
 #include <set>
 #include <unordered_map>
 #include <string>
-#include <jsi/jsi.h>
+#include <ABI41_0_0jsi/ABI41_0_0jsi.h>
 #include <mutex>
 
-using namespace facebook;
+using namespace ABI41_0_0facebook;
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 class WorkletEventHandler;
 

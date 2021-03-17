@@ -57,8 +57,8 @@
     }
 }
 
-- (void)didUpdateReactSubviews {
-    if (!self.reactPageViewController && self.reactViewController != nil) {
+- (void)didUpdateABI41_0_0ReactSubviews {
+    if (!self.reactPageViewController && self.ABI41_0_0ReactViewController != nil) {
         [self embed];
         [self setupInitialController];
     } else {
@@ -68,7 +68,7 @@
 
 - (void)didMoveToSuperview {
     [super didMoveToSuperview];
-    if (!self.reactPageViewController && self.reactViewController != nil) {
+    if (!self.reactPageViewController && self.ABI41_0_0ReactViewController != nil) {
         [self embed];
         [self setupInitialController];
     }
@@ -76,7 +76,7 @@
 
 - (void)didMoveToWindow {
     [super didMoveToWindow];
-    if (!self.reactPageViewController && self.reactViewController != nil) {
+    if (!self.reactPageViewController && self.ABI41_0_0ReactViewController != nil) {
         [self embed];
         [self setupInitialController];
     }
@@ -103,13 +103,13 @@
     
     UIPageControl *pageIndicatorView = [self createPageIndicator];
     
-    pageIndicatorView.numberOfPages = self.reactSubviews.count;
+    pageIndicatorView.numberOfPages = self.ABI41_0_0ReactSubviews.count;
     pageIndicatorView.currentPage = self.initialPage;
     pageIndicatorView.hidden = !self.showPageIndicator;
     
     self.reactPageIndicatorView = pageIndicatorView;
     
-    [self reactAddControllerToClosestParent:pageViewController];
+    [self ABI41_0_0ReactAddControllerToClosestParent:pageViewController];
     [pageViewController.view addSubview:pageIndicatorView];
     [self addSubview:pageViewController.view];
     
@@ -142,19 +142,19 @@
 }
 
 - (void)setupInitialController {
-    UIView *initialView = self.reactSubviews[self.initialPage];
+    UIView *initialView = self.ABI41_0_0ReactSubviews[self.initialPage];
     if (initialView) {
         UIViewController *initialController = [[UIViewController alloc] initWithView:initialView];
         [self.cachedControllers addObject:initialController];
         
-        [self setReactViewControllers:self.initialPage
+        [self setABI41_0_0ReactViewControllers:self.initialPage
                                  with:initialController
                             direction:UIPageViewControllerNavigationDirectionForward
                              animated:YES];
     }
 }
 
-- (void)setReactViewControllers:(NSInteger)index
+- (void)setABI41_0_0ReactViewControllers:(NSInteger)index
                            with:(UIViewController *)controller
                       direction:(UIPageViewControllerNavigationDirection)direction
                        animated:(BOOL)animated {
@@ -173,7 +173,7 @@
         weakSelf.currentView = controller.view;
         
         if (weakSelf.eventDispatcher) {
-            [weakSelf.eventDispatcher sendEvent:[[ABI41_0_0RCTOnPageSelected alloc] initWithReactTag:weakSelf.reactTag position:@(index) coalescingKey:coalescingKey]];
+            [weakSelf.eventDispatcher sendEvent:[[ABI41_0_0RCTOnPageSelected alloc] initWithABI41_0_0ReactTag:weakSelf.ABI41_0_0ReactTag position:@(index) coalescingKey:coalescingKey]];
         }
         
     }];
@@ -185,7 +185,7 @@
 
 - (UIViewController *)findCachedControllerForView:(UIView *)view {
     for (UIViewController *controller in self.cachedControllers) {
-        if (controller.view.reactTag == view.reactTag) {
+        if (controller.view.ABI41_0_0ReactTag == view.ABI41_0_0ReactTag) {
             return controller;
         }
     }
@@ -197,7 +197,7 @@
         return;
     }
     
-    NSInteger newIndex = [self.reactSubviews indexOfObject:self.currentView];
+    NSInteger newIndex = [self.ABI41_0_0ReactSubviews indexOfObject:self.currentView];
     
     if (newIndex == NSNotFound) {
         // Current view was removed
@@ -208,7 +208,7 @@
 }
 
 - (void)goTo:(NSInteger)index animated:(BOOL)animated {
-    NSInteger numberOfPages = self.reactSubviews.count;
+    NSInteger numberOfPages = self.ABI41_0_0ReactSubviews.count;
     
     if (numberOfPages == 0 || index < 0) {
         return;
@@ -218,13 +218,13 @@
     
     NSInteger indexToDisplay = index < numberOfPages ? index : numberOfPages - 1;
     
-    UIView *viewToDisplay = self.reactSubviews[indexToDisplay];
+    UIView *viewToDisplay = self.ABI41_0_0ReactSubviews[indexToDisplay];
     UIViewController *controllerToDisplay = [self findAndCacheControllerForView:viewToDisplay];
     
     self.reactPageIndicatorView.numberOfPages = numberOfPages;
     self.reactPageIndicatorView.currentPage = indexToDisplay;
     
-    [self setReactViewControllers:indexToDisplay
+    [self setABI41_0_0ReactViewControllers:indexToDisplay
                              with:controllerToDisplay
                         direction:direction
                          animated:animated];
@@ -237,7 +237,7 @@
     UIViewController *controllerToDisplay = [self findCachedControllerForView:viewToDisplay];
     UIViewController *current = [self currentlyDisplayed];
     
-    if (!controllerToDisplay && current.view.reactTag == viewToDisplay.reactTag) {
+    if (!controllerToDisplay && current.view.ABI41_0_0ReactTag == viewToDisplay.ABI41_0_0ReactTag) {
         controllerToDisplay = current;
     }
     if (!controllerToDisplay) {
@@ -250,8 +250,8 @@
 
 - (UIViewController *)nextControllerForController:(UIViewController *)controller
                                       inDirection:(UIPageViewControllerNavigationDirection)direction {
-    NSUInteger numberOfPages = self.reactSubviews.count;
-    NSInteger index = [self.reactSubviews indexOfObject:controller.view];
+    NSUInteger numberOfPages = self.ABI41_0_0ReactSubviews.count;
+    NSInteger index = [self.ABI41_0_0ReactSubviews indexOfObject:controller.view];
     
     if (index == NSNotFound) {
         return nil;
@@ -263,7 +263,7 @@
         return nil;
     }
     
-    UIView *viewToDisplay = self.reactSubviews[index];
+    UIView *viewToDisplay = self.ABI41_0_0ReactSubviews[index];
     
     return [self findAndCacheControllerForView:viewToDisplay];
 }
@@ -277,15 +277,15 @@
     
     if (completed) {
         UIViewController* currentVC = [self currentlyDisplayed];
-        NSUInteger currentIndex = [self.reactSubviews indexOfObject:currentVC.view];
+        NSUInteger currentIndex = [self.ABI41_0_0ReactSubviews indexOfObject:currentVC.view];
         
         self.currentIndex = currentIndex;
         
         self.currentView = currentVC.view;
         self.reactPageIndicatorView.currentPage = currentIndex;
         
-        [self.eventDispatcher sendEvent:[[ABI41_0_0RCTOnPageSelected alloc] initWithReactTag:self.reactTag position:@(currentIndex) coalescingKey:_coalescingKey++]];
-        [self.eventDispatcher sendEvent:[[ABI41_0_0RCTOnPageScrollEvent alloc] initWithReactTag:self.reactTag position:@(currentIndex) offset:@(0.0)]];
+        [self.eventDispatcher sendEvent:[[ABI41_0_0RCTOnPageSelected alloc] initWithABI41_0_0ReactTag:self.ABI41_0_0ReactTag position:@(currentIndex) coalescingKey:_coalescingKey++]];
+        [self.eventDispatcher sendEvent:[[ABI41_0_0RCTOnPageScrollEvent alloc] initWithABI41_0_0ReactTag:self.ABI41_0_0ReactTag position:@(currentIndex) offset:@(0.0)]];
     }
 }
 
@@ -332,11 +332,11 @@
 #pragma mark - UIScrollViewDelegate
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
-    [self.eventDispatcher sendEvent:[[ABI41_0_0RCTOnPageScrollStateChanged alloc] initWithReactTag:self.reactTag state:@"dragging" coalescingKey:_coalescingKey++]];
+    [self.eventDispatcher sendEvent:[[ABI41_0_0RCTOnPageScrollStateChanged alloc] initWithABI41_0_0ReactTag:self.ABI41_0_0ReactTag state:@"dragging" coalescingKey:_coalescingKey++]];
 }
 
 - (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset {
-    [self.eventDispatcher sendEvent:[[ABI41_0_0RCTOnPageScrollStateChanged alloc] initWithReactTag:self.reactTag state:@"settling" coalescingKey:_coalescingKey++]];
+    [self.eventDispatcher sendEvent:[[ABI41_0_0RCTOnPageScrollStateChanged alloc] initWithABI41_0_0ReactTag:self.ABI41_0_0ReactTag state:@"settling" coalescingKey:_coalescingKey++]];
     
     if (!_overdrag) {
         if (_currentIndex == 0 && scrollView.contentOffset.x <= scrollView.bounds.size.width) {
@@ -348,7 +348,7 @@
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
-    [self.eventDispatcher sendEvent:[[ABI41_0_0RCTOnPageScrollStateChanged alloc] initWithReactTag:self.reactTag state:@"idle" coalescingKey:_coalescingKey++]];
+    [self.eventDispatcher sendEvent:[[ABI41_0_0RCTOnPageScrollStateChanged alloc] initWithABI41_0_0ReactTag:self.ABI41_0_0ReactTag state:@"idle" coalescingKey:_coalescingKey++]];
 }
 
 - (BOOL)isHorizontal {
@@ -394,7 +394,7 @@
    
     
     self.lastContentOffset = scrollView.contentOffset;
-    [self.eventDispatcher sendEvent:[[ABI41_0_0RCTOnPageScrollEvent alloc] initWithReactTag:self.reactTag position:@(position) offset:@(absoluteOffset)]];
+    [self.eventDispatcher sendEvent:[[ABI41_0_0RCTOnPageScrollEvent alloc] initWithABI41_0_0ReactTag:self.ABI41_0_0ReactTag position:@(position) offset:@(absoluteOffset)]];
 }
 
 - (NSString *)determineScrollDirection:(UIScrollView *)scrollView {

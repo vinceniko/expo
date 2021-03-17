@@ -8,11 +8,11 @@
 #include <string>
 #include <mutex>
 #include <unordered_map>
-#include <jsi/jsi.h>
+#include <ABI41_0_0jsi/ABI41_0_0jsi.h>
 
-using namespace facebook;
+using namespace ABI41_0_0facebook;
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 class ShareableValue: public std::enable_shared_from_this<ShareableValue>, public StoreUser {
 friend WorkletsCache;

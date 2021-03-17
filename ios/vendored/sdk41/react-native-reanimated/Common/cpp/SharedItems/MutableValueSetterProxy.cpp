@@ -1,11 +1,11 @@
 #include "MutableValueSetterProxy.h"
 #include "SharedParent.h"
 #include "MutableValue.h"
-#include <jsi/jsi.h>
+#include <ABI41_0_0jsi/ABI41_0_0jsi.h>
 
-using namespace facebook;
+using namespace ABI41_0_0facebook;
 
-namespace reanimated {
+namespace ABI41_0_0reanimated {
 
 void MutableValueSetterProxy::set(jsi::Runtime &rt, const jsi::PropNameID &name, const jsi::Value &newValue) {
   auto propName = name.utf8(rt);

@@ -10,7 +10,7 @@
 #include <memory>
 #include <vector>
 
-namespace reanimated
+namespace ABI41_0_0reanimated
 {
 
 using FrameCallback = std::function<void(double)>;

@@ -1,6 +1,6 @@
 #pragma once
 
-namespace reanimated
+namespace ABI41_0_0reanimated
 {
 
 class LoggerInterface {

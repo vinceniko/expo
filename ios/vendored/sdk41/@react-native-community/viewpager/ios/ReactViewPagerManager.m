@@ -19,15 +19,15 @@ ABI41_0_0RCT_EXPORT_VIEW_PROPERTY(overdrag, BOOL)
 
 
 - (void) goToPage
-                  : (nonnull NSNumber *)reactTag index
+                  : (nonnull NSNumber *)ABI41_0_0ReactTag index
                   : (nonnull NSNumber *)index animated
                   : (BOOL)animated {
     [self.bridge.uiManager addUIBlock:^(
                                         ABI41_0_0RCTUIManager *uiManager,
                                         NSDictionary<NSNumber *, UIView *> *viewRegistry) {
-        ABI41_0_0ReactNativePageView *view = (ABI41_0_0ReactNativePageView *)viewRegistry[reactTag];
+        ABI41_0_0ReactNativePageView *view = (ABI41_0_0ReactNativePageView *)viewRegistry[ABI41_0_0ReactTag];
         if (!view || ![view isKindOfClass:[ABI41_0_0ReactNativePageView class]]) {
-            ABI41_0_0RCTLogError(@"Cannot find ABI41_0_0ReactNativePageView with tag #%@", reactTag);
+            ABI41_0_0RCTLogError(@"Cannot find ABI41_0_0ReactNativePageView with tag #%@", ABI41_0_0ReactTag);
             return;
         }
         [view goTo:index.integerValue animated:animated];
@@ -35,14 +35,14 @@ ABI41_0_0RCT_EXPORT_VIEW_PROPERTY(overdrag, BOOL)
 }
 
 - (void) changeScrollEnabled
-: (nonnull NSNumber *)reactTag enabled
+: (nonnull NSNumber *)ABI41_0_0ReactTag enabled
 : (BOOL)enabled {
     [self.bridge.uiManager addUIBlock:^(
                                         ABI41_0_0RCTUIManager *uiManager,
                                         NSDictionary<NSNumber *, UIView *> *viewRegistry) {
-        ABI41_0_0ReactNativePageView *view = (ABI41_0_0ReactNativePageView *)viewRegistry[reactTag];
+        ABI41_0_0ReactNativePageView *view = (ABI41_0_0ReactNativePageView *)viewRegistry[ABI41_0_0ReactTag];
         if (!view || ![view isKindOfClass:[ABI41_0_0ReactNativePageView class]]) {
-            ABI41_0_0RCTLogError(@"Cannot find ABI41_0_0ReactNativePageView with tag #%@", reactTag);
+            ABI41_0_0RCTLogError(@"Cannot find ABI41_0_0ReactNativePageView with tag #%@", ABI41_0_0ReactTag);
             return;
         }
         [view shouldScroll:enabled];
@@ -50,22 +50,22 @@ ABI41_0_0RCT_EXPORT_VIEW_PROPERTY(overdrag, BOOL)
 }
 
 ABI41_0_0RCT_EXPORT_METHOD(setPage
-                  : (nonnull NSNumber *)reactTag index
+                  : (nonnull NSNumber *)ABI41_0_0ReactTag index
                   : (nonnull NSNumber *)index) {
-    [self goToPage:reactTag index:index animated:true];
+    [self goToPage:ABI41_0_0ReactTag index:index animated:true];
 }
 
 ABI41_0_0RCT_EXPORT_METHOD(setPageWithoutAnimation
-                  : (nonnull NSNumber *)reactTag index
+                  : (nonnull NSNumber *)ABI41_0_0ReactTag index
                   : (nonnull NSNumber *)index) {
-    [self goToPage:reactTag index:index animated:false];
+    [self goToPage:ABI41_0_0ReactTag index:index animated:false];
 }
 
 ABI41_0_0RCT_EXPORT_METHOD(setScrollEnabled
-                  : (nonnull NSNumber *)reactTag enabled
+                  : (nonnull NSNumber *)ABI41_0_0ReactTag enabled
                   : (nonnull NSNumber *)enabled) {
     BOOL isEnabled = [enabled boolValue];
-    [self changeScrollEnabled:reactTag enabled:isEnabled];
+    [self changeScrollEnabled:ABI41_0_0ReactTag enabled:isEnabled];
 }
 
 ABI41_0_0RCT_CUSTOM_VIEW_PROPERTY(scrollEnabled, BOOL, ABI41_0_0ReactNativePageView) {

@@ -5,9 +5,9 @@
 #include <mutex>
 #include <condition_variable>
 #include <functional>
-#include <ABI41_0_0ReactCommon/CallInvoker.h>
+#include <ABI41_0_0ReactCommon/ABI41_0_0CallInvoker.h>
 
-namespace reanimated
+namespace ABI41_0_0reanimated
 {
 
 //
@@ -78,14 +78,14 @@ class NativeReanimatedModule;
 class Scheduler {
   public:
     void scheduleOnJS(std::function<void()> job);
-    void setJSCallInvoker(std::shared_ptr<facebook::react::CallInvoker> jsCallInvoker);
+    void setJSCallInvoker(std::shared_ptr<ABI41_0_0facebook::ABI41_0_0React::CallInvoker> jsCallInvoker);
     void setModule(std::shared_ptr<NativeReanimatedModule> module);
     virtual void scheduleOnUI(std::function<void()> job);
     virtual void triggerUI();
     virtual ~Scheduler();
   protected:
     Queue<std::function<void()>> uiJobs;
-    std::shared_ptr<facebook::react::CallInvoker> jsCallInvoker_;
+    std::shared_ptr<ABI41_0_0facebook::ABI41_0_0React::CallInvoker> jsCallInvoker_;
     std::weak_ptr<NativeReanimatedModule> module;
 };
 
