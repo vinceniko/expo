@@ -233,8 +233,9 @@ open class DevMenuManager: NSObject, DevMenuManagerProtocol {
     let uniqueExtensionNames: [String] = Array(Set(allExtensions.map({ type(of: $0).moduleName() })))
 
     return uniqueExtensionNames
-      .map({ bridge.module(forName: DevMenuUtils.stripRCT($0)) })
-      .filter({ $0 is DevMenuExtensionProtocol }) as! [DevMenuExtensionProtocol]
+      .sorted()
+      .map({ bridge.module(forName: DevMenuUtils.stripRCT($0)) as? DevMenuExtensionProtocol })
+      .compactMap({ $0 }) // remove nils
   }
 
   /**
