@@ -18,7 +18,6 @@ apply plugin: 'kotlin-android'
 apply plugin: 'devicefarm'
 
 android {
-
   compileSdkVersion safeExtGet("compileSdkVersion", 30)
 
   compileOptions {
@@ -71,6 +70,8 @@ android {
       }
     }
   }
+  // WHEN_DISTRIBUTING_REMOVE_FROM_HERE
+  // WHEN_PREPARING_SHELL_REMOVE_FROM_HERE
   flavorDimensions "versioning"
   productFlavors {
     versioned {
@@ -83,6 +84,8 @@ android {
       manifestPlaceholders = [appLabel: "@string/unversioned_app_name"]
     }
   }
+  // WHEN_PREPARING_SHELL_REMOVE_TO_HERE
+  // WHEN_DISTRIBUTING_REMOVE_TO_HERE
 
   lintOptions {
     abortOnError false
