@@ -7,9 +7,10 @@ import androidx.annotation.Nullable;
 import expo.modules.notifications.notifications.interfaces.NotificationTrigger;
 import expo.modules.notifications.notifications.model.NotificationContent;
 import expo.modules.notifications.notifications.model.NotificationRequest;
+import host.exp.exponent.kernel.ExperienceKey;
 
 public class ScopedNotificationRequest extends NotificationRequest {
-  // We store String instead of ExperienceId, cause ScopedNotificationRequest must be serializable.
+  // We store String instead of ExperienceKey because ScopedNotificationRequest must be serializable.
   private String mExperienceIdString;
 
   public ScopedNotificationRequest(String identifier, NotificationContent content, NotificationTrigger trigger, @Nullable String experienceId) {
@@ -22,11 +23,11 @@ public class ScopedNotificationRequest extends NotificationRequest {
     mExperienceIdString = in.readString();
   }
 
-  public boolean checkIfBelongsToExperience(@Nullable String experienceId) {
+  public boolean checkIfBelongsToExperience(@Nullable ExperienceKey experienceKey) {
     if (mExperienceIdString == null) {
       return true;
     }
-    return mExperienceIdString.equals(experienceId);
+    return mExperienceIdString.equals(experienceKey.getLegacyId()) || mExperienceIdString.equals(experienceKey.getStableLegacyId());
   }
 
   public static final Creator<ScopedNotificationRequest> CREATOR = new Creator<ScopedNotificationRequest>() {

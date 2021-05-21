@@ -19,6 +19,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
+import host.exp.exponent.kernel.ExperienceKey;
 import host.exp.exponent.notifications.helpers.ExpoCronDefinitionBuilder;
 import host.exp.exponent.notifications.managers.SchedulersManagerProxy;
 import host.exp.exponent.notifications.managers.SchedulersDatabase;
@@ -63,8 +64,8 @@ public class CalendarSchedulerModel extends BaseModel implements SchedulerModel 
   }
 
   @Override
-  public String getOwnerExperienceId() {
-    return experienceId;
+  public ExperienceKey getOwnerExperienceKey() {
+    return ExperienceKey.loadForExperienceId(experienceId);
   }
 
   @Override

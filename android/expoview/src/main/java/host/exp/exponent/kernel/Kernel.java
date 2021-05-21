@@ -50,7 +50,6 @@ import de.greenrobot.event.EventBus;
 import expo.modules.notifications.notifications.model.NotificationResponse;
 import expo.modules.notifications.service.NotificationsService;
 import expo.modules.notifications.service.delegates.ExpoHandlingDelegate;
-import expo.modules.updates.manifest.ManifestFactory;
 import expo.modules.updates.manifest.raw.RawManifest;
 import host.exp.exponent.ExpoUpdatesAppLoader;
 import host.exp.exponent.LauncherActivity;
@@ -531,7 +530,8 @@ public class Kernel extends KernelInterface {
           if (bundle.containsKey(KernelConstants.NOTIFICATION_ACTION_TYPE_KEY)) {
             exponentNotification.setActionType(bundle.getString(KernelConstants.NOTIFICATION_ACTION_TYPE_KEY));
             ExponentNotificationManager manager = new ExponentNotificationManager(mContext);
-            manager.cancel(exponentNotification.experienceId, exponentNotification.notificationId);
+            ExperienceKey experienceKey = ExperienceKey.loadForExperienceId(exponentNotification.experienceId);
+            manager.cancel(experienceKey, exponentNotification.notificationId);
           }
           // Add remote input
           Bundle remoteInput = RemoteInput.getResultsFromIntent(intent);
