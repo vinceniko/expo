@@ -117,7 +117,7 @@ public class ConstantsService implements InternalModule, ConstantsInterface {
     return mContext.getPackageName();
   }
 
-  public String getStableLegacyAppId() {
+  public String getAppScopeKey() {
     return this.getAppId();
   }
 

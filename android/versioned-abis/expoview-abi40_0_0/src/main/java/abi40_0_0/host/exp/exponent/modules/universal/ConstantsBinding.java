@@ -80,9 +80,9 @@ public class ConstantsBinding extends ConstantsService implements ConstantsInter
     return constants;
   }
 
-  public String getStableLegacyAppId() {
+  public String getAppScopeKey() {
     try {
-      return mManifest.getStableLegacyID();
+      return mManifest.getScopeKey();
     } catch (JSONException e) {
       return null;
     }
