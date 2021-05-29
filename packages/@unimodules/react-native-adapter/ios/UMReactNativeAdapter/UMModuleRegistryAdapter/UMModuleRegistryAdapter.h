@@ -2,7 +2,8 @@
 
 #import <Foundation/Foundation.h>
 #import <React/RCTBridgeModule.h>
-#import <UMCore/UMModuleRegistryProvider.h>
+
+@import UMCore;
 
 // An "adapter" over module registry, for given RCTBridge and NSString
 // is able to provide an array of exported RCTBridgeModules. Override
@@ -14,8 +15,9 @@
 @property (nonatomic, readonly) UMModuleRegistryProvider *moduleRegistryProvider;
 
 - (instancetype)initWithModuleRegistryProvider:(UMModuleRegistryProvider *)moduleRegistryProvider;
+- (instancetype)initWithModuleRegistryProvider:(UMModuleRegistryProvider *)moduleRegistryProvider swiftModulesProvider:(id<ModulesProviderObjCProtocol>)swiftModulesProvider;
+
 - (NSArray<id<RCTBridgeModule>> *)extraModulesForModuleRegistry:(UMModuleRegistry *)moduleRegistry;
 - (NSArray<id<RCTBridgeModule>> *)extraModulesForBridge:(RCTBridge *)bridge;
 
 @end
-

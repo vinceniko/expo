@@ -1723,14 +1723,6 @@ PODS:
     - CocoaLumberjack/Core (= 3.5.3)
   - CocoaLumberjack/Core (3.5.3)
   - DoubleConversion (1.1.6)
-  - EXAdsAdMob (10.0.4):
-    - ExpoModulesCore
-    - Google-Mobile-Ads-SDK (= 7.69.0)
-    - UMCore
-  - EXAdsFacebook (10.0.4):
-    - ExpoModulesCore
-    - FBAudienceNetwork (= 6.3.0)
-    - UMCore
   - EXAmplitude (10.1.0):
     - Amplitude (~> 6.0.0)
     - UMCore
@@ -1788,11 +1780,6 @@ PODS:
     - UMCore
   - EXErrorRecovery (2.1.0):
     - UMCore
-  - EXFacebook (11.1.1):
-    - ExpoModulesCore
-    - FacebookSDK/CoreKit (= 9.2.0)
-    - FacebookSDK/LoginKit (= 9.2.0)
-    - UMCore
   - EXFaceDetector (10.0.1):
     - ExpoModulesCore
     - GoogleMLKit/FaceDetection (= 2.1.0)
@@ -1803,13 +1790,6 @@ PODS:
   - EXFileSystem (11.0.2):
     - ExpoModulesCore
     - UMCore
-  - EXFirebaseAnalytics (4.0.1):
-    - EXFirebaseCore
-    - Firebase/Core (= 7.7.0)
-    - UMCore
-  - EXFirebaseCore (3.0.0):
-    - Firebase/Core (= 7.7.0)
-    - UMCore
   - EXFont (9.1.0):
     - ExpoModulesCore
     - UMCore
@@ -1819,9 +1799,6 @@ PODS:
     - UMCore
   - EXGL_CPP (10.3.0):
     - React-jsi
-  - EXGoogleSignIn (9.1.0):
-    - GoogleSignIn (~> 5.0.2)
-    - UMCore
   - EXHaptics (10.0.0):
     - UMCore
   - EXImageLoader (2.1.1):
@@ -2698,8 +2675,6 @@ DEPENDENCIES:
   - Amplitude
   - CocoaLumberjack (~> 3.5.3)
   - DoubleConversion (from `../react-native-lab/react-native/third-party-podspecs/DoubleConversion.podspec`)
-  - EXAdsAdMob (from `../packages/expo-ads-admob/ios`)
-  - EXAdsFacebook (from `../packages/expo-ads-facebook/ios`)
   - EXAmplitude (from `../packages/expo-analytics-amplitude/ios`)
   - EXAppAuth (from `../packages/expo-app-auth/ios`)
   - EXAppleAuthentication (from `../packages/expo-apple-authentication/ios`)
@@ -2721,15 +2696,11 @@ DEPENDENCIES:
   - EXDevice (from `../packages/expo-device/ios`)
   - EXDocumentPicker (from `../packages/expo-document-picker/ios`)
   - EXErrorRecovery (from `../packages/expo-error-recovery/ios`)
-  - EXFacebook (from `../packages/expo-facebook/ios`)
   - EXFaceDetector (from `../packages/expo-face-detector/ios`)
   - EXFileSystem (from `../packages/expo-file-system/ios`)
-  - EXFirebaseAnalytics (from `../packages/expo-firebase-analytics/ios`)
-  - EXFirebaseCore (from `../packages/expo-firebase-core/ios`)
   - EXFont (from `../packages/expo-font/ios`)
   - EXGL (from `../packages/expo-gl/ios`)
   - EXGL_CPP (from `../packages/expo-gl-cpp/cpp`)
-  - EXGoogleSignIn (from `../packages/expo-google-sign-in/ios`)
   - EXHaptics (from `../packages/expo-haptics/ios`)
   - EXImageLoader (from `../packages/expo-image-loader/ios`)
   - EXImageManipulator (from `../packages/expo-image-manipulator/ios`)
@@ -3463,10 +3434,6 @@ EXTERNAL SOURCES:
     :path: "./versioned-react-native/ABI41_0_0/ReactNative/ReactCommon/yoga"
   DoubleConversion:
     :podspec: "../react-native-lab/react-native/third-party-podspecs/DoubleConversion.podspec"
-  EXAdsAdMob:
-    :path: "../packages/expo-ads-admob/ios"
-  EXAdsFacebook:
-    :path: "../packages/expo-ads-facebook/ios"
   EXAmplitude:
     :path: "../packages/expo-analytics-amplitude/ios"
   EXAppAuth:
@@ -3509,24 +3476,16 @@ EXTERNAL SOURCES:
     :path: "../packages/expo-document-picker/ios"
   EXErrorRecovery:
     :path: "../packages/expo-error-recovery/ios"
-  EXFacebook:
-    :path: "../packages/expo-facebook/ios"
   EXFaceDetector:
     :path: "../packages/expo-face-detector/ios"
   EXFileSystem:
     :path: "../packages/expo-file-system/ios"
-  EXFirebaseAnalytics:
-    :path: "../packages/expo-firebase-analytics/ios"
-  EXFirebaseCore:
-    :path: "../packages/expo-firebase-core/ios"
   EXFont:
     :path: "../packages/expo-font/ios"
   EXGL:
     :path: "../packages/expo-gl/ios"
   EXGL_CPP:
     :path: "../packages/expo-gl-cpp/cpp"
-  EXGoogleSignIn:
-    :path: "../packages/expo-google-sign-in/ios"
   EXHaptics:
     :path: "../packages/expo-haptics/ios"
   EXImageLoader:
@@ -3979,8 +3938,6 @@ SPEC CHECKSUMS:
   Branch: 9a37f707974a128c37829033c49018b79c7e7a2d
   CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
   DoubleConversion: cde416483dac037923206447da6e1454df403714
-  EXAdsAdMob: ce6bd5c87317b12cbf9743e95c9e82dd21b7994c
-  EXAdsFacebook: 66287787c175c7d3eb5f7af9b8705163b4b44ee6
   EXAmplitude: bb4870721d97deeee4afa42bba2deb179d180f2e
   EXAppAuth: aadce7faa2cf26e33e8123eeaacd73fd9655138c
   EXAppleAuthentication: e6bb6f9ffe84e52b04a36f00220456da07694c3d
@@ -3994,7 +3951,7 @@ SPEC CHECKSUMS:
   EXBrightness: d3b7c97082f22d07baec9442c65be185f85929fd
   EXCalendar: 93dcc0f5288066f65d53b730abfb2a5fd69ccc87
   EXCamera: 51dec14df2128718c3a43c09a085a105be15cafb
-  EXCellular: 06e641f1c34e9d772da3c69cfe9ef4828791e3f8
+  EXCellular: 0ccec94ed5c03722bd6ee4f7c463ac13148d9316
   EXClipboard: 2f4ac26d2d1fb3b40346fd4a93d5303c04608b07
   EXConstants: 5ea0cedcacca6f27f0ec54f185e01e0970ee1286
   EXContacts: c4168e6fba1b2b075e30f7504b79de42afdfd0d8
@@ -4002,15 +3959,11 @@ SPEC CHECKSUMS:
   EXDevice: e69996534618927956e80a91135b5c0dd1d7d114
   EXDocumentPicker: 6603d48650746d7f7f13aee990847d955c2faf8d
   EXErrorRecovery: 720641265b8cf95e6cdeb1884ac38e794a352488
-  EXFacebook: dfae2440250370f43d4c8f7f164802b7b9a1863b
   EXFaceDetector: 22c66f3834c0f0e298f43d3fae4a2550cbca2d97
   EXFileSystem: 403cded06e98fe853480da173c7c170d7723126e
-  EXFirebaseAnalytics: cf36b67695d02c4bf587dbc123cba3e0efab61c6
-  EXFirebaseCore: 7865e37021ddcff5c575a4598686a2939d6c4183
   EXFont: 3da1e6eb78623df17554da8292090a5ec9b6b23b
   EXGL: b76633ed826259528aed61e98603287c8f05a05e
   EXGL_CPP: 09fc9d4438705f186e17086d980740d2518fe586
-  EXGoogleSignIn: 9737eb53d327c3d5e668ea00bed490695d880893
   EXHaptics: 2de40c5f50a9e78da92c209db06db5134d8cac0b
   EXImageLoader: aca15a703943031919daac622f663cb8359565a0
   EXImageManipulator: b1995b9fddea180eba04383673146564e0d3fd8b
@@ -4105,12 +4058,12 @@ SPEC CHECKSUMS:
   Stripe: 515db5536fd659b5d79a0898ce1b882b61ab597e
   stripe-react-native: ac0688fd5202f8cbe3afc1eb606c8058bd66c97e
   UMAppLoader: fe2708bb0ac5cd70052bc207d06aa3b7e72b9e97
-  UMCore: 912510bbff567298d738590f17788a8516f9d7f3
+  UMCore: 0c27ead8fe61b68e20d13c48753530feea194989
   UMReactNativeAdapter: ee750f3cf40e149643f9191de3ce8c02202f198f
   UMTaskManagerInterface: 203c11259d2699b5b3a4eda4adbc466f5cb5c561
   Yoga: 7740b94929bbacbddda59bf115b5317e9a161598
   ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: df6314bbbe7085a685e1076e977acf7799b0bcf4
+PODFILE CHECKSUM: d266f22fa604ab3b9a3173737489231730b2fd0a
 
 COCOAPODS: 1.10.1

@@ -11,7 +11,6 @@ class AppDelegate: UMAppDelegateWrapper {
       // App launched in foreground
       setUpUserInterfaceForApplication(application, withLaunchOptions: launchOptions)
     }
-
     super.application(application, didFinishLaunchingWithOptions: launchOptions)
 
     return true

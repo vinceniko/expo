@@ -21,7 +21,13 @@ abstract_target 'Expo Go' do
     exclude: [
       'expo-module-template',
       'expo-in-app-purchases',
-      'expo-payments-stripe'
+      'expo-payments-stripe',
+      'expo-ads-facebook',
+      'expo-facebook',
+      'expo-firebase-core',
+      'expo-firebase-analytics',
+      'expo-google-sign-in',
+      'expo-ads-admob'
     ],
     # Modules for which to include Tests subspec
     tests: [

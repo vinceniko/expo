@@ -54,6 +54,8 @@
 #import <React/JSCExecutorFactory.h>
 #import <strings.h>
 
+#import "Expo_Go-Swift.h"
+
 // Import 3rd party modules that need to be scoped.
 #import "RNCWebViewManager.h"
 
@@ -362,7 +364,8 @@ RCT_EXTERN void EXRegisterScopedModule(Class, ...);
   id<UMModuleRegistryDelegate> moduleRegistryDelegate = [[resolverClass alloc] initWithParams:params];
   [moduleRegistryProvider setModuleRegistryDelegate:moduleRegistryDelegate];
 
-  EXScopedModuleRegistryAdapter *moduleRegistryAdapter = [[EXScopedModuleRegistryAdapter alloc] initWithModuleRegistryProvider:moduleRegistryProvider];
+  id<ModulesProviderObjCProtocol> swiftModulesProvider = [ExpoSwiftModulesProvider new];
+  EXScopedModuleRegistryAdapter *moduleRegistryAdapter = [[EXScopedModuleRegistryAdapter alloc] initWithModuleRegistryProvider:moduleRegistryProvider swiftModulesProvider:swiftModulesProvider];
   UMModuleRegistry *moduleRegistry = [moduleRegistryAdapter moduleRegistryForParams:params forExperienceId:experienceId withKernelServices:services];
   NSArray<id<RCTBridgeModule>> *expoModules = [moduleRegistryAdapter extraModulesForModuleRegistry:moduleRegistry];
   [extraModules addObjectsFromArray:expoModules];

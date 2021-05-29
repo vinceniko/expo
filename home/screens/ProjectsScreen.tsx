@@ -25,6 +25,8 @@ import addListenerWithNativeCallback from '../utils/addListenerWithNativeCallbac
 import getSnackId from '../utils/getSnackId';
 import isUserAuthenticated from '../utils/isUserAuthenticated';
 
+import { NativeModulesProxy } from '@unimodules/core';
+
 const PROJECT_UPDATE_INTERVAL = 10000;
 
 type Props = NavigationProps & {
@@ -42,6 +44,13 @@ type State = {
 };
 
 type NavigationProps = StackScreenProps<AllStackRoutes, 'Projects'>;
+
+(async function() {
+  const BaseModule = NativeModulesProxy.BaseModule;
+  console.log(BaseModule);
+  console.log(await BaseModule.add(1, 3.14));
+  console.log(await BaseModule.subtract(1, 3.14));
+})();
 
 export default function ProjectsScreen(props: NavigationProps) {
   const [isFocused, setFocused] = React.useState(true);

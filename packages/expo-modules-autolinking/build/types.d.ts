@@ -8,10 +8,11 @@ export interface SearchOptions {
 }
 export interface ResolveOptions extends SearchOptions {
     json?: boolean;
+    packageListTarget?: string | null;
 }
 export interface GenerateOptions extends ResolveOptions {
     target: string;
-    namespace: string;
+    namespace?: string;
     empty?: boolean;
 }
 export declare type PackageRevision = {
@@ -23,3 +24,8 @@ export declare type SearchResults = {
     [moduleName: string]: PackageRevision;
 };
 export declare type ModuleDescriptor = Record<string, any>;
+export declare type ExpoModuleConfig = {
+    ios?: {
+        postInstallScripts?: string[];
+    };
+};

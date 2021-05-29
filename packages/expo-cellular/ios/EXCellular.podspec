@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.author         = package['author']
   s.homepage       = package['homepage']
   s.platform       = :ios, '11.0'
+  s.swift_version  = '5.2'
   s.source         = { git: 'https://github.com/expo/expo.git' }
 
   s.dependency 'UMCore'
@@ -19,6 +20,11 @@ Pod::Spec.new do |s|
     s.source_files = "#{s.name}/**/*.h"
     s.vendored_frameworks = "#{s.name}.xcframework"
   else
-    s.source_files = "#{s.name}/**/*.{h,m}"
+    s.source_files = "#{s.name}/**/*.{h,m,swift}"
   end
+
+  # Swift/Objective-C compatibility
+  s.pod_target_xcconfig = {
+    'DEFINES_MODULE' => 'YES'
+  }
 end

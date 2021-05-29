@@ -13,11 +13,12 @@ export interface SearchOptions {
 
 export interface ResolveOptions extends SearchOptions {
   json?: boolean;
+  packageListTarget?: string | null;
 }
 
 export interface GenerateOptions extends ResolveOptions {
   target: string;
-  namespace: string;
+  namespace?: string;
   empty?: boolean;
 }
 
@@ -32,3 +33,9 @@ export type SearchResults = {
 };
 
 export type ModuleDescriptor = Record<string, any>;
+
+export type ExpoModuleConfig = {
+  ios?: {
+    postInstallScripts?: string[];
+  };
+};
