@@ -26,6 +26,7 @@
     _splashScreenShown = NO;
     _appContentAppeared = NO;
     _splashScreenView = [splashScreenViewProvider createSplashScreenView];
+    _splashScreenView.userInteractionEnabled = YES;
   }
   return self;
 }
@@ -44,6 +45,7 @@
     self.splashScreenView.frame = rootView.bounds;
     [rootView addSubview:self.splashScreenView];
     self.splashScreenShown = YES;
+    
     if (successCallback) {
       successCallback();
     }
@@ -77,6 +79,7 @@
     [self.splashScreenView removeFromSuperview];
     self.splashScreenShown = NO;
     self.autoHideEnabled = YES;
+    
     if (successCallback) {
       successCallback(YES);
     }

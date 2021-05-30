@@ -17,7 +17,7 @@ class SplashScreenController(
   private val weakActivity = WeakReference(activity)
   private val contentView: ViewGroup = activity.findViewById(android.R.id.content)
       ?: throw NoContentViewException()
-  private var splashScreenView: View = splashScreenViewProvider.createSplashScreenView(activity)
+  private var splashScreenView = splashScreenViewProvider.createSplashScreenView(activity)
   private val handler = Handler()
 
   private var autoHideEnabled = true
@@ -123,4 +123,5 @@ class SplashScreenController(
       }
     })
   }
+
 }

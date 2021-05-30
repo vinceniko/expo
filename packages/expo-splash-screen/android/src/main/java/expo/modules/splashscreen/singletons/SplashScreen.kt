@@ -3,10 +3,7 @@ package expo.modules.splashscreen.singletons
 import android.app.Activity
 import android.util.Log
 import android.view.ViewGroup
-import expo.modules.splashscreen.NativeResourcesBasedSplashScreenViewProvider
-import expo.modules.splashscreen.SplashScreenController
-import expo.modules.splashscreen.SplashScreenImageResizeMode
-import expo.modules.splashscreen.SplashScreenViewProvider
+import expo.modules.splashscreen.*
 import org.unimodules.core.interfaces.SingletonModule
 import java.util.*
 
@@ -116,6 +113,10 @@ object SplashScreen : SingletonModule {
   ) {
     if (!controllers.containsKey(activity)) {
       return failureCallback("No native splash screen registered for provided activity. Please configure your application's main Activity to call 'SplashScreen.show' (https://github.com/expo/expo/tree/master/packages/expo-splash-screen#-configure-android).")
+    }
+
+    if (activity is SplashScreenListenerActivity) {
+      activity.onSplashScreenDismissed()
     }
 
     controllers[activity]?.hideSplashScreen(successCallback, failureCallback)

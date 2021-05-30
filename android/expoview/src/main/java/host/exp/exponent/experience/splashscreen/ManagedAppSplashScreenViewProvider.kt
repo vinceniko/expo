@@ -24,6 +24,10 @@ class ManagedAppSplashScreenViewProvider(
     private const val TAG: String = "ExperienceSplashScreenManifestBasedResourceProvider"
   }
 
+  fun getSplashScreenView(): SplashScreenView {
+    return splashScreenView;
+  }
+
   override fun createSplashScreenView(context: Context): View {
     splashScreenView = SplashScreenView(context)
     configureSplashScreenView(context, config, null)

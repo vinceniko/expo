@@ -2,6 +2,7 @@
 
 package host.exp.exponent.experience;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -11,6 +12,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.View;
@@ -23,6 +25,7 @@ import android.widget.RemoteViews;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.UiThreadUtil;
 import com.facebook.soloader.SoLoader;
+import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -39,6 +42,7 @@ import javax.inject.Inject;
 import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 import de.greenrobot.event.EventBus;
+import expo.modules.splashscreen.SplashScreenListenerActivity;
 import expo.modules.splashscreen.singletons.SplashScreen;
 import expo.modules.updates.manifest.raw.RawManifest;
 import host.exp.exponent.AppLoader;
@@ -72,6 +76,7 @@ import host.exp.exponent.storage.ExponentSharedPreferences;
 import host.exp.exponent.utils.AsyncCondition;
 import host.exp.exponent.utils.ExperienceActivityUtils;
 import host.exp.exponent.utils.ExpoActivityIds;
+import host.exp.expoview.BuildConfig;
 import host.exp.expoview.Exponent;
 import host.exp.expoview.R;
 import versioned.host.exp.exponent.ExponentPackageDelegate;
@@ -80,7 +85,7 @@ import versioned.host.exp.exponent.ReactUnthemedRootView;
 import static host.exp.exponent.kernel.KernelConstants.IS_OPTIMISTIC_KEY;
 import static host.exp.exponent.kernel.KernelConstants.MANIFEST_URL_KEY;
 
-public class ExperienceActivity extends BaseExperienceActivity implements Exponent.StartReactInstanceDelegate {
+public class ExperienceActivity extends BaseExperienceActivity implements Exponent.StartReactInstanceDelegate, SplashScreenListenerActivity {
 
   public List<Package> expoPackages() {
     // Experience must pick its own modules in ExponentPackage
@@ -115,6 +120,9 @@ public class ExperienceActivity extends BaseExperienceActivity implements Expone
   private NotificationCompat.Builder mNotificationBuilder;
   private boolean mIsLoadExperienceAllowedToRun = false;
   private boolean mShouldShowLoadingViewWithOptimisticManifest = false;
+
+  private Handler mWarningHandler = new Handler();
+  private Snackbar mSnackbar;
 
   /**
    * Controls loadingProgressPopupWindow that is shown above whole activity.
@@ -411,9 +419,42 @@ public class ExperienceActivity extends BaseExperienceActivity implements Expone
       ManagedAppSplashScreenConfiguration config = ManagedAppSplashScreenConfiguration.parseManifest(manifest);
       mManagedAppSplashScreenViewProvider = new ManagedAppSplashScreenViewProvider(config);
       SplashScreen.show(this, mManagedAppSplashScreenViewProvider, getRootViewClass(manifest), true);
+
+      if (BuildConfig.DEBUG) {
+        this.startSplashScreenWarningTimer();
+      }
     } else {
       mManagedAppSplashScreenViewProvider.updateSplashScreenViewWithManifest(this, manifest);
     }
+  }
+
+  private void startSplashScreenWarningTimer() {
+    View splashScreenView = mManagedAppSplashScreenViewProvider.getSplashScreenView();
+
+    mWarningHandler.postDelayed(new Runnable() {
+      @Override
+      public void run() {
+        mSnackbar = Snackbar.make(splashScreenView, "Stuck on splash screen?", Snackbar.LENGTH_LONG);
+        mSnackbar.setAction("Info", new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+            String url = "https://expo.fyi/splash-screen-hanging";
+            Uri webpage = Uri.parse(url);
+            Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
+            v.getContext().startActivity(intent);
+            mSnackbar.dismiss();
+          }
+        });
+
+        mSnackbar.show();
+      }
+    }, 20000);
+  }
+
+  @Override
+  public void onSplashScreenDismissed() {
+    // removes all callbacks
+    mWarningHandler.removeCallbacks(null);
   }
 
   public void setLoadingProgressStatusIfEnabled() {

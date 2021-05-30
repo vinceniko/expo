@@ -21,8 +21,12 @@
 #import "EXVersions.h"
 #import "EXUpdatesManager.h"
 #import "EXUtil.h"
+#import "MBProgressHUD.h"
+#import "EXSplashScreenHUDButton.h"
 
 #import <EXSplashScreen/EXSplashScreenService.h>
+#import <EXSplashScreen/EXSplashScreenWarningViewController.h>
+
 #import <React/RCTUtils.h>
 #import <UMCore/UMModuleRegistryProvider.h>
 
@@ -57,7 +61,7 @@ const CGFloat kEXDevelopmentErrorCoolDownSeconds = 0.1;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface EXAppViewController ()
-  <EXReactAppManagerUIDelegate, EXAppLoaderDelegate, EXErrorViewDelegate, EXAppLoadingCancelViewDelegate>
+  <EXReactAppManagerUIDelegate, EXAppLoaderDelegate, EXErrorViewDelegate, EXAppLoadingCancelViewDelegate, EXSplashScreenWarningViewController>
 
 @property (nonatomic, assign) BOOL isLoading;
 @property (nonatomic, assign) BOOL isBridgeAlreadyLoading;
@@ -70,6 +74,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) BOOL isStandalone;
 @property (nonatomic, assign) BOOL isHomeApp;
+
+@property (nonatomic, weak) NSTimer *warningTimer;
+@property (nonatomic, weak) MBProgressHUD *warningHud;
+
 
 /*
  * Controller for handling all messages from bundler/fetcher.
@@ -182,6 +190,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)viewWillDisappear:(BOOL)animated
 {
   [_appLoadingProgressWindowController hide];
+  
+  if (_warningTimer) {
+    [_warningTimer invalidate];
+  }
+  
   [super viewWillDisappear:animated];
 }
 
@@ -201,6 +214,13 @@ NS_ASSUME_NONNULL_BEGIN
 {
   [super addChildViewController:childController];
   [self _overrideUserInterfaceStyleOf:childController];
+}
+
+- (void)onSplashScreenDimissed
+{
+  if (_warningTimer) {
+    [_warningTimer invalidate];
+  }
 }
 
 #pragma mark - Public
@@ -337,8 +357,7 @@ NS_ASSUME_NONNULL_BEGIN
   }
   if (!_managedAppSplashScreenViewProvider) {
     _managedAppSplashScreenViewProvider = [[EXManagedAppSplashScreenViewProvider alloc] initWithManifest:manifest];
-
-    [self _showSplashScreenWithProvider:_managedAppSplashScreenViewProvider];
+    [self _showManagedAppSplashScreenWithProvider:_managedAppSplashScreenViewProvider];
   } else {
     [_managedAppSplashScreenViewProvider updateSplashScreenViewWithManifest:manifest];
   }
@@ -372,10 +391,54 @@ NS_ASSUME_NONNULL_BEGIN
   }
 }
 
+- (void)_showManagedAppSplashScreenWithProvider:(id<EXSplashScreenViewProvider>)provider
+{
+  EXSplashScreenService *splashScreenService = (EXSplashScreenService *)[UMModuleRegistryProvider getSingletonModuleForClass:[EXSplashScreenService class]];
+  
+  
+  UM_WEAKIFY(self);
+  dispatch_async(dispatch_get_main_queue(), ^{
+    UM_ENSURE_STRONGIFY(self);
+    [splashScreenService showSplashScreenFor:self
+                    splashScreenViewProvider:provider
+                             successCallback:^(){
+      self.warningTimer = [NSTimer scheduledTimerWithTimeInterval:10.0
+                                                           target:self
+                                                         selector:@selector(showSplashScreenVisibleWarning)
+                                                         userInfo:nil
+                                                          repeats:NO];
+      }
+                             failureCallback:^(NSString *message){ UMLogWarn(@"%@", message); }];
+  });
+}
+
+-(void)showSplashScreenVisibleWarning
+{
+#if DEBUG
+  _warningHud = [MBProgressHUD showHUDAddedTo: self.view animated:YES];
+  _warningHud.mode = MBProgressHUDModeCustomView;
+  
+  EXSplashScreenHUDButton *button = [EXSplashScreenHUDButton buttonWithType: UIButtonTypeSystem];
+  [button addTarget:self action:@selector(navigateToFYI) forControlEvents:UIControlEventTouchUpInside];
+
+  _warningHud.customView = button;
+  _warningHud.offset = CGPointMake(0.f, MBProgressMaxOffset);
+  
+  [_warningHud hideAnimated:YES afterDelay:8.f];
+#endif
+}
+
+-(void)navigateToFYI
+{
+  NSURL *fyiURL = [[NSURL alloc] initWithString:@"https://expo.fyi/splash-screen-hanging"];
+  [[UIApplication sharedApplication] openURL:fyiURL];
+  [_warningHud hideAnimated: YES];
+}
+
 - (void)_showSplashScreenWithProvider:(id<EXSplashScreenViewProvider>)provider
 {
   EXSplashScreenService *splashScreenService = (EXSplashScreenService *)[UMModuleRegistryProvider getSingletonModuleForClass:[EXSplashScreenService class]];
-
+  
   // EXSplashScreenService presents a splash screen on a root view controller
   // at the start of the app. Since we want the EXAppViewController to manage
   // the lifecycle of the splash screen we need to:
