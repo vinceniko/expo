@@ -65,21 +65,21 @@ public class PushNotificationHelper {
     NativeModuleDepsProvider.getInstance().inject(PushNotificationHelper.class, this);
   }
 
-  public void onMessageReceived(final Context context, final String experienceId, final String channelId, final String message, final String body, final String title, final String categoryId) {
-    ExponentDB.experienceIdToExperience(experienceId, new ExponentDB.ExperienceResultListener() {
+  public void onMessageReceived(final Context context, final String experienceScopeKey, final String channelId, final String message, final String body, final String title, final String categoryId) {
+    ExponentDB.experienceScopeKeyToExperience(experienceScopeKey, new ExponentDB.ExperienceResultListener() {
       @Override
       public void onSuccess(ExperienceDBObject experience) {
         try {
           RawManifest manifest = ManifestFactory.INSTANCE.getRawManifestFromJson(new JSONObject(experience.manifest));
           sendNotification(context, message, channelId, experience.manifestUrl, manifest, body, title, categoryId);
         } catch (JSONException e) {
-          EXL.e(TAG, "Couldn't deserialize JSON for experience id " + experienceId);
+          EXL.e(TAG, "Couldn't deserialize JSON for experience scope key " + experienceScopeKey);
         }
       }
 
       @Override
       public void onFailure() {
-        EXL.e(TAG, "No experience found for id " + experienceId);
+        EXL.e(TAG, "No experience found for scope key " + experienceScopeKey);
       }
     });
   }
@@ -91,7 +91,7 @@ public class PushNotificationHelper {
     ExperienceKey experienceKey = ExperienceKey.fromRawManifest(manifest);
     final String name = manifest.getName();
     if (name == null) {
-      EXL.e(TAG, "No name found for experience id " + experienceKey.getStableLegacyId());
+      EXL.e(TAG, "No name found for experience scope key " + experienceKey.getScopeKey());
       return;
     }
 
@@ -114,7 +114,7 @@ public class PushNotificationHelper {
         }
 
         // Update metadata
-        final int notificationId = mode == Mode.COLLAPSE ? experienceKey.getStableLegacyId().hashCode() : new Random().nextInt();
+        final int notificationId = mode == Mode.COLLAPSE ? experienceKey.getScopeKey().hashCode() : new Random().nextInt();
         addUnreadNotificationToMetadata(experienceKey, message, notificationId);
 
         // Collapse mode fields

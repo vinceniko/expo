@@ -372,9 +372,9 @@ public class NotificationHelper {
           final ExponentManifest exponentManifest,
           final Listener listener) {
     final ExponentNotificationManager manager = new ExponentNotificationManager(context);
-    final String experienceId = (String) details.get("experienceId");
+    final String experienceScopeKey = (String) details.get("experienceId");
 
-    ExponentDB.experienceIdToExperience(experienceId, new ExponentDB.ExperienceResultListener() {
+    ExponentDB.experienceScopeKeyToExperience(experienceScopeKey, new ExponentDB.ExperienceResultListener() {
       @Override
       public void onSuccess(ExperienceDBObject experience) {
         new Thread(new Runnable() {
@@ -386,7 +386,7 @@ public class NotificationHelper {
               manifest = ManifestFactory.INSTANCE.getRawManifestFromJson(new JSONObject(experience.manifest));
               experienceKey = ExperienceKey.fromRawManifest(manifest);
             } catch (JSONException e) {
-              listener.onFailure(new Exception("Couldn't deserialize JSON for experience id " + experienceId));
+              listener.onFailure(new Exception("Couldn't deserialize JSON for experience scope key " + experienceScopeKey));
               return;
             }
 
@@ -457,7 +457,7 @@ public class NotificationHelper {
                     EXL.e(TAG, "Failed to set vibrate settings on notification from stored channel: " + e.getMessage());
                   }
                 } else {
-                  EXL.e(TAG, "No stored channel found for " + experienceId + ": " + channelId);
+                  EXL.e(TAG, "No stored channel found for " + experienceScopeKey + ": " + channelId);
                 }
               }
             } else {
@@ -504,11 +504,11 @@ public class NotificationHelper {
             try {
               body = data.containsKey("data") ? JSONUtils.getJSONString(data.get("data")) : "";
             } catch (JSONException e) {
-              listener.onFailure(new Exception("Couldn't deserialize JSON for experience id " + experienceId));
+              listener.onFailure(new Exception("Couldn't deserialize JSON for experience scope key " + experienceScopeKey));
               return;
             }
 
-            final ReceivedNotificationEvent notificationEvent = new ReceivedNotificationEvent(experienceId, body, id, false, false);
+            final ReceivedNotificationEvent notificationEvent = new ReceivedNotificationEvent(experienceScopeKey, body, id, false, false);
 
             intent.putExtra(KernelConstants.NOTIFICATION_KEY, body); // deprecated
             intent.putExtra(KernelConstants.NOTIFICATION_OBJECT_KEY, notificationEvent.toJSONObject(null).toString());
@@ -524,7 +524,7 @@ public class NotificationHelper {
                   Class activityClass = KernelConstants.MAIN_ACTIVITY_CLASS;
                   Intent intent = new Intent(context, activityClass);
                   intent.putExtra(KernelConstants.NOTIFICATION_MANIFEST_URL_KEY, manifestUrl);
-                  final ReceivedNotificationEvent notificationEvent = new ReceivedNotificationEvent(experienceId, body, id, false, false);
+                  final ReceivedNotificationEvent notificationEvent = new ReceivedNotificationEvent(experienceScopeKey, body, id, false, false);
                   intent.putExtra(KernelConstants.NOTIFICATION_KEY, body); // deprecated
                   intent.putExtra(KernelConstants.NOTIFICATION_OBJECT_KEY, notificationEvent.toJSONObject(null).toString());
                   return intent;
@@ -561,7 +561,7 @@ public class NotificationHelper {
 
       @Override
       public void onFailure() {
-        listener.onFailure(new Exception("No experience found for id " + experienceId));
+        listener.onFailure(new Exception("No experience found for scope key " + experienceScopeKey));
       }
     });
   }
@@ -575,19 +575,8 @@ public class NotificationHelper {
     final Listener listener) {
 
     HashMap<String, java.io.Serializable> details = new HashMap<>();
-
     details.put("data", data);
-
-    String experienceId;
-
-    try {
-      // needs to be stable legacy ID since previous local notifications were created using that format
-      experienceId = experienceKey.getStableLegacyId();
-      details.put("experienceId", experienceId);
-    } catch (Exception e) {
-      listener.onFailure(new Exception("Requires Experience Id"));
-      return;
-    }
+    details.put("experienceId", experienceKey.getScopeKey());
 
     long time = 0;
 

@@ -35,11 +35,11 @@ public class ScopedNotificationsUtils {
     // legacy or foreign notification
     Pair<String, Integer> foreignNotification = ExpoPresentationDelegate.Companion.parseNotificationIdentifier(notificationRequest.getIdentifier());
     if (foreignNotification != null) {
-      String foreignNotificationExperienceId = foreignNotification.first;
-      ExperienceKey foreignNotificationExperienceKey = ExperienceKey.loadForExperienceId(foreignNotificationExperienceId);
-      boolean notificationBelongsToSomeExperience = mExponentNotificationManager.getAllNotificationsIds(foreignNotificationExperienceKey).contains(foreignNotification.second);
-      boolean notificationExperienceIsCurrentExperience = experienceKey.getStableLegacyId().equals(foreignNotificationExperienceKey.getStableLegacyId());
-      boolean notificationIsPersistentExponentNotification = foreignNotification.first == null && foreignNotification.second == PERSISTENT_EXPONENT_NOTIFICATION_ID;
+      @Nullable String foreignNotificationExperienceScopeKey = foreignNotification.first;
+      @Nullable ExperienceKey foreignNotificationExperienceKey = foreignNotificationExperienceScopeKey != null ? ExperienceKey.loadForExperienceScopeKey(foreignNotificationExperienceScopeKey) : null;
+      boolean notificationBelongsToSomeExperience = foreignNotificationExperienceKey != null && mExponentNotificationManager.getAllNotificationsIds(foreignNotificationExperienceKey).contains(foreignNotification.second);
+      boolean notificationExperienceIsCurrentExperience = foreignNotificationExperienceKey != null && experienceKey.getScopeKey().equals(foreignNotificationExperienceKey.getScopeKey());
+      boolean notificationIsPersistentExponentNotification = foreignNotificationExperienceScopeKey == null && foreignNotification.second == PERSISTENT_EXPONENT_NOTIFICATION_ID;
       // If notification doesn't belong to any experience it's a foreign notification
       // and we want to deliver it to all the experiences. If it does belong to some experience,
       // we want to handle it only if it belongs to "current" experience. If it is the persistent
@@ -51,7 +51,7 @@ public class ScopedNotificationsUtils {
     return true;
   }
 
-  public static String getExperienceId(@Nullable NotificationResponse notificationResponse) {
+  public static String getExperienceScopeKey(@Nullable NotificationResponse notificationResponse) {
     if (notificationResponse == null || notificationResponse.getNotification() == null) {
       return null;
     }
@@ -59,7 +59,7 @@ public class ScopedNotificationsUtils {
     NotificationRequest notificationRequest = notificationResponse.getNotification().getNotificationRequest();
     if (notificationRequest instanceof ScopedNotificationRequest) {
       ScopedNotificationRequest scopedNotificationRequest = (ScopedNotificationRequest) notificationRequest;
-      return scopedNotificationRequest.getExperienceIdString();
+      return scopedNotificationRequest.getExperienceScopeKeyString();
     }
 
     return null;

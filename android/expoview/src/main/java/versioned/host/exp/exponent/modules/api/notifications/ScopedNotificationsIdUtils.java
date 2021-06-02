@@ -18,22 +18,22 @@ public class ScopedNotificationsIdUtils {
 
   @NonNull
   public static String getScopedChannelId(@NonNull ExperienceKey experienceKey, @NonNull String channelId) {
-    return SCOPED_CHANNEL_TAG + SEPARATOR + experienceKey.getStableLegacyId() + SEPARATOR + channelId;
+    return SCOPED_CHANNEL_TAG + SEPARATOR + experienceKey.getScopeKey() + SEPARATOR + channelId;
   }
 
   @NonNull
   public static String getScopedGroupId(@NonNull ExperienceKey experienceKey, @NonNull String channelId) {
-    return SCOPED_GROUP_TAG + SEPARATOR + experienceKey.getStableLegacyId() + SEPARATOR + channelId;
+    return SCOPED_GROUP_TAG + SEPARATOR + experienceKey.getScopeKey() + SEPARATOR + channelId;
   }
 
   @NonNull
   public static String getScopedCategoryId(@NonNull ExperienceKey experienceKey, @NonNull String categoryId) {
-    return getScopedCategoryIdRaw(experienceKey.getStableLegacyId(), categoryId);
+    return getScopedCategoryIdRaw(experienceKey.getScopeKey(), categoryId);
   }
 
   @NonNull
-  public static String getScopedCategoryIdRaw(@NonNull String experienceId, @NonNull String categoryId) {
-    return SCOPED_CATEGORY_TAG + SEPARATOR + experienceId + SEPARATOR + categoryId;
+  public static String getScopedCategoryIdRaw(@NonNull String experienceScopeKey, @NonNull String categoryId) {
+    return SCOPED_CATEGORY_TAG + SEPARATOR + experienceScopeKey + SEPARATOR + categoryId;
   }
 
   @Nullable
@@ -47,10 +47,12 @@ public class ScopedNotificationsIdUtils {
     if (idFragments.length < 3) {
       return scopedId;
     } else if (idFragments.length == 3) {
-      // unlogged user
-      // The scopedId looks like: EXPO_CHANNEL/UNVERIFIED-192.168.83.49-sandbox/test-channel-id
+      // unlogged user or new scope key based ID
+      // For unlogged user, the scopedId looks like: EXPO_CHANNEL/UNVERIFIED-192.168.83.49-sandbox/test-channel-id
+      // For scope key based ID, the scopedId looks like EXPO_CHANNEL/randomscopekey/test-channel-id
       sb.append(idFragments[2]);
     } else {
+      // Scoped id looks like this: `EXPO_CHANNEL/@expo/sandbox/test-channel-id`.
       for (int i = 3; i < idFragments.length; i++) {
         sb.append(idFragments[i]);
       }
@@ -79,14 +81,15 @@ public class ScopedNotificationsIdUtils {
       return true;
     }
 
-    return experienceKey.getStableLegacyId().equals(getExperienceIdFromScopedId(scopedId));
+    return experienceKey.getScopeKey().equals(getExperienceScopeKeyFromScopedId(scopedId));
   }
 
-  private static String getExperienceIdFromScopedId(@NonNull String scopedId) {
+  private static String getExperienceScopeKeyFromScopedId(@NonNull String scopedId) {
     String[] idFragments = scopedId.split(SEPARATOR);
     if (idFragments.length == 3) {
-      // unlogged user
-      // Scoped id looks like: `EXPO_CHANNEL/UNVERIFIED-192.168.83.49-sandbox/test-channel-id`
+      // unlogged user or new scope key based ID
+      // For unlogged user, the scopedId looks like: EXPO_CHANNEL/UNVERIFIED-192.168.83.49-sandbox/test-channel-id
+      // For scope key based ID, the scopedId looks like EXPO_CHANNEL/randomscopekey/test-channel-id
       return idFragments[1];
     }
     // Scoped id looks like this: `EXPOCHANNEL/@expo/sandbox/id`.

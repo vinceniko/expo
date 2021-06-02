@@ -12,7 +12,7 @@ public class ExponentNotification {
 
   private static final String TAG = ExponentNotification.class.getSimpleName();
 
-  public final String experienceId;
+  public final String experienceScopeKey;
   public final String body;
   public final int notificationId;
   public final boolean isMultiple;
@@ -20,8 +20,8 @@ public class ExponentNotification {
   public String actionType;
   public String inputText;
 
-  public ExponentNotification(final String experienceId, final String body, final int notificationId, final boolean isMultiple, final boolean isRemote) {
-    this.experienceId = experienceId;
+  public ExponentNotification(final String experienceScopeKey, final String body, final int notificationId, final boolean isMultiple, final boolean isRemote) {
+    this.experienceScopeKey = experienceScopeKey;
     this.body = body;
     this.notificationId = notificationId;
     this.isMultiple = isMultiple;
@@ -49,7 +49,7 @@ public class ExponentNotification {
   public JSONObject toJSONObject(String origin) {
     JSONObject notification = new JSONObject();
     try {
-      notification.put(NotificationConstants.NOTIFICATION_EXPERIENCE_ID_KEY, experienceId);
+      notification.put(NotificationConstants.NOTIFICATION_EXPERIENCE_ID_KEY, experienceScopeKey);
       if (origin != null) {
         notification.put(NotificationConstants.NOTIFICATION_ORIGIN_KEY, origin);
       }

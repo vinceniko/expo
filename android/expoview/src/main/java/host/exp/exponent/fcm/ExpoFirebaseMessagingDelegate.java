@@ -44,7 +44,7 @@ public class ExpoFirebaseMessagingDelegate extends FirebaseMessagingDelegate {
       return;
     }
 
-    ExperienceDBObject experienceDBObject = ExponentDB.experienceIdToExperienceSync(remoteMessage.getData().get("experienceId"));
+    ExperienceDBObject experienceDBObject = ExponentDB.experienceScopeKeyToExperienceSync(remoteMessage.getData().get("experienceId"));
     if (experienceDBObject != null) {
       try {
         JSONObject manifest = new JSONObject(experienceDBObject.manifest);
@@ -74,7 +74,7 @@ public class ExpoFirebaseMessagingDelegate extends FirebaseMessagingDelegate {
         EXL.e("expo-notifications", "Couldn't parse the manifest.");
       }
     } else {
-      EXL.e("expo-notifications", "No experience found for id " + remoteMessage.getData().get("experienceId"));
+      EXL.e("expo-notifications", "No experience found for scope key " + remoteMessage.getData().get("experienceId"));
     }
   }
 

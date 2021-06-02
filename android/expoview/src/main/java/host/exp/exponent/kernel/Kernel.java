@@ -530,7 +530,7 @@ public class Kernel extends KernelInterface {
           if (bundle.containsKey(KernelConstants.NOTIFICATION_ACTION_TYPE_KEY)) {
             exponentNotification.setActionType(bundle.getString(KernelConstants.NOTIFICATION_ACTION_TYPE_KEY));
             ExponentNotificationManager manager = new ExponentNotificationManager(mContext);
-            ExperienceKey experienceKey = ExperienceKey.loadForExperienceId(exponentNotification.experienceId);
+            ExperienceKey experienceKey = ExperienceKey.loadForExperienceScopeKey(exponentNotification.experienceScopeKey);
             manager.cancel(experienceKey, exponentNotification.notificationId);
           }
           // Add remote input
@@ -580,12 +580,12 @@ public class Kernel extends KernelInterface {
 
   private boolean openExperienceFromNotificationIntent(Intent intent) {
     NotificationResponse response = NotificationsService.Companion.getNotificationResponseFromIntent(intent);
-    String experienceIdString = ScopedNotificationsUtils.getExperienceId(response);
-    if (experienceIdString == null) {
+    String experienceScopeKeyString = ScopedNotificationsUtils.getExperienceScopeKey(response);
+    if (experienceScopeKeyString == null) {
       return false;
     }
 
-    ExperienceDBObject experience = ExponentDB.experienceIdToExperienceSync(experienceIdString);
+    ExperienceDBObject experience = ExponentDB.experienceScopeKeyToExperienceSync(experienceScopeKeyString);
     if (experience == null) {
       Log.w("expo-notifications", "Couldn't find experience from experienceId.");
       return false;

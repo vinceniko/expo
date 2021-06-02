@@ -31,8 +31,8 @@ public class ScopedExpoNotificationPresentationModule extends ExpoNotificationPr
 
   @Override
   protected NotificationRequest createNotificationRequest(String identifier, NotificationContent content, NotificationTrigger trigger) {
-    String experienceIdString = mExperienceKey == null ? null : mExperienceKey.getStableLegacyId();
-    return new ScopedNotificationRequest(identifier, content, trigger, experienceIdString);
+    String experienceScopeKeyString = mExperienceKey == null ? null : mExperienceKey.getScopeKey();
+    return new ScopedNotificationRequest(identifier, content, trigger, experienceScopeKeyString);
   }
 
   @Override

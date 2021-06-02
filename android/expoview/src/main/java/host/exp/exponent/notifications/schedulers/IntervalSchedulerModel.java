@@ -40,8 +40,8 @@ public class IntervalSchedulerModel extends BaseModel implements SchedulerModel 
   @Column
   int notificationId;
 
-  @Column
-  String experienceId;
+  @Column(name = "experienceId")
+  String scopeKey;
 
   @Column
   boolean repeat;
@@ -73,7 +73,7 @@ public class IntervalSchedulerModel extends BaseModel implements SchedulerModel 
 
   @Override
   public ExperienceKey getOwnerExperienceKey() {
-    return ExperienceKey.loadForExperienceId(experienceId);
+    return ExperienceKey.loadForExperienceScopeKey(scopeKey);
   }
 
   @Override
@@ -132,12 +132,12 @@ public class IntervalSchedulerModel extends BaseModel implements SchedulerModel 
     this.notificationId = notificationId;
   }
 
-  public String getExperienceId() {
-    return experienceId;
+  public String getExperienceScopeKey() {
+    return scopeKey;
   }
 
-  public void setExperienceId(String experienceId) {
-    this.experienceId = experienceId;
+  public void setExperienceScopeKey(String experienceScopeKey) {
+    this.scopeKey = experienceScopeKey;
   }
 
   public boolean isRepeat() {

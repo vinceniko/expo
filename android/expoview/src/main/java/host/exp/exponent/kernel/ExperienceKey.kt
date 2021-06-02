@@ -36,8 +36,8 @@ data class ExperienceKey(
      * found in the database.
      */
     @Deprecated(message = "This loads the full manifest from the database. Only use in circumstances where an ExperienceKey is not yet available.")
-    @JvmStatic fun loadForExperienceId(experienceId: String): ExperienceKey {
-      val experience = ExponentDB.experienceIdToExperienceSync(experienceId)
+    @JvmStatic fun loadForExperienceScopeKey(experienceScopeKey: String): ExperienceKey {
+      val experience = ExponentDB.experienceScopeKeyToExperienceSync(experienceScopeKey)
       if (experience != null) {
         try {
           return fromRawManifest(ManifestFactory.getRawManifestFromJson(JSONObject(experience.manifest)))
@@ -48,9 +48,9 @@ data class ExperienceKey(
 
       // fallback experienceKey, only should be used
       return ExperienceKey(
-        experienceId,
-        experienceId,
-        experienceId
+        experienceScopeKey,
+        experienceScopeKey,
+        experienceScopeKey
       )
     }
   }

@@ -49,8 +49,8 @@ public class ScopedExpoNotificationBuilder extends CategoryAwareNotificationBuil
     // We parse manifest here to have easy access to it from other methods.
     NotificationRequest requester = getNotification().getNotificationRequest();
     if (requester instanceof ScopedNotificationRequest) {
-      String experienceId = ((ScopedNotificationRequest) requester).getExperienceIdString();
-      ExperienceDBObject experience = ExponentDB.experienceIdToExperienceSync(experienceId);
+      String experienceScopeKey = ((ScopedNotificationRequest) requester).getExperienceScopeKeyString();
+      ExperienceDBObject experience = ExponentDB.experienceScopeKeyToExperienceSync(experienceScopeKey);
       try {
         manifest = ManifestFactory.INSTANCE.getRawManifestFromJson(new JSONObject(experience.manifest));
         mExperienceKey = ExperienceKey.fromRawManifest(manifest);

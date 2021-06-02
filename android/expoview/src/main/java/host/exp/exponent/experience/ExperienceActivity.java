@@ -630,7 +630,7 @@ public class ExperienceActivity extends BaseExperienceActivity implements Expone
 
   public void onEventMainThread(ReceivedNotificationEvent event) {
     // TODO(wschurman): investigate removal, this probably is no longer used
-    if (event.experienceId.equals(mExperienceKey.getLegacyId()) || event.experienceId.equals(mExperienceKey.getStableLegacyId())) {
+    if (event.experienceScopeKey.equals(mExperienceKey.getScopeKey())) {
       try {
         RNObject rctDeviceEventEmitter = new RNObject("com.facebook.react.modules.core.DeviceEventManagerModule$RCTDeviceEventEmitter");
         rctDeviceEventEmitter.loadVersion(mDetachSdkVersion);

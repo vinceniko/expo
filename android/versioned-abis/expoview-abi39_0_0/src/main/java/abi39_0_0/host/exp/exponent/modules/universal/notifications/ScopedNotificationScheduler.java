@@ -42,8 +42,8 @@ public class ScopedNotificationScheduler extends NotificationScheduler {
 
   @Override
   protected NotificationRequest createNotificationRequest(String identifier, NotificationContent content, NotificationTrigger notificationTrigger) {
-    String experienceIdString = mExperienceKey == null ? null : mExperienceKey.getStableLegacyId();
-    return new ScopedNotificationRequest(identifier, content, notificationTrigger, experienceIdString);
+    String experienceScopeKeyString = mExperienceKey == null ? null : mExperienceKey.getScopeKey();
+    return new ScopedNotificationRequest(identifier, content, notificationTrigger, experienceScopeKeyString);
   }
 
   @Override

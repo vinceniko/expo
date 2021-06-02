@@ -57,7 +57,7 @@ public class ExponentNotificationManager {
     if (Constants.isStandaloneApp()) {
       return channelId;
     } else {
-      return experienceKey.getStableLegacyId() + "/" + channelId;
+      return experienceKey.getScopeKey() + "/" + channelId;
     }
   }
 
@@ -69,15 +69,14 @@ public class ExponentNotificationManager {
 
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
       try {
-        // needs to be a stable legacy ID since previous groups were created with that format
-        String experienceId = manifest.getStableLegacyID();
-        if (!mNotificationChannelGroupIds.contains(experienceId)) {
+        String experienceScopeKey = manifest.getScopeKey();
+        if (!mNotificationChannelGroupIds.contains(experienceScopeKey)) {
           @Nullable String name = manifest.getName();
-          String channelName = name != null ? name : experienceId;
-          NotificationChannelGroup group = new NotificationChannelGroup(experienceId, channelName);
+          String channelName = name != null ? name : experienceScopeKey;
+          NotificationChannelGroup group = new NotificationChannelGroup(experienceScopeKey, channelName);
           mContext.getSystemService(NotificationManager.class).createNotificationChannelGroup(group);
 
-          mNotificationChannelGroupIds.add(experienceId);
+          mNotificationChannelGroupIds.add(experienceScopeKey);
         }
       } catch (Exception e) {
         EXL.e(TAG, "Could not create notification channel: " + e.getMessage());
@@ -116,7 +115,7 @@ public class ExponentNotificationManager {
   public void createNotificationChannel(ExperienceKey experienceKey, NotificationChannel channel) {
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
       if (!Constants.isStandaloneApp()) {
-        channel.setGroup(experienceKey.getStableLegacyId());
+        channel.setGroup(experienceKey.getScopeKey());
       }
       mContext.getSystemService(NotificationManager.class).createNotificationChannel(channel);
     }
@@ -183,7 +182,7 @@ public class ExponentNotificationManager {
   }
 
   public void notify(ExperienceKey experienceKey, int id, Notification notification) {
-    NotificationManagerCompat.from(mContext).notify(experienceKey.getStableLegacyId(), id, notification);
+    NotificationManagerCompat.from(mContext).notify(experienceKey.getScopeKey(), id, notification);
 
     try {
       JSONObject metadata = mExponentSharedPreferences.getExperienceMetadata(experienceKey);
@@ -204,7 +203,7 @@ public class ExponentNotificationManager {
   }
 
   public void cancel(ExperienceKey experienceKey, int id) {
-    NotificationManagerCompat.from(mContext).cancel(experienceKey.getStableLegacyId(), id);
+    NotificationManagerCompat.from(mContext).cancel(experienceKey.getScopeKey(), id);
 
     try {
       JSONObject metadata = mExponentSharedPreferences.getExperienceMetadata(experienceKey);
@@ -240,7 +239,7 @@ public class ExponentNotificationManager {
       }
       NotificationManagerCompat manager = NotificationManagerCompat.from(mContext);
       for (int i = 0; i < notifications.length(); i++) {
-        manager.cancel(experienceKey.getStableLegacyId(), notifications.getInt(i));
+        manager.cancel(experienceKey.getScopeKey(), notifications.getInt(i));
       }
       metadata.put(ExponentSharedPreferences.EXPERIENCE_METADATA_ALL_NOTIFICATION_IDS, null);
       metadata.put(ExponentSharedPreferences.EXPERIENCE_METADATA_UNREAD_REMOTE_NOTIFICATIONS, null);
@@ -275,7 +274,7 @@ public class ExponentNotificationManager {
   public void schedule(ExperienceKey experienceKey, int id, HashMap details, long time, Long interval) throws ClassNotFoundException {
     Intent notificationIntent = new Intent(mContext, ScheduledNotificationReceiver.class);
 
-    notificationIntent.setType(experienceKey.getStableLegacyId());
+    notificationIntent.setType(experienceKey.getScopeKey());
     notificationIntent.setAction(String.valueOf(id));
 
     notificationIntent.putExtra(KernelConstants.NOTIFICATION_ID_KEY, id);
@@ -312,7 +311,7 @@ public class ExponentNotificationManager {
   public void cancelScheduled(ExperienceKey experienceKey, int id) throws ClassNotFoundException {
     Intent notificationIntent = new Intent(mContext, ScheduledNotificationReceiver.class);
 
-    notificationIntent.setType(experienceKey.getStableLegacyId());
+    notificationIntent.setType(experienceKey.getScopeKey());
     notificationIntent.setAction(String.valueOf(id));
 
     PendingIntent pendingIntent = PendingIntent.getBroadcast(mContext, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
