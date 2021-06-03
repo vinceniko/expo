@@ -124,6 +124,8 @@ public class ExperienceActivity extends BaseExperienceActivity implements Expone
 
   private Handler mWarningHandler = new Handler();
   private Snackbar mSnackbar;
+  private Runnable mRunnable;
+
 
   /**
    * Controls loadingProgressPopupWindow that is shown above whole activity.
@@ -429,7 +431,6 @@ public class ExperienceActivity extends BaseExperienceActivity implements Expone
     }
   }
 
-  Runnable mRunnable;
 
   private void startSplashScreenWarningTimer() {
     View splashScreenView = mManagedAppSplashScreenViewProvider.getSplashScreenView();
@@ -458,8 +459,6 @@ public class ExperienceActivity extends BaseExperienceActivity implements Expone
 
   @Override
   public void onSplashScreenDismissed() {
-    // removes all callbacks
-    Log.d("onSplashScreen()", "onSplashScreenDismissed()");
     mWarningHandler.removeCallbacks(mRunnable);
   }
 
