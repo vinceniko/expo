@@ -1,5 +1,5 @@
 //
-//  EXSplashScreenWarningViewController.h
+//  EXSplashScreenListener.h
 //  EXSplashScreen
 //
 //  Created by andrew on 2021-06-02.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol EXSplashScreenWarningViewController
+@protocol EXSplashScreenListener
 
 - (void)onSplashScreenDimissed;
 

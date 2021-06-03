@@ -25,7 +25,7 @@
 #import "EXSplashScreenHUDButton.h"
 
 #import <EXSplashScreen/EXSplashScreenService.h>
-#import <EXSplashScreen/EXSplashScreenWarningViewController.h>
+#import <EXSplashScreen/EXSplashScreenListener.h>
 
 #import <React/RCTUtils.h>
 #import <UMCore/UMModuleRegistryProvider.h>
@@ -61,7 +61,7 @@ const CGFloat kEXDevelopmentErrorCoolDownSeconds = 0.1;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface EXAppViewController ()
-  <EXReactAppManagerUIDelegate, EXAppLoaderDelegate, EXErrorViewDelegate, EXAppLoadingCancelViewDelegate, EXSplashScreenWarningViewController>
+  <EXReactAppManagerUIDelegate, EXAppLoaderDelegate, EXErrorViewDelegate, EXAppLoadingCancelViewDelegate, EXSplashScreenListener>
 
 @property (nonatomic, assign) BOOL isLoading;
 @property (nonatomic, assign) BOOL isBridgeAlreadyLoading;
@@ -401,15 +401,18 @@ NS_ASSUME_NONNULL_BEGIN
     UM_ENSURE_STRONGIFY(self);
     [splashScreenService showSplashScreenFor:self
                     splashScreenViewProvider:provider
-                             successCallback:^(){
-      self.warningTimer = [NSTimer scheduledTimerWithTimeInterval:10.0
-                                                           target:self
-                                                         selector:@selector(showSplashScreenVisibleWarning)
-                                                         userInfo:nil
-                                                          repeats:NO];
-      }
+                             successCallback:^(){ [self startSplashScreenVisibleTimer]; }
                              failureCallback:^(NSString *message){ UMLogWarn(@"%@", message); }];
   });
+}
+
+-(void)startSplashScreenVisibleTimer
+{
+  self.warningTimer = [NSTimer scheduledTimerWithTimeInterval:20.0
+                                                       target:self
+                                                     selector:@selector(showSplashScreenVisibleWarning)
+                                                     userInfo:nil
+                                                      repeats:NO];
 }
 
 -(void)showSplashScreenVisibleWarning

@@ -14,6 +14,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -428,10 +429,12 @@ public class ExperienceActivity extends BaseExperienceActivity implements Expone
     }
   }
 
+  Runnable mRunnable;
+
   private void startSplashScreenWarningTimer() {
     View splashScreenView = mManagedAppSplashScreenViewProvider.getSplashScreenView();
 
-    mWarningHandler.postDelayed(new Runnable() {
+    mRunnable = new Runnable() {
       @Override
       public void run() {
         mSnackbar = Snackbar.make(splashScreenView, "Stuck on splash screen?", Snackbar.LENGTH_LONG);
@@ -448,13 +451,16 @@ public class ExperienceActivity extends BaseExperienceActivity implements Expone
 
         mSnackbar.show();
       }
-    }, 20000);
+    };
+
+    mWarningHandler.postDelayed(mRunnable, 20000);
   }
 
   @Override
   public void onSplashScreenDismissed() {
     // removes all callbacks
-    mWarningHandler.removeCallbacks(null);
+    Log.d("onSplashScreen()", "onSplashScreenDismissed()");
+    mWarningHandler.removeCallbacks(mRunnable);
   }
 
   public void setLoadingProgressStatusIfEnabled() {
