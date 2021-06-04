@@ -2074,6 +2074,7 @@ PODS:
   - lottie-react-native (4.0.2):
     - lottie-ios (~> 3.1.8)
     - React-Core
+  - MBProgressHUD (1.2.0)
   - MLKitCommon (2.1.0):
     - GoogleDataTransport (~> 8.0)
     - GoogleToolboxForMac/Logger (~> 2.1)
@@ -4070,6 +4071,7 @@ SPEC CHECKSUMS:
   JKBigInteger2: e91672035c42328c48b7dd015b66812ddf40ca9b
   lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
   lottie-react-native: 4dff8fe8d10ddef9e7880e770080f4a56121397e
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MLKitCommon: 9ed187a042139d51c0d8bf6a8301bb20b375c576
   MLKitFaceDetection: 5b92261dd6e4205e3dab0df62537ac3f4e90e5db
   MLKitVision: 51385878c9100024478971856510f9271ff555b5
