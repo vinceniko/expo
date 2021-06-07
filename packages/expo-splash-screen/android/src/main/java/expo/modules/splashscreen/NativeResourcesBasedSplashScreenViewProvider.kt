@@ -15,7 +15,7 @@ class NativeResourcesBasedSplashScreenViewProvider(
   private val resizeMode: SplashScreenImageResizeMode
 ) : SplashScreenViewProvider {
 
-  override fun createSplashScreenView(context: Context): View {
+  override fun createSplashScreenView(context: Context): SplashScreenView {
     val splashScreenView = SplashScreenView(context)
     splashScreenView.setBackgroundColor(getBackgroundColor(context))
 
