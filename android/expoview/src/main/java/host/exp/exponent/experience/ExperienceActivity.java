@@ -2,7 +2,6 @@
 
 package host.exp.exponent.experience;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -12,9 +11,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Handler;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,7 +23,6 @@ import android.widget.RemoteViews;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.UiThreadUtil;
 import com.facebook.soloader.SoLoader;
-import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -119,9 +115,6 @@ public class ExperienceActivity extends BaseExperienceActivity implements Expone
   private NotificationCompat.Builder mNotificationBuilder;
   private boolean mIsLoadExperienceAllowedToRun = false;
   private boolean mShouldShowLoadingViewWithOptimisticManifest = false;
-
-
-
 
   /**
    * Controls loadingProgressPopupWindow that is shown above whole activity.
@@ -422,8 +415,7 @@ public class ExperienceActivity extends BaseExperienceActivity implements Expone
       mManagedAppSplashScreenViewProvider.updateSplashScreenViewWithManifest(this, manifest);
     }
   }
-
-
+  
   public void setLoadingProgressStatusIfEnabled() {
     ExpoUpdatesAppLoader appLoader = mKernel.getAppLoaderForManifestUrl(mManifestUrl);
     if (appLoader != null) {
