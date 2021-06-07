@@ -46,7 +46,7 @@ object SplashScreen : SingletonModule {
 
     SplashScreenStatusBar.configureTranslucent(activity, statusBarTranslucent)
 
-    val controller = SplashScreenController(activity, rootViewClass, splashScreenViewProvider)
+    val controller = splashScreenViewProvider.createSplashScreenController(activity, rootViewClass)
     controllers[activity] = controller
     controller.showSplashScreen(successCallback)
   }
@@ -113,10 +113,6 @@ object SplashScreen : SingletonModule {
   ) {
     if (!controllers.containsKey(activity)) {
       return failureCallback("No native splash screen registered for provided activity. Please configure your application's main Activity to call 'SplashScreen.show' (https://github.com/expo/expo/tree/master/packages/expo-splash-screen#-configure-android).")
-    }
-
-    if (activity is SplashScreenListenerActivity) {
-      activity.onSplashScreenDismissed()
     }
 
     controllers[activity]?.hideSplashScreen(successCallback, failureCallback)

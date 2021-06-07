@@ -46,7 +46,6 @@ import host.exp.exponent.ExponentManifest;
 import host.exp.exponent.RNObject;
 import host.exp.exponent.analytics.Analytics;
 import host.exp.exponent.di.NativeModuleDepsProvider;
-import host.exp.exponent.experience.splashscreen.HomeSplashScreenViewProvider;
 import host.exp.exponent.kernel.ExperienceId;
 import host.exp.exponent.kernel.Kernel;
 import host.exp.exponent.utils.ExperienceActivityUtils;

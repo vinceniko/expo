@@ -1,11 +1,14 @@
 package host.exp.exponent.experience.splashscreen
 
+import android.app.Activity
 import android.content.Context
 import android.view.View
+import android.view.ViewGroup
 import android.view.animation.AccelerateDecelerateInterpolator
 import android.view.animation.AlphaAnimation
 import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
+import expo.modules.splashscreen.SplashScreenController
 import expo.modules.splashscreen.SplashScreenView
 import expo.modules.splashscreen.SplashScreenViewProvider
 import expo.modules.updates.manifest.raw.RawManifest
@@ -32,6 +35,11 @@ class ManagedAppSplashScreenViewProvider(
     splashScreenView = SplashScreenView(context)
     configureSplashScreenView(context, config, null)
     return splashScreenView
+  }
+
+  override fun createSplashScreenController(activity: Activity, rootViewClass: Class<out ViewGroup>): SplashScreenController {
+    val splashView = createSplashScreenView(activity)
+    return ManagedAppSplashScreenController(activity, rootViewClass, splashView)
   }
 
   fun updateSplashScreenViewWithManifest(context: Context, manifest: RawManifest) {
