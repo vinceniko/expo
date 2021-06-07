@@ -21,11 +21,8 @@
 #import "EXVersions.h"
 #import "EXUpdatesManager.h"
 #import "EXUtil.h"
-#import "MBProgressHUD.h"
-#import "EXSplashScreenHUDButton.h"
 
 #import <EXSplashScreen/EXSplashScreenService.h>
-#import <EXSplashScreen/EXSplashScreenListener.h>
 
 #import <React/RCTUtils.h>
 #import <UMCore/UMModuleRegistryProvider.h>
@@ -61,7 +58,7 @@ const CGFloat kEXDevelopmentErrorCoolDownSeconds = 0.1;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface EXAppViewController ()
-  <EXReactAppManagerUIDelegate, EXAppLoaderDelegate, EXErrorViewDelegate, EXAppLoadingCancelViewDelegate, EXSplashScreenListener>
+  <EXReactAppManagerUIDelegate, EXAppLoaderDelegate, EXErrorViewDelegate, EXAppLoadingCancelViewDelegate>
 
 @property (nonatomic, assign) BOOL isLoading;
 @property (nonatomic, assign) BOOL isBridgeAlreadyLoading;
@@ -74,9 +71,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) BOOL isStandalone;
 @property (nonatomic, assign) BOOL isHomeApp;
-
-@property (nonatomic, weak) NSTimer *warningTimer;
-@property (nonatomic, weak) MBProgressHUD *warningHud;
 
 
 /*
@@ -190,11 +184,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)viewWillDisappear:(BOOL)animated
 {
   [_appLoadingProgressWindowController hide];
-  
-  if (_warningTimer) {
-    [_warningTimer invalidate];
-  }
-  
   [super viewWillDisappear:animated];
 }
 
@@ -214,13 +203,6 @@ NS_ASSUME_NONNULL_BEGIN
 {
   [super addChildViewController:childController];
   [self _overrideUserInterfaceStyleOf:childController];
-}
-
-- (void)onSplashScreenDimissed
-{
-  if (_warningTimer) {
-    [_warningTimer invalidate];
-  }
 }
 
 #pragma mark - Public
@@ -401,41 +383,9 @@ NS_ASSUME_NONNULL_BEGIN
     UM_ENSURE_STRONGIFY(self);
     [splashScreenService showSplashScreenFor:self
                     splashScreenViewProvider:provider
-                             successCallback:^(){ [self startSplashScreenVisibleTimer]; }
+                             successCallback:^(){}
                              failureCallback:^(NSString *message){ UMLogWarn(@"%@", message); }];
   });
-}
-
--(void)startSplashScreenVisibleTimer
-{
-  self.warningTimer = [NSTimer scheduledTimerWithTimeInterval:20.0
-                                                       target:self
-                                                     selector:@selector(showSplashScreenVisibleWarning)
-                                                     userInfo:nil
-                                                      repeats:NO];
-}
-
--(void)showSplashScreenVisibleWarning
-{
-#if DEBUG
-  _warningHud = [MBProgressHUD showHUDAddedTo: self.view animated:YES];
-  _warningHud.mode = MBProgressHUDModeCustomView;
-  
-  EXSplashScreenHUDButton *button = [EXSplashScreenHUDButton buttonWithType: UIButtonTypeSystem];
-  [button addTarget:self action:@selector(navigateToFYI) forControlEvents:UIControlEventTouchUpInside];
-
-  _warningHud.customView = button;
-  _warningHud.offset = CGPointMake(0.f, MBProgressMaxOffset);
-  
-  [_warningHud hideAnimated:YES afterDelay:8.f];
-#endif
-}
-
--(void)navigateToFYI
-{
-  NSURL *fyiURL = [[NSURL alloc] initWithString:@"https://expo.fyi/splash-screen-hanging"];
-  [[UIApplication sharedApplication] openURL:fyiURL];
-  [_warningHud hideAnimated: YES];
 }
 
 - (void)_showSplashScreenWithProvider:(id<EXSplashScreenViewProvider>)provider

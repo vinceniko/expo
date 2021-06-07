@@ -6,8 +6,7 @@
 
 @interface EXSplashScreenController ()
 
-@property (nonatomic, weak) UIViewController *viewController;
-@property (nonatomic, strong) UIView *splashScreenView;
+@property (nonatomic, weak) UIView *rootView;
 
 @property (nonatomic, assign) BOOL autoHideEnabled;
 @property (nonatomic, assign) BOOL splashScreenShown;
@@ -17,15 +16,14 @@
 
 @implementation EXSplashScreenController
 
-- (instancetype)initWithViewController:(UIViewController *)viewController
-              splashScreenViewProvider:(id<EXSplashScreenViewProvider>)splashScreenViewProvider
+- (instancetype)initWithRootView:(UIView *)rootView splashScreenView:(nonnull UIView *)splashScreenView
 {
   if (self = [super init]) {
-    _viewController = viewController;
+    _rootView = rootView;
     _autoHideEnabled = YES;
     _splashScreenShown = NO;
     _appContentAppeared = NO;
-    _splashScreenView = [splashScreenViewProvider createSplashScreenView];
+    _splashScreenView = splashScreenView;
     _splashScreenView.userInteractionEnabled = YES;
   }
   return self;
@@ -41,7 +39,7 @@
 - (void)showWithCallback:(nullable void(^)(void))successCallback
 {
   [UMUtilities performSynchronouslyOnMainThread:^{
-    UIView *rootView = self.viewController.view;
+    UIView *rootView = self.rootView;
     self.splashScreenView.frame = rootView.bounds;
     [rootView addSubview:self.splashScreenView];
     self.splashScreenShown = YES;
