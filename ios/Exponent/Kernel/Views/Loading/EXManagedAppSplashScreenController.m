@@ -23,8 +23,13 @@
 
 - (instancetype)initWithRootView:(UIView *)rootView splashScreenView:(UIView *)splashScreenView
 {
-  _splashScreenView = splashScreenView;
-  return [super initWithRootView:rootView splashScreenView:splashScreenView];
+  self = [super initWithRootView:rootView splashScreenView:splashScreenView];
+  
+  if (self) {
+    _splashScreenView = splashScreenView;
+  }
+  
+  return self;
 }
 
 - (void)showWithCallback:(void (^)(void))successCallback failureCallback:(void (^)(NSString * _Nonnull))failureCallback
@@ -35,7 +40,6 @@
       successCallback();
     }
   } failureCallback:failureCallback];
-  [super showWithCallback:successCallback failureCallback:failureCallback];
 }
 
 - (void)hideWithCallback:(void (^)(BOOL))successCallback failureCallback:(void (^)(NSString * _Nonnull))failureCallback
