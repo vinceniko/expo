@@ -15,24 +15,40 @@
 
 @property (nonatomic, weak) NSTimer *warningTimer;
 @property (nonatomic, weak) MBProgressHUD *warningHud;
+@property (nonatomic, strong) UIView *splashScreenView;
 
 @end
 
 @implementation EXManagedAppSplashScreenController
 
+- (instancetype)initWithRootView:(UIView *)rootView splashScreenView:(UIView *)splashScreenView
+{
+  _splashScreenView = splashScreenView;
+  return [super initWithRootView:rootView splashScreenView:splashScreenView];
+}
+
 - (void)showWithCallback:(void (^)(void))successCallback failureCallback:(void (^)(NSString * _Nonnull))failureCallback
 {
-  [self startSplashScreenVisibleTimer];
+  [super showWithCallback:^{
+    [self startSplashScreenVisibleTimer];
+    if (successCallback) {
+      successCallback();
+    }
+  } failureCallback:failureCallback];
   [super showWithCallback:successCallback failureCallback:failureCallback];
 }
 
 - (void)hideWithCallback:(void (^)(BOOL))successCallback failureCallback:(void (^)(NSString * _Nonnull))failureCallback
 {
-  if (self.warningTimer) {
-    [self.warningTimer invalidate];
-  }
-
-  [super hideWithCallback:successCallback failureCallback:failureCallback];
+  [super hideWithCallback:^(BOOL isSuccess){
+    if (self.warningTimer) {
+      [self.warningTimer invalidate];
+    }
+    
+    if (successCallback) {
+      successCallback(YES);
+    }
+  } failureCallback:failureCallback];
 }
 
 

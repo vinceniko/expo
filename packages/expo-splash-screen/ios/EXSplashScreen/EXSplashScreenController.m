@@ -7,6 +7,7 @@
 @interface EXSplashScreenController ()
 
 @property (nonatomic, weak) UIView *rootView;
+@property (nonatomic, strong) UIView *splashScreenView;
 
 @property (nonatomic, assign) BOOL autoHideEnabled;
 @property (nonatomic, assign) BOOL splashScreenShown;
@@ -43,7 +44,6 @@
     self.splashScreenView.frame = rootView.bounds;
     [rootView addSubview:self.splashScreenView];
     self.splashScreenShown = YES;
-    
     if (successCallback) {
       successCallback();
     }
@@ -77,7 +77,6 @@
     [self.splashScreenView removeFromSuperview];
     self.splashScreenShown = NO;
     self.autoHideEnabled = YES;
-    
     if (successCallback) {
       successCallback(YES);
     }

@@ -339,7 +339,7 @@ NS_ASSUME_NONNULL_BEGIN
   }
   if (!_managedAppSplashScreenViewProvider) {
     _managedAppSplashScreenViewProvider = [[EXManagedAppSplashScreenViewProvider alloc] initWithManifest:manifest];
-    [self _showManagedAppSplashScreenWithProvider:_managedAppSplashScreenViewProvider];
+    [self _showSplashScreenWithProvider:_managedAppSplashScreenViewProvider];
   } else {
     [_managedAppSplashScreenViewProvider updateSplashScreenViewWithManifest:manifest];
   }
@@ -371,21 +371,6 @@ NS_ASSUME_NONNULL_BEGIN
   } else {
     [self.appLoadingProgressWindowController hide];
   }
-}
-
-- (void)_showManagedAppSplashScreenWithProvider:(id<EXSplashScreenViewProvider>)provider
-{
-  EXSplashScreenService *splashScreenService = (EXSplashScreenService *)[UMModuleRegistryProvider getSingletonModuleForClass:[EXSplashScreenService class]];
-  
-  
-  UM_WEAKIFY(self);
-  dispatch_async(dispatch_get_main_queue(), ^{
-    UM_ENSURE_STRONGIFY(self);
-    [splashScreenService showSplashScreenFor:self
-                    splashScreenViewProvider:provider
-                             successCallback:^(){}
-                             failureCallback:^(NSString *message){ UMLogWarn(@"%@", message); }];
-  });
 }
 
 - (void)_showSplashScreenWithProvider:(id<EXSplashScreenViewProvider>)provider

@@ -7,8 +7,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface EXSplashScreenController : NSObject
 
-@property (nonatomic, strong) UIView *splashScreenView;
-
 - (instancetype)init NS_UNAVAILABLE;
 
 - (instancetype)initWithRootView:(UIView *)rootView
