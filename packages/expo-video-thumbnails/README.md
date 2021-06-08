@@ -2,6 +2,10 @@
 
 Provides function that let you generate an image from video. This can be used for example to create a video gallery.
 
+# Vincent Fork
+
+fork of expo-video-thumbnails which is a directory of expo. forked to cache thumbnails instead of creating a new one each time
+
 # API documentation
 
 - [Documentation for the master branch](https://github.com/expo/expo/blob/master/docs/pages/versions/unversioned/sdk/videothumbnails.md)
